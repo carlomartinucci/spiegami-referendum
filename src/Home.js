@@ -33,7 +33,7 @@ export default class Home extends Component {
           <div style={{marginBottom: "3em"}}>Oppure, vai a uno dei temi</div>
           <div className="button-tema-wrapper"><RaisedButton primary label="Senato" containerElement={<Link to="/referendum/senato" />} /></div>
           <div className="button-tema-wrapper"><RaisedButton primary label="Rapporto Stato - Regioni" containerElement={<Link to="/referendum/stato-regioni" />} /></div>
-          <div className="button-tema-wrapper"><RaisedButton disabled label="Il resto" /></div>
+          <div className="button-tema-wrapper"><RaisedButton primary label="Altre questioni" containerElement={<Link to="/referendum/altro" />} /></div>
           <div className="button-tema-wrapper"><RaisedButton disabled label="Questioni politiche" /></div>
         </div>
         <div className="text-center"
@@ -53,11 +53,14 @@ export default class Home extends Component {
             <span>RAPPORTO STATO - REGIONI:</span>
             &nbsp;
             <FlatButton label="Il procedimento legislativo" style={{top: "12px"}} containerElement={<Link to="/referendum/stato-regioni/il_procedimento_legislativo" />} />
+            <FlatButton disabled label="Conflitti di competenza" />
+            <FlatButton disabled label="Competenze speciali a regioni ordinarie" />
           </div>
           <div className="flat-argomenti">
-            <span>IL RESTO:</span>
+            <span>ALTRE QUESTIONI:</span>
             &nbsp;
-            <FlatButton disabled label="Sistema delle garanzie" />
+            <FlatButton label="Formulazione e discussione dei decreti legge" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/formulazione_e_discussione_dei_decreti_legge" />} />
+            <FlatButton label="Sistema delle garanzie" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/garanzie" />} />
             <FlatButton disabled label="Partecipazione popolare" />
             <FlatButton disabled label="Semplificazione istituzionale" />
           </div>

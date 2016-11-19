@@ -63,7 +63,25 @@ export default class LateralMenu extends React.Component {
             ]}
           />
           <Divider />
-          <MenuItem key="resto" disabled={true}>Il resto</MenuItem>
+          <ListItem
+            key="altro"
+            primaryText="Altre questioni"
+            primaryTogglesNestedList
+            nestedItems={[
+              <MenuItem
+                containerElement={<NavLink to="/referendum/altro/formulazione_e_discussione_dei_decreti_legge" />}
+                key="decreti_legge"
+                primaryText="Decreti legge"
+                rightIcon={<ActionFeedback/>}
+              />,
+              <MenuItem
+                containerElement={<NavLink to="/referendum/altro/garanzie" />}
+                key="garanzie"
+                primaryText="Garanzie"
+                rightIcon={<ActionFeedback/>}
+              />
+            ]}
+          />
           <Divider />
           <MenuItem key="politiche" disabled={true}>Questioni politiche</MenuItem>
           <Divider />
