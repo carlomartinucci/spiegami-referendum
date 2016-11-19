@@ -119,3 +119,40 @@
 		}
 	}
 }
+
+
+
+{ "altro":
+	{
+		"garanzie_SI": {
+		  "claim": "È giusto modificare il sistema delle garanzie costituzionali in materia di pregiudizio di costituzionalità sulla legge elettorale, elezione del Presidente della Repubblica, elezione dei membri della Corte costituzionale",
+		  "connector": "o",
+		  "reasons":[
+		    {"claim": "perché il ricorso diretto alla Corte sulla legge elettorale potenzia il sistema delle garanzie", 
+		    "connector": "e",
+		    "reasons": [
+		      {"claim": "il numero di senatori che possono chiedere il giudizio preventivo della Corte costituzionale sulla legittimità costituzionale delle leggi elettorali è tale da garantire alle minoranze di poterlo fare"}]
+		      
+		    
+		    },
+		    {"claim": "perché il quorum più alto per eleggere il Presidente della Repubblica potenzia il sistema delle garanzie",
+		      "connector": "e",
+		      "reasons": [
+		        {"claim": "sono inoltre previsti tutti gli accorgimenti necessari affinché l'elezione del Presidente della Repubblica non sia espressione della sola maggioranza di governo"}]
+		    },
+		    {"claim":"perchè il nuovo sistema di elezione dei giudici della Corte proposto dalla riforma è più logico e adeguato in relazione alla modifica apportata alle camere" ,
+		    "connector": "o",
+		    "reasons": [
+		      {"claim": "perchè frazionando l’elezione dei cinque giudici della Corte di provenienza parlamentare tra le due Assemblee, si è voluto tenere conto del mutato rapporto numerico tra Camera e Senato"},
+		      {"claim": "se si fosse mantenuta l’attuale elezione da parte del Parlamento in seduta comune, infatti, i predetti cinque giudici costituzionali sarebbero stati selezionati soltanto sulla base della volontà esclusiva dei componenti della Camera"} ,
+		      {"claim": "sono previsti tutti gli accorgimenti necessari affinché l'elezione del Presidente della Repubblica non sia espressione della sola maggioranza di governo"},
+		      {"claim": "chi invoca un'influenza territoriale sui giudici eletti, non considera che 1) è invece un bene che i giudici costituzionali (che devono garantire anche le Regioni) siano particolarmente sensibili agli interessi dei territori, e 2) che – altrimenti – tutti e 5 i giudici di estrazione parlamentare diverrebbero oggetto di negoziato partitico con assoluta prevalenza della componente Camera dei deputati"}
+		      ]
+		      
+		      
+		    }
+		    
+		    ]
+		}
+	}
+}
