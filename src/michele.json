@@ -95,3 +95,27 @@
 		}
 	}
 }
+
+{ "altro":
+	{
+		"Formulazione e discussione dei decreti legge_NO": {
+		  "claim": "non è giusto modificare la disciplina in merito alla discussione e alla formulazione dei decreti legge",
+		  "connector": "e",
+		  "reasons": [
+		    {"claim": "perché la riforma amplia il potere d'iniziativa legislativa del Governo grazie al potere di imporre alla Camera dei Deputati tempi certi per l'approvazione di leggi ritenuti insindacabilmente \"importanti per il programma di governo\"",
+		    "connetor": "o",
+		    "reasons":[
+		      {"claim": "così il Governo si impadronisce di fatto dell'Agenda dei lavori parlamentari (senza nemmeno il limite dei requisiti di \"necessità e urgenza\" chiesti per i decreti legge)",
+		      "connector": "o",
+		      "reasons": [
+		        {"claim": "si rischia allora di restringere ulteriormente gli spazi per l'iniziativa legislativa parlamentare (attualmente ridotti al solo 20 per cento), grazie a possibili capziose interpretazioni estensive sia del concetto di \"programma di governo\", sia del concetto di \"attuazione del programma\""}
+		        ]
+		        
+		      }
+		      ]
+		    },
+		    {"claim": "l'esecutivo acquisisce uno strumento di ingerenza nel potere legislativo che viola il principio di separazione dei poteri, mentre la funzione del deputato viene svilita ad un \"passacarte\" incaricato di premere il tasto \"Sì\" al momento giusto"}
+		    ]
+		}
+	}
+}
