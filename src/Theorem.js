@@ -54,6 +54,7 @@ export function theoremToMaterial(theorem) {
 						secondaryText={theorem.human_count_or}
 						primaryTogglesNestedList={true}
 						nestedItems={listItems}
+						innerDivStyle={{paddingRight: 48}}
 					/>
 		)
 	} else if (
@@ -85,6 +86,7 @@ export function theoremToMaterial(theorem) {
 				secondaryText={theorem.human_count_and}
 				primaryTogglesNestedList={true}
 				nestedItems={[<ListItem key={1}>{paperItems}</ListItem>]}
+				innerDivStyle={{paddingRight: 48}}
 			/>
 		)
 	}

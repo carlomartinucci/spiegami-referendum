@@ -1,6 +1,43 @@
 body {
-  font-family: sans-serif;
+  font-family: Roboto, sans-serif;
   margin: 0;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 112px;
+  line-height: 112px;
+  margin: 0.5em;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  margin: 0.5em;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 48px;
+  margin: 0.5em;
+}
+
+.flat-argomenti {
+  margin: 2em;
+}
+
+.home-container {
+  margin-top: -64px;
+  margin-bottom: -1em;
+  padding: 1em;
+  padding-top: calc(1em + 64px);
+  padding-bottom: 2em;
+}
+
+.button-tema-wrapper {
+  margin: 1em 0;
 }
 
 .container {
@@ -14,7 +51,7 @@ body {
 }
 
 .footer {
-  padding: 6em 0 2em;
+  padding: 2em 0 2em;
   background-color: rgb(33,33,33);
   text-align: center;
   float: left;
@@ -31,6 +68,30 @@ a.active {
   background-color: rgba(0,0,0,0.2) !important;
 }
 
+#Spiegami {
+  font-size: 15vw;
+}
+
+@media(max-width: 800px) {
+  #Spiegami {
+    font-size: 112px;
+  }
+}
+@media(max-width: 650px) {
+  #Spiegami {
+    font-size: 88px;
+  }
+}
+@media(max-width: 500px) {
+  #Spiegami {
+    font-size: 56px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+
+}
+
 @media(min-width: 1200px) {
   .half_column {
     width: calc(50% - 0.5em);
@@ -41,7 +102,8 @@ a.active {
     width: 1em;
     float: left;
   }
-  .footer {
+}
 
-  }
+.text-center {
+  text-align: center;
 }

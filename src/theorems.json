@@ -3,7 +3,7 @@
 "referendum": {
 	"senato": {
 		"ruolo_e_funzioni_SI": {
-			"claim": "E' giusto cambiare il ruolo e le funzioni del Senato come previsto dalla Riforma",
+			"claim": "È giusto cambiare il ruolo e le funzioni del Senato come previsto dalla Riforma",
 			"connector": "o",
 			"reasons": [
 				{"claim": "per ragioni storiche",
@@ -130,7 +130,7 @@
           ]
         },
         {"claim": "perché riduce i costi, come parte di uno sforzo complessivo"},
-        {"claim": "QUESTO VA ALTROVEperché è giusto che il Presidente continui a nominare alcuni senatori" ,
+        {"claim": "perché è giusto che il Presidente continui a nominare alcuni senatori" ,
           "connector": "o" ,
           "reasons": [{"claim": "si tratta di un elemento di tradizione, aggiornata, che finora ha dato contributi molto qualificati alla vita parlamentare."}]
         }
@@ -147,7 +147,7 @@
 						{"claim": "rende praticamente irrilevante il voto dei senatori nelle riunioni del Parlamento in seduta comune."}
 					]
 				},
-				{"claim": "perchè la riduzione dei costi è risibile e non necessariamente buona",
+				{"claim": "perché la riduzione dei costi è risibile e non necessariamente buona",
 					"connector": "e",
 					"reasons": [
 						{"claim": "il risparmio è di spiccioli" ,
@@ -179,7 +179,7 @@
 						{"claim": "le leggi non dovranno più pendolare tra Camera e Senato, nella speranza che alla fine si arrivi ad un testo condiviso sin nelle virgole."}
 					]
 				},
-				{"claim": "perchè non produce una maggiore complessità ma una migliore suddivisione delle tempistiche",
+				{"claim": "perché non produce una maggiore complessità ma una migliore suddivisione delle tempistiche",
 					"connector": "o",
 					"reasons": [
 						{"claim": "le complicazioni del procedimento legislativo restano in linea con i procedimenti legislativi degli altri Stati con parlamento bicamerale" ,
@@ -209,7 +209,7 @@
 			"claim": "Non è giusto modificare il procedimento legislativo",
 			"connector": "o",
 			"reasons": [
-				{"claim": "perchè è reso più confuso, eliminando garanzie",
+				{"claim": "perché è reso più confuso, eliminando garanzie",
 					"connector": "o",
 					"reasons": [
 						{"claim": "le navette prolungate con reiterati passaggi tra le due camere sono un sintomo di difficoltà politiche nella maggioranza, che si manifesterebbero anche con una sola camera decidente"},
@@ -228,7 +228,7 @@
 						}
 					]
 				},
-				{"claim": "perchè non è una semplificazione",
+				{"claim": "perché non è una semplificazione",
 					"connector": "o", 
 					"reasons": [
 						{"claim": "La riforma sostituisce gli articoli 70 e 72 (198 parole) con 870 parole che complicano l'iter di formazione delle leggi",
@@ -256,8 +256,8 @@
 		        }
 		      ]
 		    },
-		    {"claim": "perchè i senatori così godranno solo delle immunità parlamentari, che proteggono i parlamentari in ragione della funzione che svolgono, non in ragione di un privilegio"},
-		    {"claim": "perchè attualmente nella costituzione non esiste lo stauto delle minoranze",
+		    {"claim": "perché i senatori così godranno solo delle immunità parlamentari, che proteggono i parlamentari in ragione della funzione che svolgono, non in ragione di un privilegio"},
+		    {"claim": "perché attualmente nella costituzione non esiste lo stauto delle minoranze",
 		      "connector": "o",
 		      "reasons": [
 		        {"claim": "La riforma prescrive che i regolamenti parlamentari dovranno dettare apposite disposizioni per garantire i diritti delle minoranze parlamentari."},
@@ -270,11 +270,11 @@
       "claim": "Non è giusto modififcare i diritti dei senatori e implementare lo statuto delle minoranze",
       "connector": "o",
       "reasons": [
-        {"claim": "perchè il risparmio è minimo",
+        {"claim": "perché il risparmio è minimo",
           "connector": "o",
           "reasons": [{"claim": "la gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale. Mentre anche il senatore non elettivo ha un costo per la trasferta e la permanenza a Roma, nonché per l'esercizio delle funzioni (segreteria, assistente parlamentare ecc.). Risparmi con certezza maggiori si avrebbero riducendo la Camera a 400 deputati, e il Senato a 200. Avremmo in totale 600 parlamentari, invece dei 730 che la riforma ci consegna"}]
         },
-        {"claim": "perchè non è giusto che i senatori abbiano l'immunità",
+        {"claim": "perché non è giusto che i senatori abbiano l'immunità",
           "connector": "e",
           "reasons": [
             {"claim" : "C'è il rischio di trasformare il Senato in un refugium peccatorum",
@@ -290,7 +290,7 @@
             }
           ]
         },
-        {"claim": "perchè lo statuto delle opposizioni non sarebbe una forte garanzia",
+        {"claim": "perché lo statuto delle opposizioni non sarebbe una forte garanzia",
           "connector": "o",
           "reasons": [
           	{"claim": "Grazie all'Italicum, sarà il partito di maggioranza a condizionare il destino dei diritti delle minoranze e delle opposizioni",
@@ -337,7 +337,7 @@
 	  	  	      }
   	  	      ]
           },
-          {"claim": "perchè, nel dettaglio, il nuovo ripartimento delle materie sarebbe migliore" ,
+          {"claim": "perché, nel dettaglio, il nuovo ripartimento delle materie sarebbe migliore" ,
           "connector" :"o" ,
           "reasons": [
             {"claim" : "verso la competenza statale vengono spostate una serie di materie che la giurisprudenza della Corte Costituzionale dell'ultimo decennio aveva già riportato al centro e una serie di materie che in passato erano troppo superficialmente state devolute alle regioni"},
