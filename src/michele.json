@@ -156,3 +156,44 @@
 		}
 	}
 }
+
+
+
+{ "altro":
+	{
+		"garanzie_NO": {
+		  "claim": "Non è giusto modificare il sistema delle garanzie costituzionali in materia di pregiudizio di costituzionalità sulla legge elettorale, elezione del Presidente della Repubblica, elezione dei membri della Corte costituzionale",
+		  "connector": "o",
+		  "reasons": [
+		    {"claim": "perché non è chiaro il rapporto tra questa nuova competenza (sindacato in via preventiva) e quella attualmente svolta (sindacato in via successiva): potrà una legge elettorale essere sindacata anche successivamente? E che influenza eserciterà il giudizio preventivo su quello successivo"},
+		    {"claim": "perché in realtà, il giudizio preventivo di costituzionalità sulle leggi elettorali rischia di politicizzare il giudizio della Corte costituzionale",
+		      "connector": "o",
+		      "reasons": [
+		        {"claim": "esso avverrà subito dopo l'approvazione delle legge e sarà di natura generale e astratta. La stessa Corte costituzionale si era opposta a questa nuova competenza mediante una dichiarazione del Presidente della Corte"}]
+		    },
+		    {"claim": "l'effetto sinergico dato dalla riduzione del numero dei senatori e dal dominio sulla Camera dei deputati (assicurato dal premio di maggioranza dell'Italicum) rendono decisiva l'influenza della maggioranza di governo nell'elezione in seduta comune del Capo dello Stato",
+		      "connector": "o",
+		      "reasons": [
+		        {"claim": "inoltre, dal settimo scrutinio in poi, la maggioranza dei 3/5 è calcolata \"sui votanti\" e non \"sui componenti\". Non può escludersi dunque un Presidente eletto con maggioranze parlamentari ridotte (qualora una o più forze politiche decidano di non presentarsi al voto)"}]
+		    },
+		    {"claim": "perchè il nuovo sistema di elezione dei giudici della Corte proposto dalla riforma permette al governo gravi ingerenze",
+		    "connector": "o",
+		    "reasons": [
+		      {"claim": "come per il Presidente della Repubblica, l'effetto sinergico dato dalla riduzione del numero dei senatori e dal dominio sulla Camera dei deputati (assicurato dal premio di maggioranza dell'Italicum) rendono decisiva l'influenza della maggioranza di governo nell'elezione di membri della Corte costituzionale o di autorità indipendenti da parte della Camera"}]
+		    },
+		    {"claim": "perchè la riforma attribuisce al Senato, composto da 100 senatori, il potere di eleggere due giudici costituzionali ed attribuisce alla Camera dei deputati, composta invece da 630 deputati, il potere di eleggerne tre e ciò è sbagliato",
+		    "connector": "e",
+		    "reasons": [
+		      {"claim": "urta contro il principio di proporzionalità"},
+		      {"claim": "rischia di introdurre nella Corte costituzionale una pericolosa logica corporativa, che potrebbe fortemente irrigidire i rapporti interni tra i suoi membri",
+		      "connector": "o",
+		      "reasons":[
+		        {"claim": "si contesta il fatto che le elezioni di un organo di garanzia costituzionale avvenga da parte di un organo (il Senato) di natura territoriale"}]
+		        
+		      }
+		      ]
+		    }
+		    ]
+		}
+	}
+}
