@@ -172,3 +172,25 @@
     }
   }
 }
+
+
+
+
+
+
+
+{
+  "altro": {
+    "semplificazione": {
+      "claim": "Sono abrogati il CNEL e le province",
+      "connector": "in_che_modo",
+      "reasons": [
+        {"claim": "viene abrogato il Consiglio Nazionale dell' Economia e del Lavoro"},
+        {"claim": "viene rimosso ogni riferimento alle province dalla Costituzione"}
+        
+        ]
+    }
+  }
+}
+
+
