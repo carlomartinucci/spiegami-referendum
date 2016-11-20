@@ -1,0 +1,17 @@
+{"altro": 
+{"iniziativapopolare_SI": {
+  "claim":"È giusto modificare le norme costituzionali riguardanti le proposte di legge dei cittadini, i referendum abrogativi e introdurre referendum propositivi e di indirizzo",
+  "connector": "o" ,
+  "reasons": [
+    {"claim": "per aumentare la partecipazione diretta da parte dei cittadini",
+    "connector": "o",
+    "reasons": [
+      {"claim":"con l'obbligo di discussione delle proposte di legge, l’iniziativa popolare delle leggi viene rafforzata"} ,
+      {"claim": "vengono introdotti in Costituzione i referendum propositivi e di indirizzo, le cui modalità dovranno però essere definite da future leggi costituzionali (in termini di \"condizioni ed effetti\") e da future leggi bicamerali (in termini di \"modalità di attuazione\")" } ,
+      {"claim": "il referendum abrogativo viene rafforzato"}
+      ]
+      }
+      ]
+}
+}
+}
