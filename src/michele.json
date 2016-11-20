@@ -194,3 +194,20 @@
 }
 
 
+
+
+
+{
+  "altro": {
+    "semplificazione_NO": {
+      "claim": "No, non è giusto abrogare il CNEL e le province",
+      "connector": "o",
+      "reasons": [
+        {"claim": "abrogare il CNEL è senza dubbio giusto, ma una eventuale riforma che elimini il CNEL, intervenendo soltanto su un articolo della costituzione, sarebbe approvata da tutte le forze politiche in poco tempo. In questa riforma tanto ampia rimane comunque una goccia nell'oceano, che pare quindi inserita a scopo puramente propagandistico"},
+        {"claim": "eleminare i riferimenti alle province è elemento marginale; persino non necessario, come è provato dal fatto che la riforma delle province è stata già da tempo avviata. Va precisato che l'abolizione delle Province elimina la \"copertura costituzionale\", ma non produce l'effetto automatico della cancellazione di questi enti territoriali, che potranno continuare ad essere regolati dalla legge, almeno fin tanto che la maggioranza e il Governo lo riterrà utile. Difatti, ad un anno dalla legge 56 del 2014 (Delrio) che traferiva le funzioni delle Province a Regioni e Comuni, la Corte dei Conti ha disegnato un quadro piuttosto negativo: le Province continuano a fare sotanzialmente quello che facevano prima; i costi non si sono ridotti, perchè il personale è stato solo trasferito. Solamente i cittadini hanno perso il potere di scegliere direttamente chi deve gestire i loro servizi ed il loro territorio"}
+        
+        ]
+    }
+  }
+}
+
