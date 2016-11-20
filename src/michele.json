@@ -131,3 +131,25 @@
     }
   }
 }
+
+
+
+
+
+
+-> DEVE ANDARE A CAPO DOVE HO SCRITTO <br>
+
+
+{
+  "altro": {
+    "garanzie": {
+      "claim": "Viene modificato il sistema delle garanzie costituzionali in materia di pregiudizio di costituzionalità sulla legge elettorale, elezione del Presidente della Repubblica, elezione dei membri della Corte costituzionale",
+      "connector": "in_che_modo",
+      "reasons": [
+        {"claim": "su iniziativa di 1/4 dei deputati o di 1/3 dei senatori, può essere richiesto alla Corte Costituzionale un pre-giudizio di costituzionalità sia su una nuova legge elettorale, sia sulla legge elettorale attualmente in vigore"}, 
+        {"claim": "Il Presidente della Repubblica viene eletto <br>- nei turni 1, 2 e 3, sono necessari i 2/3 dei voti dell'assemblea (come prima); <br> - nei turni 4, 5 e 6, sono necessari i 3/5 dei voti dell'assemblea;<br>- nei turno dal 7 in poi, sono necessari i 3/5 dei voti dei presenti"}, 
+        {"claim": "ad oggi, il Parlamento elegge i suoi 5 membri in seduta comune. Con la riforma, 3 membri verranno eletti dalla Camera e 2 dal Senato"}
+        ]
+    }
+  }
+}
