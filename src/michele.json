@@ -1,3 +1,39 @@
 -> In "stato regioni" il titolo non è "Il processo legislativo", ma "Conflitti di competenza"
 -> La sezione "Modalità di elezione" in "Senato" è incompleta nella parte di Pro e Contro nei punti di 
 "Come avviene l'elezione dei senatori" e "La durata del mandato dei senatori"
+
+
+
+
+
+{ "Senato":
+	{
+		"procedimento_legislativo": {
+		  "claim": "Il procedimento legislativo viene sostanzialmente sdoppiato: alcune materie restano di competenza bicamerale paritaria, le altre diventano di competenza principale della Camera",
+		  "connector": "in_che_modo",
+		  "reasons": [
+		    {"claim": "sono materie bicamerali: leggi costituzionali; leggi di attuazione della costituzione su certe materie indicate; leggi riguardanti l’ordinamento degli enti locali; leggi di principio sulle associazioni fra comuni; leggi sulla partecipazione a formare/attuare diritto UE; leggi su prerogative senatori; legge elettorale del Senato; leggi di ratifica di trattati UE; leggi di attuazione del titolo V (regioni, enti locali)",
+		      "reasons": [
+		        {"claim": "su queste materie, il procedimento resta identico a quello odierno: una delle due Camere inizia l'esame della legge ed entrambe le Camere devono approvarla nello stesso medesimo testo"}]
+		    },
+		    {"claim": "sono a prevalenza della Camera dei Deputati tutte le materie non esplicitate tra quelle bicamerali e varia leggermente a seconda del tipo di legge. In generale, vale il seguente principio: le leggi vengono esaminata prima dalla Camera; se la Camera approva, il Senato ha 10 giorni di tempo per chiedere l'esame della legge e, di conseguenza, ha 30 giorni per proporre delle modifiche (la richiesta di esame da parte del Senato deve pervenire da almeno 1/3 dei senatori). Se delle modifiche vengono effettivamente proposte, queste vengono prese in esame dalla Camera, la quale si pronuncia in via definitiva. Tale procedimento può subire modifiche",
+		      "connector": "in_che_modo",
+		      "reasons": [
+		        {"claim": "nei casi di leggi di bilancio e di stabilità, la trasmissione della legge al Senato è automatica, ma il Senato ha 15 giorni (non 30) per decidere le eventuali modifiche"},
+		        {"claim": "nei casi di leggi approvate dalla Camera in ragione della \"clausola di supremazia\" introdotta da questa stessa riforma, la trasmissione delle legge al Senato è automatica; inoltre, qualora le modifiche proposte dal Senato vengano approvate a maggioranza assoluta, anche la Camera deve allora esprimersi a maggioranza assoluta"}
+		        ]
+		    },
+		    {"claim": "la conversione di decreti-legge su materie bicamerali rimane a procedimento bicamerale (ossia quello descritto sopra in \"materie bicamerali\"). . Nel caso di materie a prevalenza Camera, il procedimento ricalca a grandi linee quello monocamerale (ossia quello descritto sopra in \"materie a prevalenza della Camera dei Deputati\"), ma con alcune sostanziali variazioni, principalmente dovute al fatto che un decreto-legge \"muore\" se non viene convertito entro 60 giorni",
+		    "connector": "in_che_modo",
+		    "reasons":[
+		      {"claim": "da quando la Camera inizia l'esame del disegno di conversione, essa ha 40 giorni di tempo per trasmetterlo al Senato"},
+		      {"claim": "da quando la Camera inizia l'esame del disegno di conversione, il Senato ha 30 giorni di tempo per iniziarne anch'esso l'esame"},
+		      {"claim": "da quando la Camera trasmette il disegno di conversione al Senato, quest'ultimo ha 10 giorni di tempo per proporre le modifiche. In questo modo, la Camera riceverà le (eventuali) modifiche del Senato entro il 50° giorno; rimango così 10 giorni (almeno) di tempo per valutarle e approvare il disegno di conversione entro il 60° giorno"}
+		      ]
+		    },
+		    {"claim": "il Senato può sottoporre alla Camera delle proposte di legge, ma solo se queste provengono dalla maggioranza assoluta dei senatori (i quali non possono fare individualmente delle proposte di legge, a differenza dei deputati). Su tali proposte di legge, la Camera ha il dovere di pronunciarsi in un tempo massimo di sei mesi"}
+		    ]
+		  
+		}
+	}
+}
