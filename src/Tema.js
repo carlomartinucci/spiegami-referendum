@@ -7,6 +7,12 @@ import Paper from 'material-ui/Paper';
 import { humanize } from './stringHelper.js'
 
 export default class Tema extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      referendum: props.route.referendum
+    }
+  }
   render() {
     const base_url = "/referendum/" + this.props.params.tema + "/"
 //    const links = argomenti[this.props.params.tema].map(
@@ -25,7 +31,7 @@ export default class Tema extends Component {
     )
     const paperStyle = {
       display: 'inline-block',
-      margin: '16px 0 16px 50%',
+      margin: '16px -50% 16px 50%',
       transform: 'translateX(-50%)'
     };
     return (

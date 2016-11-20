@@ -5,6 +5,12 @@ import FlatButton from 'material-ui/FlatButton';
 import { Link } from 'react-router'
 
 export default class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      referendum: props.route.referendum
+    }
+  }
   render() {
     return (
     	<div
@@ -52,8 +58,7 @@ export default class Home extends Component {
           <div className="flat-argomenti">
             <span>RAPPORTO STATO - REGIONI:</span>
             &nbsp;
-            <FlatButton label="Il procedimento legislativo" style={{top: "12px"}} containerElement={<Link to="/referendum/stato-regioni/il_procedimento_legislativo" />} />
-            <FlatButton disabled label="Conflitti di competenza" />
+            <FlatButton label="Conflitti di competenza" style={{top: "12px"}} containerElement={<Link to="/referendum/stato-regioni/conflitti_di_competenza" />} />
             <FlatButton disabled label="Competenze speciali a regioni ordinarie" />
           </div>
           <div className="flat-argomenti">
@@ -62,7 +67,7 @@ export default class Home extends Component {
             <FlatButton label="Formulazione e discussione dei decreti legge" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/formulazione_e_discussione_dei_decreti_legge" />} />
             <FlatButton label="Sistema delle garanzie" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/garanzie" />} />
             <FlatButton label="Iniziativa popolare" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/iniziativa_popolare" />} />
-            <FlatButton disabled label="Semplificazione istituzionale" />
+            <FlatButton label="Semplificazione istituzionale" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/semplificazione_istituzionale" />} />
           </div>
           <div className="flat-argomenti">
             <span>QUESTIONI POLITICHE:</span>

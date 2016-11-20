@@ -4,6 +4,12 @@ import Navigation from './Navigation.js'
 import { getTitle } from './stringHelper.js'
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      prova: 12
+    }
+  }
 
   render() {
     return (

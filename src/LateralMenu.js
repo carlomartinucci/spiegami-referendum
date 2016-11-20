@@ -56,9 +56,9 @@ export default class LateralMenu extends React.Component {
             primaryTogglesNestedList
             nestedItems={[
               <MenuItem
-                containerElement={<NavLink to="/referendum/stato-regioni/il_procedimento_legislativo" />}
-                key="il_procedimento_legislativo"
-                primaryText="Il procedimento legislativo"
+                containerElement={<NavLink to="/referendum/stato-regioni/conflitti_di_competenza" />}
+                key="conflitti_di_competenza"
+                primaryText="Conflitti di competenza"
                 rightIcon={<ActionFeedback/>}
               />
             ]}
@@ -85,6 +85,12 @@ export default class LateralMenu extends React.Component {
                 containerElement={<NavLink to="/referendum/altro/iniziativa_popolare" />}
                 key="iniziativa_popolare"
                 primaryText="Iniziativa popolare"
+                rightIcon={<ActionFeedback/>}
+              />,
+              <MenuItem
+                containerElement={<NavLink to="/referendum/altro/semplificazione" />}
+                key="semplificazione"
+                primaryText="Semplificazione"
                 rightIcon={<ActionFeedback/>}
               />
             ]}

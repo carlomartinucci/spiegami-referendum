@@ -12,6 +12,8 @@ import Tema from './Tema.js'
 import About from './About.js'
 import Argomento from './Argomento.js'
 
+import { referendum } from './theorems.json'
+
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
@@ -20,10 +22,10 @@ ReactDOM.render(
 	  <Router history={hashHistory}>
       <Route path="/" component={App}>
       	<IndexRedirect to="/home" />
-      	<Route path="/home" component={Home} />
-      	<Route path="/referendum" component={Referendum} />
-      	<Route path="/referendum/:tema" component={Tema} />
-      	<Route path="/referendum/:tema/:argomento" component={Argomento} />
+      	<Route path="/home" referendum={referendum} component={Home} />
+      	<Route path="/referendum" referendum={referendum} component={Referendum} />
+      	<Route path="/referendum/:tema" referendum={referendum} component={Tema} />
+      	<Route path="/referendum/:tema/:argomento" referendum={referendum} component={Argomento} />
 		    <Route path="/about" component={About} />
       </Route>
     </Router>

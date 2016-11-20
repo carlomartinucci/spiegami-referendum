@@ -9,6 +9,12 @@ import Divider from 'material-ui/Divider';
 
 
 export default class Referendum extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      referendum: props.route.referendum
+    }
+  }
   render() {
     // const argomenti_list = (tema) => (
     //     argomenti[tema].map((a) => (
@@ -19,7 +25,7 @@ export default class Referendum extends Component {
     // const temi = Object.keys(argomenti).map(argomenti_list)
     const paperStyle = {
       display: 'inline-block',
-      margin: '16px 0 16px 50%',
+      margin: '16px -50% 16px 50%',
       transform: 'translateX(-50%)'
     };
     return (
@@ -66,7 +72,7 @@ export default class Referendum extends Component {
             open
           />
           <MenuItem
-            containerElement={<NavLink to="/referendum/stato-regioni/il_procedimento_legislativo" />}
+            containerElement={<NavLink to="/referendum/stato-regioni/conflitti_di_competenza" />}
             key="stato-regioni/il_procedimento_legislativo"
             primaryText="Il procedimento legislativo"
             insetChildren
@@ -87,6 +93,18 @@ export default class Referendum extends Component {
             containerElement={<NavLink to="/referendum/altro/garanzie" />}
             key="altro/garanzie"
             primaryText="Garanzie"
+            insetChildren
+          />
+          <MenuItem
+            containerElement={<NavLink to="/referendum/altro/inziativa_popolare" />}
+            key="altro/inziativa_popolare"
+            primaryText="Iniziativa popolare"
+            insetChildren
+          />
+          <MenuItem
+            containerElement={<NavLink to="/referendum/altro/semplificazione_istituzionale" />}
+            key="altro/semplificazione_istituzionale"
+            primaryText="Semplificazione istituzionale"
             insetChildren
           />
           <Divider />
