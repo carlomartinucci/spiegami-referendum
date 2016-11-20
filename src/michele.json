@@ -88,3 +88,46 @@
     }
   }
 }
+
+
+
+
+
+
+{
+  "altro": {
+    "decreti_legge": {
+      "claim": "Viene modificata la disciplina in merito alla discussione e alla formulazione dei decreti legge",
+      "connector": "in_che_modo",
+      "reasons": [
+        {
+          "claim": "le commissioni della Camera non possono più approvare i disegni di conversione di decreti legge senza passare dal giudizio della Camera (misura proposta per contrastare la decretazione d''urgenza). Il Governo potrà però chiedere alla Camera di discutere (e votare) un DDL entro 70-85 giorni qualora esso venga ritenuto \"essenziale per il programma di governo\""
+        },
+        {
+          "claim": "nel caso in cui un decreto di conversione di un DL venga rinviato dal Presidente della Repubblica, il DL in merito (che, di norma, scade dopo 60 giorni se non viene effettivamente convertito) guadagna altri 30 giorni di vita (cioè scade dopo 90 giorni)"
+        },
+        {
+          "claim": "il Governo NON può emenare DL che riguardano determinati argomenti",
+          "connector": "in_che_modo",
+          "reasons": [
+            {
+              "claim": "non possono disciplinare su materie costituzionali, materie elettorali (con esclusione della disciplina dell’organizzazione del procedimento elettorale e dello svolgimento delle elezioni), delegazioni legislative, conversione di DL, autorizzazioni a ratificare trattati internazionali, approvazione di bilanci e consuntivi"
+            },
+            {
+              "claim": "non possono reiterare disposizioni che erano già state adottate in altri DL e che non erano state convertite in legge"
+            },
+            {
+              "claim": "non possono regolare i rapporti giuridici sorti sulla base di DL che non sono stati convertiti in legge"
+            },
+            {
+              "claim": "non possono ripristinare l'efficacia di norme di legge (o di atti aventi forza di legge) che la Corte costituzionale ha dichiarato illegittimi per vizi non attinenti al procedimento"
+            },
+            {
+              "claim": "devono essere presentati in maniera omogenea (corrispondente al titolo) e devono essere mantenuti tali nel processo di revisione da parte del parlamento (non si possono cioè aggiungere emendamenti estranei al titolo)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
