@@ -56,3 +56,35 @@
 		}
 	}
 }
+
+
+
+
+
+
+
+{
+  "Regioni": {
+    "conflitti_competenza": {
+      "claim": "Vengono abrogate e ripartite tra Stato e Regioni le materie concorrenti e viene reintrodotta la \"clausola di supremazia\"",
+      "connector": "in_che_modo",
+      "reasons": [
+        {
+          "claim": "le materie che la Costituzione dichiarava di \"legislazione concorrente\" vengono redistribuite: o sono di competenza dello Stato (ossia del Parlamento per le leggi, del Governo per i regolamenti) o delle Regioni",
+          "connector": "in_che_modo",
+          "reasons": [
+            {
+              "claim": "viene aumentato l'elenco delle materie in cui lo Stato ha competenza esclusiva; in alcuni casi, tale competenza si limita a \"disposizioni generali e comuni\""
+            },
+            {
+              "claim": "si mantiene il riferimento al fatto che la competenza esclusiva delle Regioni riguarda \"ogni materia non espressamente riservata alla competenza esclusiva dello Stato\"; tuttavia, si aggiunge nella Costituzione un riferimento esplicito ad alcune delle principali materie di competenza esclusiva delle Regioni"
+            }
+          ]
+        },
+        {
+          "claim": "la clausola di supremazia prevede che il governo può intervenire su materie ad esso non riservate quando richiesto per tutelare l’unità giuridica o economica della Repubblica, o la tutela dell’interesse nazionale"
+        }
+      ]
+    }
+  }
+}
