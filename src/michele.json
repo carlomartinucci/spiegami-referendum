@@ -1,0 +1,34 @@
+{ "Senato":
+	{
+		"Modalità di elezione_che cambia?": {
+		  "claim": "Viene modificata la modalità di elezione dei senatori",
+		  "connector": "in_che_modo",
+		  "reasons": [
+		    {"claim": "si riduce il numero di senatori", 
+		    "connector": "in_che_modo",
+		    "reasons": [
+		      {"claim": "i senatori passano da 315 (di cui 6 dalla circoscrizione estero, più eventuali senatori a vita) a 95 (più eventuali senatori a vita e un massimo di 5 senatori a nomina presidenziale; la circoscrizione estero non elegge più dei senatori)"},
+		      {"claim": "il numero senatori per regione rimane fissato in proporzione alla loro popolazione (relativa all'ultimo censimento). Viene però abbassato il numero minimo di senatori per regione, che passa da 7 a 2. Anche la Val d'Aosta (che prima aveva un solo senatore) e le Province autonome di Trento e di Bolzano avranno 2 senatori"}
+		      ]
+		      
+		    },
+		    {"claim": "si modifica la durata del mandato",
+		    "connector": "in_che_modo", 
+		    "reasons": [
+		      {"claim": "il mandato di ciascun senatore è strettamente legato all'organo da cui viene eletto: nel momento in cui un senatore decade da consigliere/sindaco (per scioglimento del Consiglio territoriale, per dimissioni, o per qualunque altro motivo), esso decade anche da senatore"},
+		      {"claim": "i senatori nominati dal Presidente della Repubblica (massimo 5) restano in carica per 7 anni (non necessariamente coincidenti col mandato del Presidente che li ha nominati)"},
+		      {"claim": "il titolo di senatore a vita rimane esclusivamente per gli ex-Presidenti della Repubblica"}
+		      ]
+		      
+		    },
+		    {"claim": "si modifica il modo in cui vengono eletti",
+		    "connector": "in_che_modo",
+		    "reasons": [
+		      {"claim": "i senatori sono eletti dai consigli regionali (a Bolzano e Trento, dai consigli provinciali) con metodo proporzionale, scegliendo tra consiglieri e sindaci. Avendo un minimo di 2 senatori da eleggere, ciascun consiglio eleggerà almeno un sindaco e almeno un consigliere. Le modalità dettagliate dell'elezione dovranno essere definite in una futura legge elettorale"}
+		      ]
+		      
+		    }
+		    ]
+		}
+	}
+}
