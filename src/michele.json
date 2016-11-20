@@ -153,3 +153,22 @@
     }
   }
 }
+
+
+
+
+
+
+{
+  "altro": {
+    "inziativa_popolare": {
+      "claim": "vengono modificate le norme costituzionali riguardanti le proposte di legge dei cittadini, i referendum abrogativi e introdurre referendum propositivi e di indirizzo",
+      "connector": "in_che_modo",
+      "reasons": [
+        {"claim": "le proposte di legge dei cittadini richiedono 150 mila firme (non più 50 mila) e viene introdotto l'obbligo di discussione in tempi, forme e limiti che dovranno essere definiti nel regolamento parlamentare"},
+        {"claim": "vengono introdotti in Costituzione i referendum propositivi e di indirizzo, le cui modalità dovranno però essere definite da future leggi costituzionali (in termini di \"condizioni ed effetti\") e da future leggi bicamerali (in termini di \"modalità di attuazione\")"},
+        {"claim": "ad oggi, il referendum abrogativo può essere richiesto con 500 mila firma e prevede un quorum pari a \"la metà più uno degli elettori\". Con la riforma, si introduce la seguente clausola: qualora il referendum venga richiesto con 800 mila firma, il quorum viene abbassato a \"la metà più uno degli elettori delle ultime elezioni politiche\""}
+        ]
+    }
+  }
+}
