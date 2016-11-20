@@ -37,3 +37,22 @@
 		}
 	}
 }
+
+
+
+
+
+
+{ "Senato":
+	{
+		"diritti_senatori": {
+		  "claim": "Vengono modificati i diritti dei senatori e nasce lo \"statuto delle opposizioni\"",
+		  "connector": "in_che_modo",
+		  "reasons": [
+		    {"claim": "da un lato, l'appartenenza al Senato non dà più diritto ad un'indennità. Dall'altro, i senatori mantengono la libertà dal vincolo di mandato e le cosiddette immunità parlamentari (insindacabilità per opinioni espresse e voti dati, autorizzazione all’arresto, etc.)"},
+		    {"claim": "entrambe le Camere dovranno inserire, nel proprio regolamento, le garanzie dei diritti delle minoranze. Per quanto riguarda la Camera, il regolamento dovrà aggiungere anche uno statuto delle opposizioni."}
+		    ]
+		  
+		}
+	}
+}
