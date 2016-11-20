@@ -6,5 +6,7 @@ export function humanize(text) {
 export function getTitle(tema, argomento) {
   if (tema && argomento) {
     return humanize(tema) + " - " + humanize(argomento)
+  } else if (tema) {
+    return humanize(tema)
   }
 }

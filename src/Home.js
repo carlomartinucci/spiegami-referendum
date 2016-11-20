@@ -61,7 +61,7 @@ export default class Home extends Component {
             &nbsp;
             <FlatButton label="Formulazione e discussione dei decreti legge" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/formulazione_e_discussione_dei_decreti_legge" />} />
             <FlatButton label="Sistema delle garanzie" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/garanzie" />} />
-            <FlatButton disabled label="Partecipazione popolare" />
+            <FlatButton label="Iniziativa popolare" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/iniziativa_popolare" />} />
             <FlatButton disabled label="Semplificazione istituzionale" />
           </div>
           <div className="flat-argomenti">

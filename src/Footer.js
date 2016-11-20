@@ -6,8 +6,8 @@ export default class Footer extends Component {
     return (
       <div className="footer">
         <p>Spiegami 2016</p>
-        <p>Pensato con amore da <Link to='/about'>Carlo Martinucci</Link></p>
         <p>Materiale sul referendum tratto da <a href="http://www.referendumcostituzionale2016.it/">referendumcostituzionale2016.it</a></p>
+        <p>Pensato con amore da <a href='https://carlomartinucci.github.io' target="_blank">Carlo Martinucci</a></p>
       </div>
     );
   }

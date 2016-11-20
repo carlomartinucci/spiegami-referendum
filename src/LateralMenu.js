@@ -15,9 +15,10 @@ export default class LateralMenu extends React.Component {
   render() {
     return (
       <div>
-        <Drawer open={this.props.open}>
+        <Drawer openSecondary open={this.props.open}>
           <AppBar
-            iconElementLeft={<IconButton><NavigationClose /></IconButton>}
+            iconElementRight={<IconButton><NavigationClose /></IconButton>}
+            iconElementLeft={<span/>}
             onTouchTap={this.props.onTouchTap}
           />
           <ListItem
@@ -78,6 +79,12 @@ export default class LateralMenu extends React.Component {
                 containerElement={<NavLink to="/referendum/altro/garanzie" />}
                 key="garanzie"
                 primaryText="Garanzie"
+                rightIcon={<ActionFeedback/>}
+              />,
+              <MenuItem
+                containerElement={<NavLink to="/referendum/altro/iniziativa_popolare" />}
+                key="iniziativa_popolare"
+                primaryText="Iniziativa popolare"
                 rightIcon={<ActionFeedback/>}
               />
             ]}

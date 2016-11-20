@@ -21,6 +21,9 @@ export default class Theorem {
 	get human_count_and() {
 		return "per il seguente motivo, in " + this.reasons.length + (this.reasons.length === 1 ? " punto" : " punti");
 	}
+	get human_count_how() {
+		return (this.reasons.length === 1 ? "nel seguente modo" : "nei seguenti " + this.reasons.length + " modi");
+	}
 }
 
 
@@ -88,6 +91,21 @@ export function theoremToMaterial(theorem) {
 				nestedItems={[<ListItem key={1}>{paperItems}</ListItem>]}
 				innerDivStyle={{paddingRight: 48}}
 			/>
+		)
+	} else if (
+		theorem.connector === "in_che_modo" &&
+		theorem.claim
+	) {
+		const listItems = theorem.reasons.map(theoremToMaterial)
+		return (
+					<ListItem
+						key={theorem.claim}
+						primaryText={theorem.claim}
+						secondaryText={theorem.human_count_how}
+						primaryTogglesNestedList={true}
+						nestedItems={listItems}
+						innerDivStyle={{paddingRight: 48}}
+					/>
 		)
 	}
 
