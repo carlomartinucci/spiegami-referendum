@@ -15,3 +15,16 @@
 }
 }
 }
+
+{"altro": 
+{"iniziativapopolare_NO": {
+  "claim":"Non è giusto modificare le norme costituzionali riguardanti le proposte di legge dei cittadini, i referendum abrogativi e introdurre referendum propositivi e di indirizzo",
+  "connector": "o" ,
+  "reasons": [
+    {"claim": "perché le firme richieste per la presentazione di una proposta di legge sono triplicate, da 50.000 a 150.000. Inoltre, le garanzie di discussione sono rinviate al regolamento, e la maggioranza parlamentare rimane libera di rigettare o modificare la proposta"} ,
+      {"claim":"perché la riforma rinvia la disciplina dei nuovi referendum propositivi e di indirizzo ad una successiva legge costituzionale; tutto rimane da fare. L'introduzione di una disciplina incompiuta dimostra un chiaro intento di non provvedere"} ,
+      {"claim": "perché in un tempo in cui i corpi intermedi (partiti, sindacati) sono indeboliti o sostanzialmente dissolti, il tetto di 800 mila firme per i referendum abrogativi è quasi impossibile da raggiungere. E non si capisce perché un referendum debba avere un quorum più alto se richiesto da 500.000 cittadini, e più basso se richiesto da 800.000" } 
+      ]
+}
+}
+}
