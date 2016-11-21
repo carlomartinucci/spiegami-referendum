@@ -1,3 +1,18 @@
 -> La sezione "Modalità di elezione" in "Senato" è incompleta nella parte di Pro e Contro nei punti di 
 "Come avviene l'elezione dei senatori" e "La durata del mandato dei senatori"
 
+
+
+{
+  "altro": {
+    "semplificazione_SI": {
+      "claim": "Sì, è giusto abrogare il CNEL e le province",
+      "connector": "o",
+      "reasons": [
+        {"claim": "abrogndo il CNEL viene operata una decisa semplificazione istituzionale"},
+        {"claim": "la decostituzionalizzazione delle province, insieme al resto, riduce costi non più giustificabili, restituendo credibilità alle istituzioni"}
+        
+        ]
+    }
+  }
+}
