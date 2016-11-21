@@ -304,3 +304,32 @@ Sezioni:
     }
   }
 }
+
+
+
+
+{
+  "oltreilmerito": {
+    "politica_SI": {
+      "claim": "La riforma è stata approvata in parlamento con una buona maggioranza e non c'è nessun problema con il fatto che Renzi leghi il successo del suo governo all'esito del voto",
+      "connector": "o",
+      "reasons": [
+        {
+          "claim": "perchè spetta al popolo decidere se la riforma possa essere considerata o meno la \"casa comune\" degli italiani",
+          "connector": "o",
+          "reasons": [
+            {
+              "claim": "i costituenti sono stati assai chiari sulla questione del consenso parlamentare: affinchè la Costituzione sia legittimamente modificata, occorre almeno la maggioranza assoluta nelle due ultime votazioni parlamentari, e - se non si raggiunge la maggioranza dei due terzi - è possibile ricorrere al voto popolare"
+            }
+          ]
+        },
+        {
+          "claim": "perché la riforma è stata approvata da una larga maggioranza (quasi 60% in ogni lettura), con il contributo delle due Camere e di vari gruppi anche di opposizione che si rivelato decisivo e rilevante"
+        },
+        {
+          "claim": "perché il fatto che Renzi leghi il destino del Governo all'approvazione popolare è un atto di coerenza, nel momento in cui ha chiesto la fiducia al Parlamento ponendo la riforma elettorale e quella costituzionale al primo posto del suo programma politico"
+        }
+      ]
+    }
+  }
+}
