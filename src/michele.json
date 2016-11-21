@@ -5,6 +5,26 @@ inoltre sempre da quel menù non è stato aggiornato il titolo in "conflitti di 
 
 
 
+
+Come farei io la divisione riguardo l'ultima sezione:
+Titolo: oltre il merito
+Sezioni:
+- Riforma storica o conservatrice?
+
+- Rischi per la democrazia
+    - Deriva autoritaria
+
+- Questioni di metodo
+    - omogeneità 
+    - iter
+    - legittimità
+    - iniziativa
+- Questioni politiche
+    - consenso
+    - destino del governo
+
+
+
 {
   "altro": {
     "semplificazione_SI": {
@@ -15,6 +35,51 @@ inoltre sempre da quel menù non è stato aggiornato il titolo in "conflitti di 
         {"claim": "la decostituzionalizzazione delle province, insieme al resto, riduce costi non più giustificabili, restituendo credibilità alle istituzioni"}
         
         ]
+    }
+  }
+}
+
+
+
+
+
+{
+  "oltreilmerito": {
+    "riformastoricaoconservatrice_SI": {
+      "claim": "È necessario apportare queste modifiche costituzionali che sono attese da fin troppo tempo",
+      "connector": "o",
+      "reasons": [
+        {
+          "claim": "perché questa riforma costituzionale prende le mosse dalla necessità impellente di chiudere le pagine rimaste aperte sin dall'inizio",
+          "connector": "o",
+          "reasons": [
+            {
+              "claim": "non solo la seconda parte della Costituzione non risulta più adeguata alle esigenze dell'oggi, ma si può sostenere senza timore che essa, per quanto riguarda le pagine aperte su cui ci si sta per soffermare, abbia manifestato fin da subito seri problemi",
+              "connector": "o",
+              "reasons": [
+                {
+                  "claim": "la nostra costituzione è piena di \"pagine aperte\", di nodi non sciolti, di soluzioni istituzionali volutamente contraddittorie e farraginose",
+                  "connector": "o",
+                  "reasons": [
+                    {
+                      "claim": "i problemi iniziarono già dalla primavera del 1947, quando si delineò con contorni nitidi la divisione in blocchi che avrebbe caratterizzato negli anni successivi la Guerra fredda",
+                      "connector": "o",
+                      "reasons": [
+                        {
+                          "claim": "dal compromesso e l'accordo che caratterizzarono la scrittura, in particolare, della prima parte della Carta – quella, per intenderci, dedicata ai principi e ai diritti – si passò alla stagione della diffidenza reciproca e dei veti incrociati. E le soluzioni che si andarono ricercando furono studiate proprio per impedire all'avversario – meglio: quello che improvvisamente era diventato il nemico – di prevalere sino in fondo, in caso di vittoria"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "claim": "perché senza questa riforma nessun dei cambiamenti proposti sarà possibile per non si sa quanti anni"
+        }
+      ]
     }
   }
 }
