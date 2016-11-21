@@ -260,3 +260,47 @@ Sezioni:
     }
   }
 }
+
+
+
+{
+  "oltreilmerito": {
+    "metodo_NO": {
+      "claim": "Si tratta di una riforma con un testo disomogeneo, votata da un parlamento illegittimo, segnata da anomalie nel mezzo dell'iter, voluta dal governo e non dal parlamento",
+      "connector": "o",
+      "reasons": [
+        {
+          "claim": "perché la riforma non può pertanto essere considerata una \"legge di revisione\" come previsto dall'Art. 138 della Costituzione, secondo il quale il quesito sottoposto all'elettore dovrebbe essere unico ed omogeneo (come anche affermato più volte dalla Corte costituzionale)",
+          "connector": "e",
+          "reasons": [
+            {
+              "claim": "la riforma ha un contenuto disomogeneo, in quanto modifica in più parti, diverse tra loro, la Costituzione vigente"
+            },
+            {
+              "claim": "costringe l'elettore ad esprimere, con un solo voto, la propria adesione (o il proprio dissenso) sulla totalità delle modifiche: o tutto o niente"
+            }
+          ]
+        },
+        {
+          "claim": "perché si registrano diverse anomalie sull'iter della riforma",
+          "connector": "e",
+          "reasons": [
+            {"claim": "le interferenze del Governo sulla libertà di coscienza dei parlamentrari e su tempi e modalità di approvazione"},
+            {"claim": "la rimozione degli onorevoli Mauro e Mineo dalla Commissione Affari costituzionale (luglio 2014), che avevano invocata il rispetto della libertà di coscienza"},
+            {"claim": "la mancata conferma del relatore di minoranza (sen. Calderoli) nella terza lettura della riforma, con il pretesto della fine del cosiddetto \"patto del Nazareno\""},
+            {"claim": "l'approvazione del cosiddetto \"canguro\" (ottobre 2015) che ha precluso la discussione di diversi emendamenti a voto segreto (i qali ponevano rischi di divisioni interne per il Governo e la maggioranza)"},
+            {"claim": "i lavori in commissione, inoltre, sono stati ridotti all’osso e numerose forzature procedurali hanno impedito il normale svolgimento della discussione, in una logica complessiva che non era di confronto tra maggioranza e opposizione, ma di mera conta numerica degli schieramenti"}
+          ]
+        },
+        {"claim": "perché un Parlamento così delegittimato e composto da parlamentari \"nominati\", insicuri di essere rieletti e perciò ricattabili ed esposti alla mercé del migliore offerente, non avrebbe dovuto procedere a una revisione costituzionale di così ampia portata. Così la riforma della Costituzione è divenuta oggetto di scambio e di ascesa politica",
+        "connector": "o",
+        "reasons":[
+          {"claim": "la riforma è stata approvata nonostante la Corte costituzionale, con la sentenza n. 1 del 2014, avesse dichiarato incostituzionale la legge elettorale sulla cui base la XVII legislatura era stata eletta (il cosiddetto Porcellum)"}
+          ]
+          
+        },
+        {"claim": "perché la riforma consegue da un'iniziativa governativa e non da un'iniziativa parlamentare (come avrebbe dovuto essere); il rischio (puntualmente avveratosi) è di condizionare l'approvazione della riforma alle scelte di indirizzo politico del Governo"}
+      ]
+    }
+  }
+}
