@@ -198,3 +198,65 @@ Sezioni:
     }
   }
 }
+
+
+
+
+{
+  "oltreilmerito": {
+    "metodo_SI": {
+      "claim": "Si tratta di una riforma con un testo omogeneo, votata da un parlamento legittimo, nonostante l'ostruzionismo eccessivo da parte delle opposizioni",
+      "connector": "o",
+      "reasons": [
+        {
+          "claim": "perché il tema dell'omogeneità è una questione totalmente infondata",
+          "connector": "o",
+          "reasons": [
+            {
+              "claim": "quello dell'omogeneità nasce come requisito imposto dalla Corte costituzionale ai quesiti referendari abrogativi; la valutazione di omogeneità del contenuto è stata già fatta dal legislatore costituzionale, che ha ritenuto di tenere insieme alcuni precisi elementi di riforma"
+            },
+            {
+              "claim": "in ogni caso il contenuto della riforma è omogeneo se consideriamo la forte connessione fra trasformazione del Senato in camera delle autonomie e riforma del Titolo V"
+            }
+          ]
+        },
+        {
+          "claim": "perché nella sentenza n. 1 del 2014, la Corte ha espressamente scritto che la illegittimità della legge elettorale non travolgeva la legittimazione giuridica (né politica) delle Camere della XVII legislatura",
+          "connector": "o",
+          "reasons": [
+            {
+              "claim": " se così fosse stato, si sarebbe dovuto sciogliere le Camere e fare elezioni sulla base di una legge elettorale scritta dalla Corte, con la certezza di una ulteriore paralisi istituzionale"
+            },
+            {
+              "claim": "su questo ha concordato la stragrande maggioranza delle forze parlamentari, nonché il presidente della Repubblica allora in carica, oltre che il suo successore"
+            },
+            {
+              "claim": " inoltre, in ogni caso, con la partecipazione al referendum degli stessi titolari della sovranità popolare (cioè i cittadini, proprio coloro su nome dei quali è esercitata la rappresentanza parlamentare) potranno scegliere se percorrere la via delle riforme"
+            }
+          ]
+        },
+        {
+          "claim": "perché il procedimento di revisione costituzionale si innesta sul procedimento legislativo ordinario, sicché non esiste alcun problema costituzionale nel fatto che il testo sia stato presentato dal Presidente del Consiglio e dal Ministro per le riforme istituzionali",
+          "connector": "o",
+          "reasons": [
+            {
+              "claim": "già in diversi altri casi, in passato, è stato proprio il Governo a iniziare il procedimento"
+            },
+            {
+              "claim": "il principio che la revisione della Costituzione potesse aver luogo su iniziativa del Governo venne addirittura approvato nel 15 gennaio 1947 dalla II Sottocommissione dell’Assemblea costituente"
+            }
+          ]
+        },
+        {
+          "claim": "perché non ci sono state anomalie, anzi, in realtà, si è assistito – specie nelle fasi cruciali dell’iter – ad un ostruzionismo senza quartiere e del tutto ingiustificato",
+          "connector": "o",
+          "reasons": [
+            {
+              "claim": " è chiaro che se chi si oppone fa uso spregiudicato del regolamento per mettere i bastoni fra le ruote a chi è in maggioranza, la maggioranza, a sua volta, userà tutti gli strumenti a disposizione per battere l’ostruzionismo"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
