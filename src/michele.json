@@ -113,3 +113,48 @@ Sezioni:
     }
   }
 }
+
+
+
+
+{
+  "oltreilmerito": {
+    "Rischi_per_la_democrazia_SI": {
+      "claim": "Non esiste nessun rischio per la democrazia nè i poteri sarebbero accentrati in modo eccessivo nelle mani del governo",
+      "connector": "o",
+      "reasons": [
+        {
+          "claim": "perché la tesi del \"premierato assoluto\" o dell'\"uomo solo al comando\" è infondata",
+          "connector": "o",
+          "reasons": {
+            "claim": "la riforma non modifica nessuna disposizione costituzionale relativa al Presidente del consiglio, né in relazione alla nomina, né in ordine ai poteri, né tanto meno circa la posizione rispetto all’esercizio delle funzioni proprie del Presidente della Repubblica, che rimangono immutate"
+          }
+        },
+        {
+          "claim": "perché la disciplina dell’Italicum non incide sulla posizione costituzionale del Presidente del consiglio, né sul ruolo di garanzia che spetterà sempre al Capo dello Stato, in particolare in sede di formazione del Governo e dunque nel momento della nomina del Presidente del consiglio",
+          "connector": "o",
+          "reasons": [
+            {
+              "claim": "nella legge attuale, in combinato disposto con la riforma costituzionale, nulla configura un’anomala concentrazione di poteri",
+              "connector": "o",
+              "reasons": [
+                {
+                  "claim": "la maggioranza di 24 deputati alla Camera al fine di governare non consente al vincitore né di rivedere da solo la Costituzione, né di esprimere da solo la composizione degli organi di garanzia"
+                },
+                {
+                  "claim": "la riforma riduce il potere del Governo di ricorrere ai decreti legge"
+                },
+                {
+                  "claim": "la riforma riduce il potere del Governo di ricorrere ai decreti legge"
+                },
+                {
+                  "claim": "chi teme l’effetto combinato della riforma costituzionale con la nuova legge elettorale, è garantito dal fatto che - grazie alla stessa riforma - l’Italicum verrà giudicato immediatamente dalla Corte costituzionale"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
