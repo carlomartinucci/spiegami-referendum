@@ -333,3 +333,35 @@ Sezioni:
     }
   }
 }
+
+
+{
+  "oltreilmerito": {
+    "politica_NO": {
+      "claim": "La riforma è stata approvata in parlamento senza un largo consenso e non è giusto che Renzi leghi il successo del suo governo all'esito del voto",
+      "connector": "o",
+      "reasons": [
+        {"claim": "perché la riforma è stata approvata da una maggioranza raccogliticcia e occasionale, col sostegno decisivo dei voltagabbana",
+        "connector": "o",
+        "reasons": [
+          {"claim": "il risultato della sesta e ultima votazione (su 630 deputati, 361 voti favorevoli, 7 contrari e 2 astenuti) conferma la natura \"divisiva\" e non \"inclusiva\" della riforma",
+            "connector": "o",
+            "reasons": [
+              {"claim": "perché il Presidente del Consiglio ha fatto sì che le modifiche costituzionali rispondessero alle scelte di indirizzo politico del Governo, a tutti i costi"}
+              ]
+          }
+          ]
+          
+        },
+        {"claim": "perché Renzi lega il suo futuro all'esito del voto perché teme un confronto serio sulle scelte fatte, che vada oltre le battute e i tweet",
+          "connector": "e",
+          "reasons":
+          [
+            {"claim": "con la spinta plebiscitaria Renzi vuole coartare e condizionare il voto popolare"},
+            {"claim": "vuole sostenere il sì non con i ragionati argomenti di una buona riforma, ma con la minaccia dell'instabilità e della crisi che seguirebbero alla vittoria del no"}
+            ]
+        }
+        ]
+    }
+  }
+}
