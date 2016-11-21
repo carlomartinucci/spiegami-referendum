@@ -158,3 +158,43 @@ Sezioni:
     }
   }
 }
+
+
+
+
+
+
+{
+  "oltreilmerito": {
+    "Rischi_per_la_democrazia_NO": {
+      "claim": "I poteri sarebbero accentrati in modo eccessivo nelle mani del governo, tanto da creare un rischio per la nostra democrazia",
+      "connector": "o",
+      "reasons": [
+        {
+          "claim": "perché il nostro ordinamento si orienterebbe di fatto verso un \"premierato assoluto\", grazie al combinato con l'Italicum",
+          "connector": "e",
+          "reasons": [
+            {
+              "claim": "quest'ultimo trasformerebbe il voto al partito del leader in un'investitura quasi-diretta del Premier, mentre la riforma costituzionale eliminerebbe il Senato come potenziale contro-potere esterno della Camera, senza prevedere efficaci contro-poteri interni"
+            },
+            {
+              "claim": "il risultato è il duplice rischio, connesso all'\"uomo solo al comando\", di produrre eccessivi squilibri di rappresentanza e di condizionare addirittura i poteri del Presidente della Repubblica"
+            }
+          ]
+        },
+        {
+          "claim": "perché la riforma è solo il culmine di un processo di indebolimento del Parlamento rappresentativo in corso da anni, un processo che ha consegnato di fatto al Governo il potere di fare le leggi",
+          "connector": "e",
+          "reasons": [
+            {
+              "claim": "l'Esecutivo ha abusato del potere di fare decreti legge in casi di \"urgenza\" e di porre la fiducia sui provvedimenti all'esame del Parlamento - compresa la legge elettorale -, abituando i cittadini alla logica del ricatto"
+            },
+            {
+              "claim": "l'esercizio della funzione legislativa gli è stato delegato con vincoli sempre meno stringenti"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
