@@ -127,3 +127,18 @@ export function jsonToMaterial(json) {
 		</Paper>
 	)
 }
+
+export function argumentsFromTopic(topic) {
+	var argomenti = {}
+
+	function onlyUnique(value, index, self) {
+		return self.indexOf(value) === index
+	}
+	Object.keys(topic).forEach( (tema) => {
+		var argomenti_del_tema = Object.keys(topic[tema])
+		argomenti_del_tema = argomenti_del_tema.map((argomento) => argomento.replace("_SI", "").replace("_NO",""))
+		argomenti_del_tema = argomenti_del_tema.filter(onlyUnique)
+		argomenti[tema] = argomenti_del_tema
+	})
+	return argomenti
+}

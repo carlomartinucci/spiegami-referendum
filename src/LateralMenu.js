@@ -105,7 +105,41 @@ export default class LateralMenu extends React.Component {
             ]}
           />
           <Divider />
-          <MenuItem key="politiche" disabled={true}>Questioni politiche</MenuItem>
+          <ListItem
+            key="oltre_il_merito"
+            primaryText="Oltre il merito"
+            primaryTogglesNestedList
+            nestedItems={[
+              <MenuItem
+                onTouchTap={this.handleClose}
+                containerElement={<NavLink to="/referendum/oltre_il_merito/riforma_storica_o_conservatrice" />}
+                key="riforma_storica_o_conservatrice"
+                primaryText="Riforma storica o conservatrice"
+                rightIcon={<ActionFeedback/>}
+              />,
+              <MenuItem
+                onTouchTap={this.handleClose}
+                containerElement={<NavLink to="/referendum/oltre_il_merito/rischi_per_la_democrazia" />}
+                key="rischi_per_la_democrazia"
+                primaryText="Rischi per la democrazia"
+                rightIcon={<ActionFeedback/>}
+              />,
+              <MenuItem
+                onTouchTap={this.handleClose}
+                containerElement={<NavLink to="/referendum/oltre_il_merito/il_metodo" />}
+                key="il_metodo"
+                primaryText="Il metodo"
+                rightIcon={<ActionFeedback/>}
+              />,
+              <MenuItem
+                onTouchTap={this.handleClose}
+                containerElement={<NavLink to="/referendum/oltre_il_merito/questioni_politiche" />}
+                key="questioni_politiche"
+                primaryText="Questioni politiche"
+                rightIcon={<ActionFeedback/>}
+              />
+            ]}
+          />
           <Divider />
         </Drawer>
       </div>

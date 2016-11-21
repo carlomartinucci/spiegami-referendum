@@ -4,6 +4,8 @@ import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
 import { Link } from 'react-router'
 
+import { argumentsFromTopic } from "./Theorem.js"
+
 export default class Home extends Component {
   constructor(props) {
     super(props);
@@ -12,8 +14,9 @@ export default class Home extends Component {
     }
   }
   render() {
+    console.log(argumentsFromTopic(this.state.referendum))
     return (
-    	<div
+      <div
         className="home-container"
         style={{
           backgroundColor: lightBaseTheme.palette.accent3Color,
@@ -70,12 +73,12 @@ export default class Home extends Component {
             <FlatButton label="Semplificazione istituzionale" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/semplificazione_istituzionale" />} />
           </div>
           <div className="flat-argomenti">
-            <span>QUESTIONI POLITICHE:</span>
+            <span>OLTRE IL MERITO:</span>
             &nbsp;
-            <FlatButton disabled label="La legittimità del Parlamento" />
-            <FlatButton disabled label="Le anomalie nell'iter" />
-            <FlatButton disabled label="L'ampiezza del consenso parlamentare" />
-            <FlatButton disabled label="Il destino del Governo legato all'esito del Referendum" />
+            <FlatButton label="Riforma storica o conservatrice" style={{top: "12px"}} containerElement={<Link to="/referendum/oltre_il_merito/riforma_storica_o_conservatrice" />} />
+            <FlatButton label="Rischi per la democrazia" style={{top: "12px"}} containerElement={<Link to="/referendum/oltre_il_merito/rischi_per_la_democrazia" />} />
+            <FlatButton label="Il metodo" style={{top: "12px"}} containerElement={<Link to="/referendum/oltre_il_merito/il_metodo" />} />
+            <FlatButton label="Questioni politiche" style={{top: "12px"}} containerElement={<Link to="/referendum/oltre_il_merito/questioni_politiche" />} />
           </div>
         </div>
     	</div>

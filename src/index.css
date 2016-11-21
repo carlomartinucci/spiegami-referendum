@@ -3,6 +3,13 @@ body {
   margin: 0;
 }
 
+.logo {
+  width: 24px;
+  height: 24px;
+  background-image: url("./logo_bianco.png");
+  background-size: 24px 24px;
+}
+
 h1 {
   font-weight: 300;
   font-size: 112px;
