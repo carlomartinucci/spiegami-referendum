@@ -83,3 +83,33 @@ Sezioni:
     }
   }
 }
+
+
+
+
+
+
+
+
+{
+  "oltreilmerito": {
+    "riformastoricaoconservatrice_NO": {
+      "claim": "la riforma consolida la crescente marginalizzazione del ruolo del Parlamento",
+      "connector": "o",
+      "reasons": [
+        {"claim": "perché il Parlamento come luogo di rappresentanza, di confronto e di mediazione di interessi reali è ridotto al regno della formalità procedurale",
+          "connector": "o",
+          "reasons": [
+            {"claim": "da vent’anni, infatti, le Camere sono ridotte ad un ruolo margina-le nel confronto politico e schiacciate dall’abuso della decretazione d’urgenza e dei maxiemendamenti, dall’uso continuo e strumentale della fiducia, dal contingentamento dei tempi di discussione e la riforma non fa che rafforzare ciò"}]
+        },
+        {"claim": "perché la riforma aumenterà lo spostamento dell’asse istituzionale a favore dell’Esecutivo",
+          "connector": "e",
+          "reasons": [
+            {"claim": "la Camera a cui spetterà dare la fiducia al Governo (la Camera dei deputati) sarà priva di legittimazione popolare, perché eletta con una legge elettorale il cui unico scopo è quello di assicurare comunque una maggioranza artificiale. Ballottaggio, premio di maggioranza alla singola lista, soglie d’accesso e voto bloccato sui capilista consegnano la Camera nelle mani di un leader vincente anche con pochi voti, secondo il modello dell’uomo solo al comando"},
+            {"claim": "il voto diverrà un plebiscito per il \"capo\", che potrà scegliere e disporre liberamente dei parlamentari, interessati a seguire il leader che garantirà loro la rielezione più che a farsi interpreti della volontà popolare. Un incentivo al trasformismo che negli ultimi due anni e mezzo ha già coinvolto 246 parlamentari"}
+            ]
+        }
+        ]
+    }
+  }
+}
