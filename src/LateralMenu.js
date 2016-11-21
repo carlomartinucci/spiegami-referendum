@@ -11,11 +11,11 @@ import ActionFeedback from 'material-ui/svg-icons/action/feedback';
 import NavLink from './NavLink'
 
 export default class LateralMenu extends React.Component {
-
+  handleClose = () => setTimeout(this.props.onTouchTap, 50);
   render() {
     return (
       <div>
-        <Drawer openSecondary open={this.props.open}>
+        <Drawer docked={false} openSecondary open={this.props.open}>
           <AppBar
             iconElementRight={<IconButton><NavigationClose /></IconButton>}
             iconElementLeft={<span/>}
@@ -28,21 +28,25 @@ export default class LateralMenu extends React.Component {
             open
             nestedItems={[
               <MenuItem
+                onTouchTap={this.handleClose}
                 containerElement={<NavLink to="/referendum/senato/ruolo_e_funzioni" />}
                 key="ruolo_e_funzioni"
                 primaryText="Ruolo e funzioni"
               />,
               <MenuItem
+                onTouchTap={this.handleClose}
                 containerElement={<NavLink to="/referendum/senato/modalità_di_elezione" />}
                 key="modalità_di_elezione"
                 primaryText="Modalità di elezione"
               />,
               <MenuItem
+                onTouchTap={this.handleClose}
                 containerElement={<NavLink to="/referendum/senato/il_procedimento_legislativo" />}
                 key="il_procedimento_legislativo"
                 primaryText="Il procedimento legislativo"
               />,
               <MenuItem
+                onTouchTap={this.handleClose}
                 containerElement={<NavLink to="/referendum/senato/diritti_dei_senatori_e_statuto_delle_minoranze" />}
                 key="diritti_dei_senatori_e_statuto_delle_minoranze"
                 primaryText="I diritti dei senatori"
@@ -56,6 +60,7 @@ export default class LateralMenu extends React.Component {
             primaryTogglesNestedList
             nestedItems={[
               <MenuItem
+                onTouchTap={this.handleClose}
                 containerElement={<NavLink to="/referendum/stato-regioni/conflitti_di_competenza" />}
                 key="conflitti_di_competenza"
                 primaryText="Conflitti di competenza"
@@ -70,26 +75,30 @@ export default class LateralMenu extends React.Component {
             primaryTogglesNestedList
             nestedItems={[
               <MenuItem
+                onTouchTap={this.handleClose}
                 containerElement={<NavLink to="/referendum/altro/formulazione_e_discussione_dei_decreti_legge" />}
                 key="decreti_legge"
                 primaryText="Decreti legge"
                 rightIcon={<ActionFeedback/>}
               />,
               <MenuItem
+                onTouchTap={this.handleClose}
                 containerElement={<NavLink to="/referendum/altro/garanzie" />}
                 key="garanzie"
                 primaryText="Garanzie"
                 rightIcon={<ActionFeedback/>}
               />,
               <MenuItem
+                onTouchTap={this.handleClose}
                 containerElement={<NavLink to="/referendum/altro/iniziativa_popolare" />}
                 key="iniziativa_popolare"
                 primaryText="Iniziativa popolare"
                 rightIcon={<ActionFeedback/>}
               />,
               <MenuItem
-                containerElement={<NavLink to="/referendum/altro/semplificazione" />}
-                key="semplificazione"
+                onTouchTap={this.handleClose}
+                containerElement={<NavLink to="/referendum/altro/semplificazione_istituzionale" />}
+                key="semplificazione_istituzionale"
                 primaryText="Semplificazione"
                 rightIcon={<ActionFeedback/>}
               />
