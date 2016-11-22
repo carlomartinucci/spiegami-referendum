@@ -4,22 +4,47 @@
 inoltre sempre da quel menù non è stato aggiornato il titolo in "conflitti di competenza"
 
 
-
-
-Come farei io la divisione riguardo l'ultima sezione:
-Titolo: oltre il merito
-Sezioni:
-- Riforma storica o conservatrice?
-
-- Rischi per la democrazia
-    - Deriva autoritaria
-
-- Questioni di metodo
-    - omogeneità 
-    - iter
-    - legittimità
-    - iniziativa
-- Questioni politiche
-    - consenso
-    - destino del governo
-
+{
+  "modalità_di_elezione_SI": {
+    "claim": "SI, è giusto modificare la modalità di elezione dei senatori",
+    "connector": "o",
+    "reasons": [
+      {
+        "claim": "perché viene diminuito il loro numero",
+        "connecotr": "o",
+        "reasons": [
+          {
+            "claim": "per la diversa rappresentanza delle camere",
+            "connector": "e",
+            "reasons": [
+              {
+                "claim": "mentre i componenti della Camera continueranno a rappresentare l'intera Nazione, quelli del Senato rappresenteranno le istituzioni territoriali e proverranno, per la quasi totalità, dalle Regioni e dai Comuni"
+              },
+              {
+                "claim": "vi è la necessità di assicurare che il rapporto numerico tra deputati e senatori risulti coerente con la specifica posizione che nell'ordinamento costituzionale sarà assunto dal Senato in quanto luogo di rappresentanza delle istituzioni territoriali"
+              }
+            ]
+          },
+          {
+            "claim": "per ridurre i costi, come parte di uno sforzo complessivo"
+          }
+        ]
+      },
+      {
+        "claim": "perché è giusto che il Presidente continui a nominare alcuni senatori",
+        "connector": "o",
+        "reasons": [
+          {
+            "claim": "si tratta di un elemento di tradizione, aggiornata, che finora ha dato contributi molto qualificati alla vita parlamentare."
+          }
+        ]
+      },
+      {
+        "claim": "perché il mandato di ciascun senatore è strettamente legato all'organo da cui viene eletto"
+      },
+      {
+        "claim": "perché senatori sono eletti dai consigli regionali (a Bolzano e Trento, dai consigli provinciali) con metodo proporzionale, scegliendo tra consiglieri e sindaci. Avendo un minimo di 2 senatori da eleggere, ciascun consiglio eleggerà almeno un sindaco e almeno un consigliere"
+      }
+    ]
+  }
+}
