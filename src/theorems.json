@@ -129,7 +129,7 @@
 		            "connector": "o",
 		            "reasons": [{"claim": "il nuovo Senato, pur diventando un organo di rappresentanza territoriale, continuerebbe ad esercitare funzioni tipiche di un organo dello Stato, quali l'esercizio della potestà di revisione costituzionale, le funzioni di raccordo tra Stato ed Unione Europea e tutte le altre funzioni previste dal quarto comma del nuovo art. 55."}]
 		          },
-		          {"claim": "obbliga i senatori a esercitare anche le funzioni di consigliere regionale o di sindaco"}
+		          {"claim": "obbliga i senatori a esercitare anche le funzioni di consigliere regionale o di sindaco; come faranno a svolgere entrambi gli incarachi? I senatori saranno di meno, ma il Senato non funzionerà."}
 		        ]
 		      }
 		    ]
@@ -168,6 +168,9 @@
 	      "claim": "SI, è giusto modificare la modalità di elezione dei senatori",
 	      "connector": "o",
 	      "reasons": [
+	      	{"claim": "perché viene diminuito il loro numero",
+	      		"connector": "o",
+	      		"reasons": [
 	        {"claim": "per la diversa rappresentanza delle camere",
 	          "connector": "e",
 	          "reasons": [
@@ -175,11 +178,15 @@
 	            {"claim": "vi è la necessità di assicurare che il rapporto numerico tra deputati e senatori risulti coerente con la specifica posizione che nell'ordinamento costituzionale sarà assunto dal Senato in quanto luogo di rappresentanza delle istituzioni territoriali"}
 	          ]
 	        },
-	        {"claim": "perché riduce i costi, come parte di uno sforzo complessivo"},
+	        {"claim": "perché riduce i costi, come parte di uno sforzo complessivo"}
+	      		]
+	      	},
 	        {"claim": "perché è giusto che il Presidente continui a nominare alcuni senatori" ,
 	          "connector": "o" ,
 	          "reasons": [{"claim": "si tratta di un elemento di tradizione, aggiornata, che finora ha dato contributi molto qualificati alla vita parlamentare."}]
-	        }
+	        },
+	      	{"claim": "perché il mandato di ciascun senatore è strettamente legato all'organo da cui viene eletto"},
+		      {"claim": "perché senatori sono eletti dai consigli regionali (a Bolzano e Trento, dai consigli provinciali) con metodo proporzionale, scegliendo tra consiglieri e sindaci. Avendo un minimo di 2 senatori da eleggere, ciascun consiglio eleggerà almeno un sindaco e almeno un consigliere"}
 	      ]
 	    }, 
 			"modalità_di_elezione_NO": {
@@ -198,7 +205,10 @@
 						"reasons": [
 							{"claim": "il risparmio è di spiccioli" ,
 								"connector" : "o",
-								"reasons": [{"claim": "La gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale"}]
+								"reasons": [
+									{"claim": "La gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale"},
+									{"claim": "la Ragioneria generale dello Stato non ha mai redatto una relazione tecnica per quantificare la riduzione dei costi. Il ministro Boschi ha indicato risparmi annui per 490 milioni di euro, mentre la Presidenza del Consiglio ha detto che sono 49 milioni di euro."}
+								]
 							},
 							{"claim": "La politica costa e risparmiare non è assultamente sinonimo di rendere migliore"}
 						]
@@ -210,7 +220,59 @@
 							{"claim": "Sarebbe più logico prevedere questo pubblico riconoscimento nell’ambito della Camera dei deputati",
 								"connector": "o",
 								"reasons": [{"claim": "Secondo la Riforma, la Camera è l'unica a mantenere le funzioni di rappresentanza generale del popolo italiano."}]
-							}]
+							}
+						]
+					},
+					{
+					  "claim": "perché non è capzioso immaginare che i senatori a vita possano subire l'influenza del Capo dello Stato, con conseguente attenuazione della autonomia istituzionale",
+					  "connector": "o",
+					  "reasons": [
+					    {
+					      "claim": "i senatori a nomina presidenziale sono in carica per sette anni, e cioè per un tempo perfettamente coincidente con la durata in carica dello stesso Capo dello Stato"
+					    }
+					  ]
+					},
+					{
+					  "claim": "perché il modo in cui sono eletti i senatori tra i consigli regionali non è per nulla giusto",
+					  "connector": "o",
+					  "reasons": [
+					    {
+					      "claim": "il nuovo Senato non avrà una vera rappresentanza territoriale delle Regioni",
+					      "connector": "o",
+					      "reasons": [
+					        {
+					          "claim": "le Regioni avranno un numero diverso di seggi a seconda della popolazione e perché ai senatori è garantito il divieto del mandato imperativo; la natura della rappresentanza del Senato continuerà quindi ad essere quella squisitamente \"politico-partitica\", praticamente duplicando le contrapposizioni politiche della Camera dei deputati"
+					        }
+					      ]
+					    },
+					    {
+					      "claim": "vìola la sovranità popolare",
+					      "connector": "o",
+					      "reasons": [
+					        {
+					          "claim": "non è vero che il popolo italiano eleggerebbe indirettamente il Senato perché i consigli regionali, eletti dal popolo, eleggerebbero a loro volta i senatori",
+					          "connector": "o",
+					          "reasons": [
+					            {
+					              "claim": "Leopoldo Elia (autorevolissimo costituzionalista spesso ricordato dallo stesso ex Presidente Napolitano), precisò, in maniera definitiva, che si ha elezione indiretta \"in senso proprio\" solo quando siano previsti a tal fine dei \"grandi elettori\""
+					            }
+					          ]
+					        },
+					        {
+					          "claim": "\"la volontà dei cittadini espressa attraverso il voto [..] costituisce il principale strumento di manifestazione\", come affermato dalla Corte Costituzionale nella sentenza n. 1 del 2014"
+					        },
+					        {
+					          "claim": "come scrisse proprio nel 1948, Carlo Esposito, uno dei massimi costituzionalisti italiani dello scorso secolo: \"Il contenuto della democrazia non è che il popolo costituisca la fonte storica o ideale del potere, ma che abbia il potere; non già che esso abbia solo il potere costituente, ma che a lui spettino i poteri costituiti; e che non abbia la nuda sovranità (che praticamente non è niente) ma l’esercizio della sovranità (che praticamente è tutto)\""
+					        }
+					      ]
+					    },
+					    {
+					      "claim": "la modalità di scelta dei Senatori è rimasta del tutto indeterminata e rinviata ad una successiva legge ordinaria"
+					    },
+					    {
+					      "claim": "considerando che a dieci regioni e province (Valle D’Aosta, Bolzano, Trento, Friuli Venezia Giulia, Liguria, Umbria, Marche, Abruzzo, Molise, Basilicata) spettano solo due seggi, che a due (Calabria e Sardegna) ne spettano solo tre, e che uno dei seggi sempre riservato ad un sindaco, non si può affermare di voler \"rispettare la volontà degli elettori\" quando il consiglio elegge solamente uno o due consiglieri-senatore"
+					    }
+					  ]
 					}
 				]
 			}, 
@@ -446,29 +508,26 @@
 	         ]
 	    }, 
 	    "conflitti_di_competenza_NO": {
-	    	"claim": "Non è giusto modififcare i criteri per stabilire la competenza legislativa" ,
+	    	"claim": "Non è giusto modififcare i criteri per stabilire la competenza legislativa",
 	    	"connector" : "o",
 	    	"reasons" : [
 	    	  {"claim": "per l'esagerato accentramento del potere" ,
-	    	  "connector" : "o",
-	    	  "reasons": [
-	    	    {"claim": "ci si allontana dal modello \"solidale\" di federalismo (basato sulla leale collaborazione e la \"concorrenza\" tra le funzioni), per avvicinarsi al modello \"competitivo\" (basato sulla netta separazione tra Stato e Regioni e tra Regioni)"} ,
-	    	    {"claim": " la riforma, infatti, riduce sostanzialmente lo spazio costituzionalmente riconosciuto alle autonomie",
-	    	      "connector": "o" ,
-	    	      "reasons": [
-	    	        {"claim": "il neo-centralismo statale è negativo in un contesto di complessiva riduzione degli spazi di partecipazione democratica e di rappresentanza politica",
-	    	        "connector": "o" , 
-	    	        "reasons": [
-	    	          {"claim": "con questo modello, il governo potrà (tra le altre cose) passare sulla testa delle popolazioni locali nella gestione del territorio sotto l'etichetta di opere di interesse nazionale o simili, e ciò non è accettabile"}
-	    	          ]
-	    	          
-	    	        }
+		    	  "connector" : "o",
+		    	  "reasons": [
+		    	    {"claim": "ci si allontana dal modello \"solidale\" di federalismo (basato sulla leale collaborazione e la \"concorrenza\" tra le funzioni), per avvicinarsi al modello \"competitivo\" (basato sulla netta separazione tra Stato e Regioni e tra Regioni)"} ,
+		    	    {"claim": " la riforma, infatti, riduce sostanzialmente lo spazio costituzionalmente riconosciuto alle autonomie",
+		    	      "connector": "o" ,
+		    	      "reasons": [
+		    	        {"claim": "il neo-centralismo statale è negativo in un contesto di complessiva riduzione degli spazi di partecipazione democratica e di rappresentanza politica",
+		    	        "connector": "o" , 
+		    	        "reasons": [
+		    	          {"claim": "con questo modello, il governo potrà (tra le altre cose) passare sulla testa delle popolazioni locali nella gestione del territorio sotto l'etichetta di opere di interesse nazionale o simili, e ciò non è accettabile"}
+		    	          ]
+		    	        }
 	    	        ]
-	    	    }
+		    	    }
 	    	    ]
-	    	    
-	    	    
-	    	  } , 
+	    	  }, 
 	    	  {"claim" : "perchè continueranno a esserci contenziosi presso la Corte costituzionale" ,
 	    	  "connector" : "o" ,
 	    	  "reasons" : [
@@ -485,7 +544,8 @@
 	    	      "reasons": [
 	    	        {"claim": "non si è colta l'occasione per passare ad un criterio diverso (ad esempio quello delle funzioni) che potesse effettivamente semplificare e ridurre il contenzioso tra centro e periferia"}
 	    	        ]
-	    	    }
+	    	    },
+	    	    {"claim": "da 15 anni la Corte costituzionale interviene per stabilire il confine fra Stato e Regioni. La nuova riforma fa tornare al punto di partenza: si azzera un lavoro di 15 anni e inizieranno nuovi contenziosi"}
 	    	    ]
 	    	    
 	    	  } ,
@@ -494,15 +554,13 @@
 	    		  "reasons": [
 	    		    {"claim": "viene profondamente sconvolta l'autonomia legislativa delle Regioni, attribuendo allo Stato centrale il potere di decidere su temi fondamentali di rilevanza territoriale come la tutela dell'ambiente, e sottraendo alle Regioni ogni possibilità di governo del territorio"},
 	    		    {"claim": "alle Regioni viene invece attribuita la potestà legislativa soltanto su 15 materie (contro le 50 del Governo) di contenuto prevalentemente organizzativo"}
-	    		    
 	    	    ]
-	    	    
 	    	  },
 	    	  {"claim": "per la reintroduzione della clausola di supremazia" ,
 	    		  "connector": "o",
 	    		  "reasons": [{"claim": "Grazie alla clausola di supremazia statale (soprannominata \"clausola-vampiro\"), la Camera dei deputati o il Governo (rispettivamente con una legge o con un decreto legge) potrebbero, senza alcun limite, intervenire in qualsiasi materia di competenza legislativa esclusiva delle Regioni \"quando lo richieda la tutela dell'unità giuridica o economica della Repubblica ovvero la tutela dell'interesse nazionale\""}]
 	    		}
-	    	  ]
+    	  ]
 	    }
 		},
 		"altro": {
@@ -773,9 +831,7 @@
 		      {
 		        "claim": "perché la tesi del \"premierato assoluto\" o dell'\"uomo solo al comando\" è infondata",
 		        "connector": "o",
-		        "reasons": {
-		          "claim": "la riforma non modifica nessuna disposizione costituzionale relativa al Presidente del consiglio, né in relazione alla nomina, né in ordine ai poteri, né tanto meno circa la posizione rispetto all’esercizio delle funzioni proprie del Presidente della Repubblica, che rimangono immutate"
-		        }
+		        "reasons": [{"claim": "la riforma non modifica nessuna disposizione costituzionale relativa al Presidente del consiglio, né in relazione alla nomina, né in ordine ai poteri, né tanto meno circa la posizione rispetto all’esercizio delle funzioni proprie del Presidente della Repubblica, che rimangono immutate"}]
 		      },
 		      {
 		        "claim": "perché la disciplina dell’Italicum non incide sulla posizione costituzionale del Presidente del consiglio, né sul ruolo di garanzia che spetterà sempre al Capo dello Stato, in particolare in sede di formazione del Governo e dunque nel momento della nomina del Presidente del consiglio",
@@ -785,18 +841,9 @@
 		            "claim": "nella legge attuale, in combinato disposto con la riforma costituzionale, nulla configura un’anomala concentrazione di poteri",
 		            "connector": "o",
 		            "reasons": [
-		              {
-		                "claim": "la maggioranza di 24 deputati alla Camera al fine di governare non consente al vincitore né di rivedere da solo la Costituzione, né di esprimere da solo la composizione degli organi di garanzia"
-		              },
-		              {
-		                "claim": "la riforma riduce il potere del Governo di ricorrere ai decreti legge"
-		              },
-		              {
-		                "claim": "la riforma riduce il potere del Governo di ricorrere ai decreti legge"
-		              },
-		              {
-		                "claim": "chi teme l’effetto combinato della riforma costituzionale con la nuova legge elettorale, è garantito dal fatto che - grazie alla stessa riforma - l’Italicum verrà giudicato immediatamente dalla Corte costituzionale"
-		              }
+		              {"claim": "la maggioranza di 24 deputati alla Camera al fine di governare non consente al vincitore né di rivedere da solo la Costituzione, né di esprimere da solo la composizione degli organi di garanzia"},
+		              {"claim": "la riforma riduce il potere del Governo di ricorrere ai decreti legge"},
+		              {"claim": "chi teme l’effetto combinato della riforma costituzionale con la nuova legge elettorale, è garantito dal fatto che - grazie alla stessa riforma - l’Italicum verrà giudicato immediatamente dalla Corte costituzionale"}
 		            ]
 		          }
 		        ]
@@ -807,28 +854,19 @@
 		    "claim": "I poteri sarebbero accentrati in modo eccessivo nelle mani del governo, tanto da creare un rischio per la nostra democrazia",
 		    "connector": "o",
 		    "reasons": [
-		      {
-		        "claim": "perché il nostro ordinamento si orienterebbe di fatto verso un \"premierato assoluto\", grazie al combinato con l'Italicum",
+		      {"claim": "perché il nostro ordinamento si orienterebbe di fatto verso un \"premierato assoluto\", grazie al combinato con l'Italicum",
 		        "connector": "e",
 		        "reasons": [
-		          {
-		            "claim": "quest'ultimo trasformerebbe il voto al partito del leader in un'investitura quasi-diretta del Premier, mentre la riforma costituzionale eliminerebbe il Senato come potenziale contro-potere esterno della Camera, senza prevedere efficaci contro-poteri interni"
-		          },
-		          {
-		            "claim": "il risultato è il duplice rischio, connesso all'\"uomo solo al comando\", di produrre eccessivi squilibri di rappresentanza e di condizionare addirittura i poteri del Presidente della Repubblica"
-		          }
+		          {"claim": "quest'ultimo trasformerebbe il voto al partito del leader in un'investitura quasi-diretta del Premier, mentre la riforma costituzionale eliminerebbe il Senato come potenziale contro-potere esterno della Camera, senza prevedere efficaci contro-poteri interni"},
+		          {"claim": "il risultato è il duplice rischio, connesso all'\"uomo solo al comando\", di produrre eccessivi squilibri di rappresentanza e di condizionare addirittura i poteri del Presidente della Repubblica"}
 		        ]
 		      },
 		      {
 		        "claim": "perché la riforma è solo il culmine di un processo di indebolimento del Parlamento rappresentativo in corso da anni, un processo che ha consegnato di fatto al Governo il potere di fare le leggi",
 		        "connector": "e",
 		        "reasons": [
-		          {
-		            "claim": "l'Esecutivo ha abusato del potere di fare decreti legge in casi di \"urgenza\" e di porre la fiducia sui provvedimenti all'esame del Parlamento - compresa la legge elettorale -, abituando i cittadini alla logica del ricatto"
-		          },
-		          {
-		            "claim": "l'esercizio della funzione legislativa gli è stato delegato con vincoli sempre meno stringenti"
-		          }
+		          {"claim": "l'Esecutivo ha abusato del potere di fare decreti legge in casi di \"urgenza\" e di porre la fiducia sui provvedimenti all'esame del Parlamento - compresa la legge elettorale -, abituando i cittadini alla logica del ricatto"},
+		          {"claim": "l'esercizio della funzione legislativa gli è stato delegato con vincoli sempre meno stringenti"}
 		        ]
 		      }
 		    ]

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { argomenti } from "./arguments.json"
 import { Link } from 'react-router'
 import Menu from 'material-ui/Menu';
 import MenuItem from 'material-ui/MenuItem';
 import Paper from 'material-ui/Paper';
 import { humanize } from './stringHelper.js'
+import { argumentsFromTopic } from "./Theorem.js"
 
 export default class Tema extends Component {
   constructor(props) {
@@ -15,11 +15,7 @@ export default class Tema extends Component {
   }
   render() {
     const base_url = "/referendum/" + this.props.params.tema + "/"
-//    const links = argomenti[this.props.params.tema].map(
-//      (argomento) => (
-//        <Link key={argomento} to={base_url + argomento}>{argomento}</Link>
-//      )
-//    )
+    const argomenti = argumentsFromTopic(this.state.referendum)
     const menu_items = argomenti[this.props.params.tema].map(
       (argomento) => (
         <MenuItem

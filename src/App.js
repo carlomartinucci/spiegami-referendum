@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Footer from './Footer.js'
 import Navigation from './Navigation.js'
 import { getTitle } from './stringHelper.js'
+import MailChimp from './MailChimp.js'
 
 class App extends Component {
   constructor(props) {

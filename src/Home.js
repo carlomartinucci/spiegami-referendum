@@ -3,6 +3,7 @@ import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
 import { Link } from 'react-router'
+import { humanize } from './stringHelper.js'
 
 import { argumentsFromTopic } from "./Theorem.js"
 
@@ -14,7 +15,40 @@ export default class Home extends Component {
     }
   }
   render() {
-    console.log(argumentsFromTopic(this.state.referendum))
+    const argomenti = argumentsFromTopic(this.state.referendum)
+    console.log(argomenti)
+    function getTemi(argomenti) {
+      return Object.keys(argomenti).map(
+        (tema) => <div key={tema + "-wrapper"} className="button-tema-wrapper"><RaisedButton primary label={humanize(tema)} containerElement={<Link to={`referendum/${tema}`} />} /></div>
+      )
+    }
+    function getSingoliArgomentiDiUnTema(tema) {
+      const argg = argomenti[tema].map(
+        (argomento) => <FlatButton key={argomento} label={humanize(argomento)} style={{top: "12px"}} containerElement={<Link to={`/referendum/${tema}/${argomento}`} />}/>
+      )
+      return (
+        <div key={tema + "-div"} className="flat-argomenti">
+          <span>{tema.toUpperCase()}:</span>
+          &nbsp;
+          {argg}
+        </div>
+      )
+    }
+    const getArgomenti = Object.keys(argomenti).map(
+      (tema) => getSingoliArgomentiDiUnTema(tema)
+    )
+
+    function homeWrapper(description, element) {
+      return (
+        <div className="text-center"
+          style={{
+            marginTop: "5em"
+          }}>
+          <div>{description}</div>
+          {element}
+        </div>
+      )
+    }
     return (
       <div
         className="home-container"
@@ -35,52 +69,8 @@ export default class Home extends Component {
             containerElement={<Link to="/referendum" />}
           />
         </div>
-        <div className="text-center"
-          style={{
-            marginTop: "2em"
-          }}>
-          <div style={{marginBottom: "3em"}}>Oppure, vai a uno dei temi</div>
-          <div className="button-tema-wrapper"><RaisedButton primary label="Senato" containerElement={<Link to="/referendum/senato" />} /></div>
-          <div className="button-tema-wrapper"><RaisedButton primary label="Rapporto Stato - Regioni" containerElement={<Link to="/referendum/stato-regioni" />} /></div>
-          <div className="button-tema-wrapper"><RaisedButton primary label="Altre questioni" containerElement={<Link to="/referendum/altro" />} /></div>
-          <div className="button-tema-wrapper"><RaisedButton disabled label="Questioni politiche" /></div>
-        </div>
-        <div className="text-center"
-          style={{
-            marginTop: "5em"
-          }}>
-          <div>Oppure, vai direttamente a un argomento</div>
-          <div className="flat-argomenti">
-            <span>SENATO:</span>
-            &nbsp;
-            <FlatButton label="Ruolo e funzioni" style={{top: "12px"}} containerElement={<Link to="/referendum/senato/ruolo_e_funzioni" />}/>
-            <FlatButton label="Modalità di elezione" style={{top: "12px"}} containerElement={<Link to="/referendum/senato/modalità_di_elezione" />}/>
-            <FlatButton label="Il procedimento legislativo" style={{top: "12px"}} containerElement={<Link to="/referendum/senato/il_procedimento_legislativo" />}/>
-            <FlatButton label="Diritti dei senatori e statuto delle minoranze" style={{top: "12px"}} containerElement={<Link to="/referendum/senato/diritti_dei_senatori_e_statuto_delle_minoranze" />}/>
-          </div>
-          <div className="flat-argomenti">
-            <span>RAPPORTO STATO - REGIONI:</span>
-            &nbsp;
-            <FlatButton label="Conflitti di competenza" style={{top: "12px"}} containerElement={<Link to="/referendum/stato-regioni/conflitti_di_competenza" />} />
-            <FlatButton disabled label="Competenze speciali a regioni ordinarie" />
-          </div>
-          <div className="flat-argomenti">
-            <span>ALTRE QUESTIONI:</span>
-            &nbsp;
-            <FlatButton label="Formulazione e discussione dei decreti legge" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/formulazione_e_discussione_dei_decreti_legge" />} />
-            <FlatButton label="Sistema delle garanzie" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/garanzie" />} />
-            <FlatButton label="Iniziativa popolare" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/iniziativa_popolare" />} />
-            <FlatButton label="Semplificazione istituzionale" style={{top: "12px"}} containerElement={<Link to="/referendum/altro/semplificazione_istituzionale" />} />
-          </div>
-          <div className="flat-argomenti">
-            <span>OLTRE IL MERITO:</span>
-            &nbsp;
-            <FlatButton label="Riforma storica o conservatrice" style={{top: "12px"}} containerElement={<Link to="/referendum/oltre_il_merito/riforma_storica_o_conservatrice" />} />
-            <FlatButton label="Rischi per la democrazia" style={{top: "12px"}} containerElement={<Link to="/referendum/oltre_il_merito/rischi_per_la_democrazia" />} />
-            <FlatButton label="Il metodo" style={{top: "12px"}} containerElement={<Link to="/referendum/oltre_il_merito/il_metodo" />} />
-            <FlatButton label="Questioni politiche" style={{top: "12px"}} containerElement={<Link to="/referendum/oltre_il_merito/questioni_politiche" />} />
-          </div>
-        </div>
+        {homeWrapper("Oppure, vai a uno dei temi", getTemi(argomenti))}
+        {homeWrapper("Oppure, vai direttamente a un argomento", getArgomenti)}
     	</div>
     )
   }
