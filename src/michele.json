@@ -48,3 +48,112 @@ inoltre sempre da quel menù non è stato aggiornato il titolo in "conflitti di 
     ]
   }
 }
+
+
+{
+  "modalità_di_elezione_NO": {
+    "claim": "NO, non è giusto modificare la modalità di elezione dei senatori",
+    "connector": "o",
+    "reasons": [
+      {
+        "claim": "perché si creerebbe un grande squilibrio tra le due camere",
+        "connector": "e",
+        "reasons": [
+          {
+            "claim": "la riforma sottodimensiona irrazionalmente la composizione del Senato (100 senatori) rispetto alla composizione della Camera dei deputati (630 deputati)"
+          },
+          {
+            "claim": "rende praticamente irrilevante il voto dei senatori nelle riunioni del Parlamento in seduta comune."
+          }
+        ]
+      },
+      {
+        "claim": "perché la riduzione dei costi è risibile e non necessariamente buona",
+        "connector": "e",
+        "reasons": [
+          {
+            "claim": "il risparmio è di spiccioli",
+            "connector": "o",
+            "reasons": [
+              {
+                "claim": "La gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale"
+              }
+            ]
+          },
+          {
+            "claim": "La politica costa e risparmiare non è assultamente sinonimo di rendere migliore"
+          }
+        ]
+      },
+      {
+        "claim": "non ha senso che personalità che hanno illustrato la Patria per altissimi meriti vadano ad esercitare il loro magistero culturale nel senato",
+        "connector": "e",
+        "reasons": [
+          {
+            "claim": "Secondo la Riforma il Senato rappresenta le istituzioni territoriali."
+          },
+          {
+            "claim": "Sarebbe più logico prevedere questo pubblico riconoscimento nell’ambito della Camera dei deputati",
+            "connector": "o",
+            "reasons": [
+              {
+                "claim": "Secondo la Riforma, la Camera è l'unica a mantenere le funzioni di rappresentanza generale del popolo italiano."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "claim": "perché non è capzioso immaginare che i senatori a vita possano subire l'influenza del Capo dello Stato, con conseguente attenuazione della autonomia istituzionale",
+        "connector": "o",
+        "reasons": [
+          {
+            "claim": "i senatori a nomina presidenziale sono in carica per sette anni, e cioè per un tempo perfettamente coincidente con la durata in carica dello stesso Capo dello Stato"
+          }
+        ]
+      },
+      {
+        "claim": "perché il modo in cui sono eletti i senatori tra i consigli regionali non è per nulla giusto",
+        "connector": "o",
+        "reasons": [
+          {
+            "claim": "il nuovo Senato non avrà una vera rappresentanza territoriale delle Regioni",
+            "connector": "o",
+            "reasons": [
+              {
+                "claim": "le Regioni avranno un numero diverso di seggi a seconda della popolazione e perché ai senatori è garantito il divieto del mandato imperativo; la natura della rappresentanza del Senato continuerà quindi ad essere quella squisitamente \"politico-partitica\", praticamente duplicando le contrapposizioni politiche della Camera dei deputati"
+              }
+            ]
+          },
+          {
+            "claim": "vìola la sovranità popolare",
+            "connector": "o",
+            "reasons": [
+              {
+                "claim": "affermare che il popolo italiano eleggerebbe indirettamente il Senato perché i consigli regionali, eletti dal popolo, eleggerebbero a loro volta i senatori, è una vera baggianata",
+                "connector": "o",
+                "reasons": [
+                  {
+                    "claim": "Leopoldo Elia (autorevolissimo costituzionalista spesso ricordato dallo stesso ex Presidente Napolitano), precisò, in maniera definitiva, che si ha elezione indiretta \"in senso proprio\" solo quando siano previsti a tal fine dei \"grandi elettori\""
+                  }
+                ]
+              },
+              {
+                "claim": "\"la volontà dei cittadini espressa attraverso il voto [..] costituisce il principale strumento di manifestazione\", come affermato dalla Corte Costituzionale nella sentenza n. 1 del 2014"
+              },
+              {
+                "claim": "come scrisse proprio nel 1948, Carlo Esposito, uno dei massimi costituzionalisti italiani dello scorso secolo: \"Il contenuto della democrazia non è che il popolo costituisca la fonte storica o ideale del potere, ma che abbia il potere; non già che esso abbia solo il potere costituente, ma che a lui spettino i poteri costituiti; e che non abbia la nuda sovranità (che praticamente non è niente) ma l’esercizio della sovranità (che praticamente è tutto)\""
+              }
+            ]
+          },
+          {
+            "claim": "la modalità di scelta dei Senatori è rimasta del tutto indeterminata e rinviata ad una successiva legge ordinaria"
+          },
+          {
+            "claim": "considerando che a dieci regioni e province (Valle D’Aosta, Bolzano, Trento, Friuli Venezia Giulia, Liguria, Umbria, Marche, Abruzzo, Molise, Basilicata) spettano solo due seggi, che a due (Calabria e Sardegna) ne spettano solo tre, e che uno dei seggi sempre riservato ad un sindaco, come si può affermare di voler \"rispettare la volontà degli elettori\" quando il consiglio elegge solamente uno o due consiglieri-senatore"
+          }
+        ]
+      }
+    ]
+  }
+}
