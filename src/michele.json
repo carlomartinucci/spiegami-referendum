@@ -1,0 +1,44 @@
+Diciamo che passiamo a una logica nuova, in cui usiamo "claim_id" invece di "claim" e registriamo tutti i claim in un nuovo file "claims.json", del tipo
+
+{
+  "1": "Piove",
+  "2": "Prendo l'ombrello",
+  "3": "Non sta piovendo",
+  "4": "Se apro le mani con i palmi verso il cielo non si bagnano",
+  "5": "Non è detto che se piove necessariamente prendi l'ombrello, magari te lo dimentichi"
+}
+
+per comodità in questo esempio quando di reasons ce n'è una sola evito di specificare il connector
+
+dunque il ragionamento "prendo l'ombrello perché piove" diventa
+
+{
+  "claim_id": 2,
+  "reasons": [{"claim_id": 1}]
+}
+
+Possiamo introdurre le obiezioni ad un claim con il campo "claim_objections", che è una lista di teoremi, ciascuno dei quali pone un'obiezione alla verità del claim, ad esempio
+
+{
+  "claim_id": 2,
+  "reasons": [
+    {"claim_id": 1,
+      "claim_objections": [
+        {"claim_id": 3,
+          "reasons": [{"claim_id": 4}]
+        }
+      ]
+    }
+  ],
+}
+
+E possiamo introdurre anche le obiezioni ad un ragionamento con il campo "reasons_objections", che è una lista dei teoremi, ciascuno dei quali afferma che anche se le ragioni fossero vere non implicano che il claim sia vero, ad esempio
+
+{
+  "claim_id": 2,
+  "reasons": [{"claim_id": 1}],
+  "reasons_objections": [{"claim_id": 5}]
+}
+
+
+Se come struttura ti piace e ti sembra sensata, puoi direttamente incominciare ad usarla, però con i campi claim e non claim_id, e specificando sempre il connector

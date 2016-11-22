@@ -4,3 +4,21 @@ pagine referendum e referendum/:tema
 scss
 form per suggerire modifiche o aggiunte
 fix mailchimp
+obiezioni: logica, programmazione, interfaccia
+  { claim_id: 1,
+    connector: e,
+    reasons: [
+      { claim_id: 2 },
+      { claim_id: 3,
+        connector: o,
+        reasons: [ {claim_id: 4} ]
+      }
+    ],
+    claim_objections: [
+      {claim_id: 5}
+    ],
+    reasons_objections: [
+      {claim_id: 6}
+    ]
+  }
+scorporare claim in claim_id e creare claims.json
