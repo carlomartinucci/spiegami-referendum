@@ -52,7 +52,7 @@ inoltre sempre da quel menù non è stato aggiornato il titolo in "conflitti di 
 
 
 
--- MODALITA' NO CON NUOVE AGGIUNTE --
+-- MODALITA' NO CON NUOVE AGGIUNTE E PDF --
 
 {
   "modalità_di_elezione_NO": {
@@ -80,7 +80,10 @@ inoltre sempre da quel menù non è stato aggiornato il titolo in "conflitti di 
             "connector": "o",
             "reasons": [
               {
-                "claim": "La gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale"
+                "claim": "la gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale"
+              },
+              {
+                "claim": "la Ragioneria generale dello Stato non ha mai redatto una relazione tecnica per quantificare la riduzione dei costi. Il ministro Boschi ha indicato risparmi annui per 490 milioni di euro, la Presidenza del Consiglio ha detto invece che sono 49 milioni di euro! E’ il caos più completo"
               }
             ]
           },
@@ -161,6 +164,7 @@ inoltre sempre da quel menù non è stato aggiornato il titolo in "conflitti di 
     ]
   }
 }
+
 
 
 -- RUOLO E FUNZIONI NO NEW CON PDF -- 
