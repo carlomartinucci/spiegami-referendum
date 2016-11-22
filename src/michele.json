@@ -3,7 +3,7 @@
 -> c'è un problema in stato-regioni. Se io provo ad arrivarci dal menù iniziale della hompage, la pagina è bianca, 
 inoltre sempre da quel menù non è stato aggiornato il titolo in "conflitti di competenza"
 
-
+MODALITA' SI CON NUOVE AGGIUNTE
 {
   "modalità_di_elezione_SI": {
     "claim": "SI, è giusto modificare la modalità di elezione dei senatori",
@@ -49,6 +49,10 @@ inoltre sempre da quel menù non è stato aggiornato il titolo in "conflitti di 
   }
 }
 
+
+
+
+MODALITA' NO CON NUOVE AGGIUNTE
 
 {
   "modalità_di_elezione_NO": {
@@ -157,3 +161,5 @@ inoltre sempre da quel menù non è stato aggiornato il titolo in "conflitti di 
     ]
   }
 }
+
+
