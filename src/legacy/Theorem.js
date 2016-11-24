@@ -39,7 +39,6 @@ export function theoremToMaterialOld(theorem) {
 		theorem.claim
 	) {
 		const listItems = theorem.reasons.map(theoremToMaterial)
-		console.log(listItems)
 		return (
 			<Paper>
 				<List>
@@ -111,7 +110,6 @@ export function theoremToMaterial(theorem) {
 		theorem.claim
 	) {
 		const listItems = theorem.reasons.map(theoremToMaterial)
-		console.log(listItems)
 		return (
 					<ListItem
 						key={theorem.uniqueKey}

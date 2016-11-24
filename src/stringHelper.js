@@ -15,9 +15,9 @@ export function getTitle(tema, argomento) {
 // quando la chiami ti genera "idN" e incrementa
 // wow...
 // https://groups.google.com/forum/#!msg/reactjs/N-gDqH2LEcQ/bjBBTKSAZaYJ
-var genUnique = (function() {
-  var count = 0;
-  return function() {
-    return 'id' + count++;
-  }
-})();
+// var genUnique = (function() {
+//   var count = 0;
+//   return function() {
+//     return 'id' + count++;
+//   }
+// })();

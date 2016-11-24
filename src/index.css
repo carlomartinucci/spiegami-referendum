@@ -1,14 +1,18 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
+}
+
+.spiegami {
+  font-family: 'Permanent Marker', cursive !important;
 }
 
 .logo {
   width: 24px;
   height: 24px;
-  background-image: url("./logo_bianco.png");
   background-size: 24px 24px;
 }
+
 
 h1 {
   font-weight: 300;
@@ -57,7 +61,7 @@ h4 {
 .container {
   margin: 1em;
   padding: 0;
-  min-height: 70vh;
+  min-height: calc(100vh - 444px);
   max-width: 1200px;
 }
 
@@ -125,7 +129,7 @@ a.active {
 
 @media(min-width: 1232px) {
   .container {
-    margin: 2em auto;
+    margin: 1em auto;
   }
 }
 

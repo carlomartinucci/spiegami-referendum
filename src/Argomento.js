@@ -8,6 +8,9 @@ export default class Argomento extends Component {
       referendum: props.route.referendum
     }
   }
+  // <List>
+  // <Objection claim="claim" objection="obiezione" />
+  // </List>
   render() {
     const tema = this.props.params.tema
     const argomento = this.props.params.argomento
@@ -24,7 +27,7 @@ export default class Argomento extends Component {
       }
     }
     return (
-    	<div className="container">
+      <div className="container">
         <div className="full_column">
           {display_title("")}
           {display_theorem("")}

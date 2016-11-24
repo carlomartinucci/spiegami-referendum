@@ -21,6 +21,16 @@
 			"ruolo_e_funzioni_SI": {
 				"claim": "SI, è giusto modificare ruolo e funzioni del Senato",
 				"connector": "o",
+				"objections": [
+					{"type": "to_claim",
+						"objected_claim": "SI, è giusto modificare ruolo e funzioni del Senato",
+						"theorem": { "claim": "NO, non è giusto modificare ruolo e funzioni del Senato" }
+					},
+					{"type": "to_reason / logical",
+						"objected_claim": "perché se viene eletto diversamente dalla Camera è giusto che abbia funzioni diverse",
+						"theorem": { "claim": "non è un buon motivo per eleggerlo diversamente, è solo un motivo per dargli diverse funzioni nel caso in cui venga eletto diversamente"}
+					}
+				],
 				"reasons": [
 					{"claim": "per ragioni storiche",
 						"connector": "o",
@@ -178,7 +188,9 @@
 	            {"claim": "vi è la necessità di assicurare che il rapporto numerico tra deputati e senatori risulti coerente con la specifica posizione che nell'ordinamento costituzionale sarà assunto dal Senato in quanto luogo di rappresentanza delle istituzioni territoriali"}
 	          ]
 	        },
-	        {"claim": "perché riduce i costi, come parte di uno sforzo complessivo"}
+	        {"claim": "perché riduce i costi, come parte di uno sforzo complessivo",
+	        	"claim_objections": [{"claim": "La riduzione dei costi è risibile"}]
+	      	}
 	      		]
 	      	},
 	        {"claim": "perché è giusto che il Presidente continui a nominare alcuni senatori" ,
@@ -373,7 +385,7 @@
 						]
 					},
 					{"claim": "per l'infuenza del senato" ,
-						"conector": "e",
+						"connector": "e",
 						"reasons" : [{"claim": "data la composizione non elettiva del Senato, non si capisce con quale legittimazione sostanziale possa esso partecipare paritariamente su materie di grande rilievo, come ad esempio le riforme costituzionali"}]
 					}
 				]

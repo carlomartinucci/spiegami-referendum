@@ -16,10 +16,9 @@ export default class Home extends Component {
   }
   render() {
     const argomenti = argumentsFromTopic(this.state.referendum)
-    console.log(argomenti)
     function getTemi(argomenti) {
       return Object.keys(argomenti).map(
-        (tema) => <div key={tema + "-wrapper"} className="button-tema-wrapper"><RaisedButton primary label={humanize(tema)} containerElement={<Link to={`referendum/${tema}`} />} /></div>
+        (tema) => <div key={tema + "-wrapper"} className="button-tema-wrapper"><RaisedButton primary label={humanize(tema)} containerElement={<Link to={`referendum/${tema}/${argomenti[tema][0]}`} />} /></div>
       )
     }
     function getSingoliArgomentiDiUnTema(tema) {
@@ -57,7 +56,7 @@ export default class Home extends Component {
           color: lightBaseTheme.palette.alternateTextColor
         }}>
         <div className="hero text-center">
-          <h1 id="Spiegami">Spiegami</h1>
+          <h1 id="Spiegami" className="spiegami">Spiegami</h1>
           <h3>il Referendum Costituzionale <br/> del 4 dicembre 2016</h3>
           <RaisedButton
             secondary
@@ -66,7 +65,7 @@ export default class Home extends Component {
             overlayStyle={{minWidth: "50vw", height: "calc(24px + 3vw)", lineHeight: "calc(24px + 3vw)"}}
             labelStyle={{fontSize: "calc(12px + 2vw)"}}
             label="Va bene, spiegami tutto"
-            containerElement={<Link to="/referendum" />}
+            containerElement={<Link to={`/referendum/${Object.keys(argomenti)[0]}/${argomenti[Object.keys(argomenti)[0]][0]}`} />}
           />
         </div>
         {homeWrapper("Oppure, vai a uno dei temi", getTemi(argomenti))}

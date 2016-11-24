@@ -28,6 +28,87 @@ export default class Theorem {
 
 
 export function theoremToMaterial(theorem) {
+	// versione 2
+	if (
+		theorem.reasons.length === 0 &&
+		theorem.claim
+	) {
+		return (
+			<ListItem
+				key={theorem.claim}
+				primaryText={theorem.claim}
+			/>
+		)
+	} else if (
+		theorem.reasons.length === 1 &&
+		theorem.connector !== "in_che_modo" &&
+		theorem.claim
+	) {
+		const listItems = theorem.reasons.map(theoremToMaterial)
+		return (
+			<ListItem
+				key={theorem.claim}
+				primaryText={theorem.claim}
+				secondaryText={theorem.human_count_or}
+				primaryTogglesNestedList={true}
+				nestedItems={listItems}
+				innerDivStyle={{paddingRight: 48}}
+			/>
+		)
+	} else if (
+		theorem.connector === "o" &&
+		theorem.claim
+	) {
+		const listItems = theorem.reasons.map(theoremToMaterial)
+		return (
+			<ListItem
+				key={theorem.claim}
+				primaryText={theorem.claim}
+				secondaryText={theorem.human_count_or}
+				primaryTogglesNestedList={true}
+				nestedItems={listItems}
+				innerDivStyle={{paddingRight: 48}}
+			/>
+		)
+	} else if (
+		theorem.connector === "e" &&
+		theorem.claim
+	) {
+		const listItems = theorem.reasons.map(theoremToMaterial)
+		const paperItems = listItems.map((item, index) => <Paper key={index}><List>{item}</List></Paper>)
+		return (
+			<ListItem
+				key={theorem.claim}
+				primaryText={theorem.claim}
+				secondaryText={theorem.human_count_and}
+				primaryTogglesNestedList={true}
+				nestedItems={[<ListItem key={1}>{paperItems}</ListItem>]}
+				innerDivStyle={{paddingRight: 48}}
+			/>
+		)
+	} else if (
+		theorem.connector === "in_che_modo" &&
+		theorem.claim
+	) {
+		const listItems = theorem.reasons.map(theoremToMaterial)
+		return (
+			<ListItem
+				key={theorem.claim}
+				primaryText={theorem.claim}
+				secondaryText={theorem.human_count_how}
+				primaryTogglesNestedList={true}
+				nestedItems={listItems}
+				innerDivStyle={{paddingRight: 48}}
+			/>
+		)
+	} else {
+		console.error("missing claim somewhere")
+		return null
+	}
+}
+
+
+export function theoremToMaterial_v1(theorem) {
 	if (theorem.reasons.length === 0) {
 		return (
 			<ListItem

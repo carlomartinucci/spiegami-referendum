@@ -22,3 +22,8 @@ obiezioni: logica, programmazione, interfaccia
     ]
   }
 scorporare claim in claim_id e creare claims.json
+
+
+da desktop, menu sempre aperto a sinistra?
+obiezioni, segno visibile, tooltip di preview, quando clicchi volta la carta, sfondino rossino
+aggiungi animazioni (https://facebook.github.io/react/docs/animation.html), fondamentali per le obiezioni e importanti per dare gerarchia al resto

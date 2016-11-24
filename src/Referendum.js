@@ -8,6 +8,7 @@ import NavLink from './NavLink'
 import Divider from 'material-ui/Divider';
 import { argumentsFromTopic } from "./Theorem.js"
 import { humanize } from './stringHelper.js'
+import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 
 
 export default class Referendum extends Component {
@@ -22,10 +23,10 @@ export default class Referendum extends Component {
     function getArgomenti(tema) {
       return argomenti[tema].map((argomento) => (
           <MenuItem
+            style={{ lineHeight: "36px", minHeight: "36px"}}
             containerElement={<NavLink to={`/referendum/${tema}/${argomento}`} />}
             key={`${tema}/${argomento}`}
             primaryText={humanize(argomento)}
-            insetChildren
           />
         )
       )
@@ -33,33 +34,31 @@ export default class Referendum extends Component {
     function getTema(tema) {
       return (
         [<MenuItem
+          style={{color: "#fff", fontSize: "24px", backgroundColor: lightBaseTheme.palette.primary1Color }}
           containerElement={<NavLink to={`/referendum/${tema}`} />}
           key={tema}
           primaryText={humanize(tema)}
           open
         />,
-        getArgomenti(tema),
-        <Divider/>]
+        getArgomenti(tema)]
       )
     }
     const temi = Object.keys(argomenti).map(getTema)
     // const temi = Object.keys(argomenti).map(argomenti_list)
     const paperStyle = {
       display: 'inline-block',
-      margin: '16px -50% 16px 50%',
-      transform: 'translateX(-50%)'
     };
     return (
       <div className="container">
-        <h3 className="text-center">Si discute su</h3>
+        <h2 className="text-center">Si discute su</h2>
+        
         <Paper style={paperStyle}>
-
         <Menu>
           {temi}
         </Menu>
-
         </Paper>
 
+        
 
       </div>
     )
