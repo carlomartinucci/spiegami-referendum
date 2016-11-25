@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import { jsonToMaterial } from './Theorem.js'
+import {humanize} from './stringHelper.js'
+import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
+
 
 export default class Argomento extends Component {
   constructor(props) {
@@ -21,13 +24,16 @@ export default class Argomento extends Component {
     }
     const display_title   = (quale) => {
       if (this.state.referendum[tema][argomento + quale]) {
-        if (quale==="") {return <h4>Spiegami che cosa cambia con la Riforma</h4> }
-        else if (quale === "_SI") {return <h4>Spiegami perché SI</h4>}
-        else if (quale === "_NO") {return <h4>Spiegami perché NO</h4>}
+        if (quale==="") {return <h4 style={{color: lightBaseTheme.palette.accent3Color}}>Spiegami che cosa cambia con la Riforma</h4> }
+        else if (quale === "_SI") {return <h4 style={{fontWeight: "400"}}>Spiegami perché SI</h4>}
+        else if (quale === "_NO") {return <h4 style={{fontWeight: "400"}}>Spiegami perché NO</h4>}
       }
     }
     return (
       <div className="container">
+        <div className="full_column">
+        <h2 className="spiegami" style={{color: lightBaseTheme.palette.primary1Color}}>{humanize(argomento)}</h2>
+        </div>
         <div className="full_column">
           {display_title("")}
           {display_theorem("")}

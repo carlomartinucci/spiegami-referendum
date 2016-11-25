@@ -6,6 +6,7 @@ import { Link } from 'react-router'
 import { humanize } from './stringHelper.js'
 
 import { argumentsFromTopic } from "./Theorem.js"
+import FacebookShare from "./FacebookShare.js"
 
 export default class Home extends Component {
   constructor(props) {
@@ -68,6 +69,7 @@ export default class Home extends Component {
             containerElement={<Link to={`/referendum/${Object.keys(argomenti)[0]}/${argomenti[Object.keys(argomenti)[0]][0]}`} />}
           />
         </div>
+        <div className="text-center fb-share"><FacebookShare/></div>
         {homeWrapper("Oppure, vai a uno dei temi", getTemi(argomenti))}
         {homeWrapper("Oppure, vai direttamente a un argomento", getArgomenti)}
     	</div>

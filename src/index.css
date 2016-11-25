@@ -18,28 +18,28 @@ h1 {
   font-weight: 300;
   font-size: 112px;
   line-height: 112px;
-  margin: 0.5em;
+  margin: 0.5em 0;
 }
 
 h2 {
   font-weight: 400;
   font-size: 56px;
   line-height: 56px;
-  margin: 0.5em;
+  margin: 0.5em 0;
 }
 
 h3 {
   font-weight: 400;
   font-size: 45px;
   line-height: 48px;
-  margin: 0.5em;
+  margin: 0.5em 0;
 }
 
 h4 {
   font-weight: 300;
   font-size: 24px;
   line-height: 24px;
-  margin: 0.5em;
+  margin: 0.5em 0;
 }
 
 .flat-argomenti {
@@ -90,6 +90,12 @@ h4 {
 a.active {
   background-color: rgba(0,0,0,0.2) !important;
 }
+a.active.white-active {
+  background-color: #fff !important;
+}
+a.active.grey230-active {
+  background-color: rgb(230, 230, 230) !important;
+}
 
 #Spiegami {
   font-size: 15vw;
@@ -139,3 +145,9 @@ a.active {
 
 
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+.fb-xfbml-parse-ignore {
+  display: none;
+}
+.fb-share {
+  min-height: 28px;
+}

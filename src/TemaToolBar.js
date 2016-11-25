@@ -49,18 +49,15 @@ export default class TemaToolBar extends Component {
     window.removeEventListener("resize", this.updateDimensions);
   }
   render() {
-
-
-
     let wrapper_temi
     if (this.state.width > 480) {
       const temi = this.props.temi.map((tema) => (
           <NavHoverLink
-          key={genUnique()}
-            hoverStyle={{...linkStyle, backgroundColor: 'rgba(0,0,0,0.2)', color: 'rgba(255,255,255,0.9)'}}
+            key={genUnique()}
+            hoverStyle={{...linkStyle, backgroundColor: 'rgb(230, 230, 230)', color: '#000'}}
             notHoverStyle={{...linkStyle, backgroundColor: lightBaseTheme.palette.primary2Color}}
             to={`/referendum/${tema}/${this.props.argomenti[tema][0]}`}
-            className={this.props.tema === tema ? 'active' : ''}>
+            className={this.props.tema === tema ? 'active grey230-active' : ''}>
             <ToolbarTitle style={titleStyle} text={humanize(tema)} />
           </NavHoverLink>
         )

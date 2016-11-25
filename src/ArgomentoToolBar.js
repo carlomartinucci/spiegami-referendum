@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Toolbar, ToolbarGroup, ToolbarTitle} from 'material-ui/Toolbar';
 import IconButton from 'material-ui/IconButton';
-import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
+//import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import NavigationExpandMoreIcon from 'material-ui/svg-icons/navigation/expand-more';
 import IconMenu from 'material-ui/IconMenu';
 import MenuItem from 'material-ui/MenuItem';
@@ -54,8 +54,9 @@ export default class ArgomentoToolBar extends Component {
       const argomenti = this.props.argomenti[this.props.tema].map((argomento) => (
             <NavHoverLink
               key={genUnique()}
-              hoverStyle={{...linkStyle, backgroundColor: 'rgba(0,0,0,0.2)', color: 'rgba(255,255,255,0.9)'}}
-              notHoverStyle={{...linkStyle, backgroundColor: lightBaseTheme.palette.accent2Color}}
+              className="white-active"
+              hoverStyle={{...linkStyle, backgroundColor: '#fff'}}
+              notHoverStyle={{...linkStyle, backgroundColor: 'rgb(230, 230, 230)'}}
               to={`/referendum/${this.props.tema}/${argomento}`}>
               <ToolbarTitle style={titleStyle} text={humanize(argomento)} />
             </NavHoverLink>
@@ -90,7 +91,7 @@ export default class ArgomentoToolBar extends Component {
         ])
     }
     return (
-      <Toolbar style={{backgroundColor: lightBaseTheme.palette.accent2Color}}>
+      <Toolbar style={{backgroundColor: 'rgb(230, 230, 230)'}}>
         {wrapper_argomenti}
       </Toolbar>
     )
