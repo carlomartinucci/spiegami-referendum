@@ -61,7 +61,7 @@ h4 {
 .container {
   margin: 1em;
   padding: 0;
-  min-height: calc(100vh - 444px);
+  min-height: calc(100vh - 498px);
   max-width: 1200px;
 }
 

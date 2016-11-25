@@ -47,7 +47,8 @@ export default class Argomento extends Component {
           {display_title("_NO")}
     	    {display_theorem("_NO")}
     	  </div>
-    	</div>
+      </div>
+
     )
   }
 }
