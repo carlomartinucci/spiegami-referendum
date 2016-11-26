@@ -9,7 +9,7 @@ import { Link, hashHistory } from 'react-router'
 
 const MainAppBar = (props) => (
   <AppBar
-    className="spiegami"
+    className="spiegami-font"
     onTitleTouchTap={null}
     title="Spiegami"
     iconElementRight={<IconButton><MenuIcon/></IconButton>}
@@ -17,7 +17,7 @@ const MainAppBar = (props) => (
     //iconElementLeft={<IconButton containerElement={<Link to="/"></Link>}><Logo/></IconButton>}
     iconElementLeft={<IconButton
       style={{marginTop: '-6px'}}
-      containerElement={<Link className="spiegami text-center" to="/"/>}>
+      containerElement={<Link className="spiegami-font text-center" to="/"/>}>
       <FontIcon>S</FontIcon>
     </IconButton>}
     //iconElementLeft={<FlatButton label="Spiegami" containerElement={<Link to="/"/>}/>}

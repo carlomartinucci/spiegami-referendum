@@ -19,7 +19,18 @@ export default class Argomento extends Component {
     const argomento = this.props.params.argomento
     const display_theorem = (quale) => {
       if (this.state.referendum[tema][argomento + quale]) {
-        return jsonToMaterial(this.state.referendum[tema][argomento + quale])
+        let color;
+        switch(quale) {
+          case "_SI":
+            color = "#F1F8E9"
+            break;
+          case "_NO":
+            color = "#E1F5FE"
+            break
+          default:
+            color = "#fff"
+        }
+        return jsonToMaterial(this.state.referendum[tema][argomento + quale], color)
       }
     }
     const display_title   = (quale) => {

@@ -28,7 +28,7 @@ export default class Home extends Component {
       )
       return (
         <div key={tema + "-div"} className="flat-argomenti">
-          <span>{tema.toUpperCase()}:</span>
+          <span>{humanize(tema).toUpperCase()}:</span>
           &nbsp;
           {argg}
         </div>
@@ -42,13 +42,14 @@ export default class Home extends Component {
       return (
         <div className="text-center"
           style={{
-            marginTop: "5em"
+            marginTop: "3em"
           }}>
           <div>{description}</div>
           {element}
         </div>
       )
     }
+
     return (
       <div
         className="home-container"
@@ -61,10 +62,10 @@ export default class Home extends Component {
           <h3>il Referendum Costituzionale <br/> del 4 dicembre 2016</h3>
           <RaisedButton
             secondary
-            style={{minWidth: "50vw", height: "calc(24px + 3vw)", marginTop: "5em", marginBottom: "5em"}}
-            buttonStyle={{minWidth: "50vw", height: "calc(24px + 3vw)"}}
-            overlayStyle={{minWidth: "50vw", height: "calc(24px + 3vw)", lineHeight: "calc(24px + 3vw)"}}
-            labelStyle={{fontSize: "calc(12px + 2vw)"}}
+            style={{height: "calc(24px + 3vw)", marginTop: "3em", marginBottom: "3em"}}
+            buttonStyle={{height: "calc((12px + 1vw)*2.7)"}}
+            overlayStyle={{height: "calc((12px + 1vw)*2.7)", lineHeight: "calc((12px + 1vw)*2.7)"}}
+            labelStyle={{fontSize: "calc(12px + 1vw)", padding: "0 calc((12px + 1vw)*1.2)"}}
             label="Va bene, spiegami tutto"
             containerElement={<Link to={`/referendum/${Object.keys(argomenti)[0]}/${argomenti[Object.keys(argomenti)[0]][0]}`} />}
           />

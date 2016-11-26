@@ -21,6 +21,20 @@ export default class LateralMenu extends React.Component {
             iconElementLeft={<span/>}
             onTouchTap={this.props.onTouchTap}
           />
+          <MenuItem
+            onTouchTap={this.handleClose}
+            containerElement={<NavLink to="/" onlyActiveOnIndex />}
+            key="home"
+            primaryText="Home"
+          />
+          <Divider />
+          <MenuItem
+            onTouchTap={this.handleClose}
+            containerElement={<NavLink to="/about" />}
+            key="about"
+            primaryText="Che cos'è"
+          />
+          <Divider />
           <ListItem
             key="senato"
             primaryText="Senato"

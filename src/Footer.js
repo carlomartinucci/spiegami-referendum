@@ -10,10 +10,15 @@ export default class Footer extends Component {
       <div>
 
       <div className="footer">
-        <p>Spiegami&trade; 2016</p>
-        <p>Pensato con amore da <a href='https://carlomartinucci.github.io' target="_blank">Carlo Martinucci</a></p>
-        <p>con il <Link to="/about">contributo</Link> e l'aiuto di tanti amici.</p>
-        <p>Materiale sul referendum tratto da <a href="http://www.referendumcostituzionale2016.it/" target="_blank">referendumcostituzionale2016.it</a></p>
+        <p><span className="spiegami">Spiegami</span>&trade; 2016</p>
+        <p>
+          Pensato con amore da <a href='https://carlomartinucci.github.io' target="_blank">Carlo Martinucci</a><br/>
+          con il <Link to="/about">contributo</Link> e l'aiuto di tanti amici.
+        </p>
+        <p>
+          Materiale sul referendum tratto da<br/>
+          <a href="http://www.referendumcostituzionale2016.it/" target="_blank">referendumcostituzionale2016.it</a>
+        </p>
       </div>
       </div>
     );

@@ -26,8 +26,176 @@ export default class Theorem {
 	}
 }
 
+function color_from_level(level, basecolor) {
+	if (basecolor === "#E1F5FE") {
+		switch(level) {
+	    case 0:
+	      return "#E1F5FE"
+	      break;
+	    case 1:
+	      return "#B3E5FC"
+	      break;
+	    case 2:
+	      return "#81D4FA"
+	      break;
+	    case 3:
+	      return "#4FC3F7"
+	      break;
+	    case 4:
+	      return "#29B6F6"
+	      break;
+	    case 5:
+	      return "#03A9F4"
+	      break;
+	    case 6:
+	      return "#039BE5"
+	      break;
+	    case 7:
+	      return "#0288D1"
+	      break;
+	    case 8:
+	      return "#0277BD"
+	      break;
+	    case 9:
+	      return "#01579B"
+	      break;
+	    default:
+	      return "#E1F5FE"
+		}
+	} else if (basecolor === "#F1F8E9") {
+		switch(level) {
+	    case 0:
+	      return "#F1F8E9"
+	      break;
+	    case 1:
+	      return "#DCEDC8"
+	      break;
+	    case 2:
+	      return "#C5E1A5"
+	      break;
+	    case 3:
+	      return "#AED581"
+	      break;
+	    case 4:
+	      return "#9CCC65"
+	      break;
+	    case 5:
+	      return "#8BC34A"
+	      break;
+	    case 6:
+	      return "#7CB342"
+	      break;
+	    case 7:
+	      return "#689F38"
+	      break;
+	    case 8:
+	      return "#558B2F"
+	      break;
+	    case 9:
+	      return "#33691E"
+	      break;
+	    default:
+	      return "#E1F5FE"
+		}
+	} else {
+		return "#fff"
+	}
+}
+// style={{padding: 0}}
+export function theoremToMaterial(theorem, level=0, basecolor="") {
+	const bgcolor = color_from_level(level, basecolor)
+	// versione 3
+	if (
+		theorem.reasons.length === 0 &&
+		theorem.claim
+	) {
+		return (
+			<ListItem
+				style={{backgroundColor: bgcolor, fontSize: '21px', lineHeight: '1.2'}}
+				key={theorem.claim}
+				primaryText={theorem.claim}
+				innerDivStyle={{paddingRight: 48, marginLeft: 0}}
+			/>
+		)
+	} else if (
+		theorem.reasons.length === 1 &&
+		theorem.connector !== "in_che_modo" &&
+		theorem.claim
+	) {
+		const listItems = theorem.reasons.map((t) => theoremToMaterial(t, level+1, basecolor))
+		return (
+			<ListItem
+				key={theorem.claim}
+				style={{backgroundColor: bgcolor, fontSize: '21px', lineHeight: '1.2'}}
+				primaryText={theorem.claim}
+				secondaryText={theorem.human_count_or}
+				primaryTogglesNestedList={true}
+				nestedItems={listItems}
+				nestedListStyle={{paddingTop: "0px", paddingBottom: "0px"}}
+				innerDivStyle={{paddingRight: 48, marginLeft: 0}}
+			/>
+		)
+	} else if (
+		theorem.connector === "o" &&
+		theorem.claim
+	) {
+		const listItems = theorem.reasons.map((t) => theoremToMaterial(t, level+1, basecolor))
+		return (
+			<ListItem
+				key={theorem.claim}
+				style={{backgroundColor: bgcolor, fontSize: '21px', lineHeight: '1.2'}}
+				primaryText={theorem.claim}
+				secondaryText={theorem.human_count_or}
+				primaryTogglesNestedList={true}
+				nestedItems={listItems}
+				nestedListStyle={{paddingTop: "0px", paddingBottom: "0px"}}
+				innerDivStyle={{paddingRight: 48, marginLeft: 0}}
+			/>
+		)
+	} else if (
+		theorem.connector === "e" &&
+		theorem.claim
+	) {
+		const listItems = theorem.reasons.map((t) => theoremToMaterial(t, level+1, basecolor))
+		const paperItems = listItems.map((item, index) => <Paper key={index}><List>{item}</List></Paper>)
+		return (
+			<ListItem
+				key={theorem.claim}
+				style={{backgroundColor: bgcolor, fontSize: '21px', lineHeight: '1.2'}}
+				primaryText={theorem.claim}
+				secondaryText={theorem.human_count_and}
+				primaryTogglesNestedList={true}
+				nestedItems={listItems}
+				nestedListStyle={{paddingTop: "0px", paddingBottom: "0px"}}
+//				nestedItems={[<ListItem key={1}>{paperItems}</ListItem>]}
+				innerDivStyle={{paddingRight: 48, marginLeft: 0}}
+			/>
+		)
+	} else if (
+		theorem.connector === "in_che_modo" &&
+		theorem.claim
+	) {
+		const listItems = theorem.reasons.map((t) => theoremToMaterial(t, level+1, basecolor))
+		return (
+			<ListItem
+				key={theorem.claim}
+				style={{backgroundColor: bgcolor, fontSize: '21px', lineHeight: '1.2'}}
+				primaryText={theorem.claim}
+				secondaryText={theorem.human_count_how}
+				primaryTogglesNestedList={true}
+				nestedItems={listItems}
+				nestedListStyle={{paddingTop: "0px", paddingBottom: "0px"}}
+				innerDivStyle={{paddingRight: 48, marginLeft: 0}}
+			/>
+		)
+	} else {
+		console.error("missing claim somewhere")
+		return null
+	}
+}
 
-export function theoremToMaterial(theorem) {
+
+function theoremToMaterial_v2(theorem) {
 	// versione 2
 	if (
 		theorem.reasons.length === 0 &&
@@ -109,6 +277,7 @@ export function theoremToMaterial(theorem) {
 
 
 export function theoremToMaterial_v1(theorem) {
+	// versione 1
 	if (theorem.reasons.length === 0) {
 		return (
 			<ListItem
@@ -199,11 +368,11 @@ export function jsonToTheorem(json) {
 	return new Theorem(claim, connector, reasons)
 }
 
-export function jsonToMaterial(json) {
+export function jsonToMaterial(json, basecolor="#fff") {
 	return (
 		<Paper>
-			<List>
-				{theoremToMaterial(jsonToTheorem(json))}
+			<List style={{paddingTop: "0px", paddingBottom: "0px"}}>
+				{theoremToMaterial(jsonToTheorem(json), 0, basecolor)}
 			</List>
 		</Paper>
 	)
