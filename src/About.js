@@ -6,7 +6,7 @@ export default class About extends Component {
       <div className="about-container">
         <h1>Ti spiego <span className="spiegami">Spiegami</span></h1>
         <h4>Che cos'è <span className="spiegami">Spiegami</span> il Referendum</h4>
-        <p><span className="spiegami">Spiegami</span> il Referendum è una piattaforma di analisi delle motivazioni del sì e del no al referendum costituzionale del 4 dicembre 2016. E' composto di molti argomenti (il ruolo e le funzioni del Senato, i conflitti di competenza tra Stato e Regioni, ...) raggruppati per comodità in quattro temi (Senato, Rapporto Stato - Regioni, Altre questioni, Oltre il merito). Ogni argomento contiene un teorema per il SI' e un teorema per il NO.</p>
+        <p><span className="spiegami">Spiegami</span> il Referendum è una piattaforma di analisi delle motivazioni del sì e del no al referendum costituzionale del 4 dicembre 2016. È composto di molti argomenti (il ruolo e le funzioni del Senato, i conflitti di competenza tra Stato e Regioni, ...) raggruppati per comodità in quattro temi (Senato, Rapporto Stato - Regioni, Altre questioni, Oltre il merito). Ogni argomento contiene un teorema per il SI' e un teorema per il NO.</p>
 
         <h4>Il cuore di <span className="spiegami">Spiegami</span>: i teoremi</h4>
         <p>I teoremi sono il cuore di <span className="spiegami">Spiegami</span>. Ogni teorema è formato da una tesi e dalle sue ragioni, che sono ordinate in maniera gerarchica formando una struttura ad albero, dove ogni livello inferiore contiene le ragioni del nodo superiore. Questa struttura fa sì che siano sempre evidenti i passaggi del ragionamento.</p>
@@ -15,7 +15,7 @@ export default class About extends Component {
         <p>Un teorema è vero se le sue premesse lo sono e se i passaggi logici sono tutti corretti! <span className="spiegami">Spiegami</span> non vuole stabilire definitivamente la verità o la falsità delle affermazioni (siamo ambiziosi ma non folli!). <span className="spiegami">Spiegami</span> serve per spiegare dei ragionamenti.</p>
 
         <h4>Qual è il guadagno?</h4>
-        <p>La chiarezza: è molto più facile ragionare un pezzetto alla volta piuttosto che con un unico blocco di testo. E' più facile rispondere alla domanda "perché?" se i ragionamenti sono già disposti secondo la loro struttura logica.</p>
+        <p>La chiarezza: è molto più facile ragionare un pezzetto alla volta piuttosto che con un unico blocco di testo. È più facile rispondere alla domanda "perché?" se i ragionamenti sono già disposti secondo la loro struttura logica.</p>
 
         <h4>Ma non stiamo complicando inutilmente le cose?</h4>
         <p>Al contrario. Ogni ragionamento ben fatto è composto di premesse e conclusioni, e fornisce delle ragioni per le proprie affermazioni. <span className="spiegami">Spiegami</span> mira a rendere evidente questa struttura per rendere più semplice ragionare meglio. Certo, ragionare richiede uno sforzo. Ma ragionare con <span className="spiegami">Spiegami</span> è più efficace che ragionare senza.</p>
