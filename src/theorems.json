@@ -2,7 +2,7 @@
 	"referendum": {
 		"senato": {
 			"ruolo_e_funzioni" : {
-				"claim": "Il ruolo e le funzioni del Senato, come previsto dalla Riforma, rendono i senatori non più \"rappresentanti della nazione\" ma \"rappresentanti di comuni e regioni\".",
+				"claim": "Il ruolo e le funzioni del Senato, come previsto dalla Riforma, rendono i senatori non più \"rappresentanti della nazione\" ma \"rappresentanti di comuni e regioni\"",
 				"connector": "in_che_modo",
 				"reasons": [
 					{"claim": "Il nuovo Senato ha il compito di curare il raccordo tra Stato e Regioni/comuni/città metropolitane, e di partecipare al raccordo con l’Unione Europea",
@@ -99,14 +99,14 @@
 		        "claim": "perché ci allontana da tutti gli altri esempi nel mondo",
 		        "connector": "o",
 		        "reasons": [
-		          {"claim": "La Germania ha un ordinamento federale e ogni regione costituisce uno Stato sovrano. Sono i governi delle regioni a nominare direttamente i propri senatori (da 3 a 6 a seconda della popolazione), i quali sono sottoposti a vincolo di mandato e devono votare uniformemente alle decisioni prese dalla regione. Inoltre, il Bundesrat ha potere di veto su tutta la legislazione che riguarda le competenze regionali, con enormi capacità di interdizione"},
-		          {"claim": "In Francia si eleggono prima 150mila \"grandi elettori\" che, a loro volta, eleggono i senatori. Inoltre, a differenza del nuovo Senato italiano, i mandati parlamentari non si possono sovrapporre a incarichi di governo a livello regionale o locale"},
-		          {"claim": "Nel Regno Unito, la Camera dei Lord (non elettiva) non rappresenta le istituzioni territoriali. La sua funzione è piuttosto quella di apportare modifiche di carattere tecnico alle leggi e di garantire una maggiore ponderazione delle scelte legislative, soprattutto in presenza di contrasti sociali e dissensi particolarmente forti nella società"},
-		          {"claim": "Il Senato degli Usa, composto da un totale di 100 senatori, ha una funzione di contrappeso a garanzia della divisione dei poteri. Tutti gli elettori degli Stati membri della Federazione eleggono 2 senatori, in elezioni separate da quelle presidenziali che si svolgono ogni due anni. Il procedimento legislativo, negli Stati Uniti, è improntato ad una forma di bicameralismo paritario"}
+		          {"claim": "la Germania ha un ordinamento federale e ogni regione costituisce uno Stato sovrano. Sono i governi delle regioni a nominare direttamente i propri senatori (da 3 a 6 a seconda della popolazione), i quali sono sottoposti a vincolo di mandato e devono votare uniformemente alle decisioni prese dalla regione. Inoltre, il Bundesrat ha potere di veto su tutta la legislazione che riguarda le competenze regionali, con enormi capacità di interdizione"},
+		          {"claim": "in Francia si eleggono prima 150mila \"grandi elettori\" che, a loro volta, eleggono i senatori. Inoltre, a differenza del nuovo Senato italiano, i mandati parlamentari non si possono sovrapporre a incarichi di governo a livello regionale o locale"},
+		          {"claim": "nel Regno Unito, la Camera dei Lord (non elettiva) non rappresenta le istituzioni territoriali. La sua funzione è piuttosto quella di apportare modifiche di carattere tecnico alle leggi e di garantire una maggiore ponderazione delle scelte legislative, soprattutto in presenza di contrasti sociali e dissensi particolarmente forti nella società"},
+		          {"claim": "il Senato degli Usa, composto da un totale di 100 senatori, ha una funzione di contrappeso a garanzia della divisione dei poteri. Tutti gli elettori degli Stati membri della Federazione eleggono 2 senatori, in elezioni separate da quelle presidenziali che si svolgono ogni due anni. Il procedimento legislativo, negli Stati Uniti, è improntato ad una forma di bicameralismo paritario"}
 		        ]
 		      },
 		      {
-		      	"claim": "perché concentra nella sola Camera la fiducia al Governo, che è un accentramento controproducente",
+		      	"claim": "perché concentra nella sola Camera la fiducia al Governo, e ciò è controproducente",
 		        "connector": "e",
 		        "reasons": [
 		          {"claim": "con la nuova legge elettorale, un solo partito potrà formare il Governo e ottenere la fiducia alla Camera, anche se espressione di una esigua minoranza di votanti"},
@@ -137,9 +137,9 @@
 		        "reasons": [
 		          {"claim": "rappresenta gli enti territoriali ma ha anche altre funzioni non omogenee",
 		            "connector": "o",
-		            "reasons": [{"claim": "il nuovo Senato, pur diventando un organo di rappresentanza territoriale, continuerebbe ad esercitare funzioni tipiche di un organo dello Stato, quali l'esercizio della potestà di revisione costituzionale, le funzioni di raccordo tra Stato ed Unione Europea e tutte le altre funzioni previste dal quarto comma del nuovo art. 55."}]
+		            "reasons": [{"claim": "il nuovo Senato, pur diventando un organo di rappresentanza territoriale, continuerebbe ad esercitare funzioni tipiche di un organo dello Stato, quali l'esercizio della potestà di revisione costituzionale, le funzioni di raccordo tra Stato ed Unione Europea e tutte le altre funzioni previste dal quarto comma del nuovo art. 55"}]
 		          },
-		          {"claim": "obbliga i senatori a esercitare anche le funzioni di consigliere regionale o di sindaco; come faranno a svolgere entrambi gli incarachi? I senatori saranno di meno, ma il Senato non funzionerà."}
+		          {"claim": "obbliga i senatori a esercitare anche le funzioni di consigliere regionale o di sindaco; come faranno a svolgere entrambi gli incarachi? I senatori saranno di meno, ma il Senato non funzionerà"}
 		        ]
 		      }
 		    ]
@@ -165,7 +165,7 @@
 		        ]
 		        
 		      },
-		      {"claim": "si modifica il modo in cui vengono eletti",
+		      {"claim": "si modifica il modo in cui vengono eletti i senatori",
 		      "connector": "in_che_modo",
 		      "reasons": [
 		        {"claim": "i senatori sono eletti dai consigli regionali (a Bolzano e Trento, dai consigli provinciali) con metodo proporzionale, scegliendo tra consiglieri e sindaci. Avendo un minimo di 2 senatori da eleggere, ciascun consiglio eleggerà almeno un sindaco e almeno un consigliere. Le modalità dettagliate dell'elezione dovranno essere definite in una futura legge elettorale"}
@@ -195,10 +195,10 @@
 	      	},
 	        {"claim": "perché è giusto che il Presidente continui a nominare alcuni senatori" ,
 	          "connector": "o" ,
-	          "reasons": [{"claim": "si tratta di un elemento di tradizione, aggiornata, che finora ha dato contributi molto qualificati alla vita parlamentare."}]
+	          "reasons": [{"claim": "si tratta di un elemento di tradizione, aggiornata, che finora ha dato contributi molto qualificati alla vita parlamentare"}]
 	        },
 	      	{"claim": "perché il mandato di ciascun senatore è strettamente legato all'organo da cui viene eletto"},
-		      {"claim": "perché senatori sono eletti dai consigli regionali (a Bolzano e Trento, dai consigli provinciali) con metodo proporzionale, scegliendo tra consiglieri e sindaci. Avendo un minimo di 2 senatori da eleggere, ciascun consiglio eleggerà almeno un sindaco e almeno un consigliere"}
+		      {"claim": "perché i senatori sono eletti dai consigli regionali (a Bolzano e Trento, dai consigli provinciali) con metodo proporzionale, scegliendo tra consiglieri e sindaci. Avendo un minimo di 2 senatori da eleggere, ciascun consiglio eleggerà almeno un sindaco e almeno un consigliere"}
 	      ]
 	    }, 
 			"modalità_di_elezione_NO": {
@@ -209,7 +209,7 @@
 						"connector": "e",
 						"reasons": [
 							{"claim": "la riforma sottodimensiona irrazionalmente la composizione del Senato (100 senatori) rispetto alla composizione della Camera dei deputati (630 deputati)"},
-							{"claim": "rende praticamente irrilevante il voto dei senatori nelle riunioni del Parlamento in seduta comune."}
+							{"claim": "rende praticamente irrilevante il voto dei senatori nelle riunioni del Parlamento in seduta comune"}
 						]
 					},
 					{"claim": "perché la riduzione dei costi è risibile e non necessariamente buona",
@@ -219,7 +219,7 @@
 								"connector" : "o",
 								"reasons": [
 									{"claim": "La gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale"},
-									{"claim": "la Ragioneria generale dello Stato non ha mai redatto una relazione tecnica per quantificare la riduzione dei costi. Il ministro Boschi ha indicato risparmi annui per 490 milioni di euro, mentre la Presidenza del Consiglio ha detto che sono 49 milioni di euro."}
+									{"claim": "la Ragioneria generale dello Stato non ha mai redatto una relazione tecnica per quantificare la riduzione dei costi. Il ministro Boschi ha indicato risparmi annui per 490 milioni di euro, mentre la Presidenza del Consiglio ha detto che sono 49 milioni di euro"}
 								]
 							},
 							{"claim": "La politica costa e risparmiare non è assultamente sinonimo di rendere migliore"}
@@ -228,10 +228,10 @@
 					{"claim": "non ha senso che personalità che hanno illustrato la Patria per altissimi meriti vadano ad esercitare il loro magistero culturale nel senato" ,
 						"connector": "e" ,
 						"reasons": [
-							{"claim": "Secondo la Riforma il Senato rappresenta le istituzioni territoriali."},
-							{"claim": "Sarebbe più logico prevedere questo pubblico riconoscimento nell’ambito della Camera dei deputati",
+							{"claim": "secondo la Riforma il Senato rappresenta le istituzioni territoriali"},
+							{"claim": "sarebbe più logico prevedere questo pubblico riconoscimento nell’ambito della Camera dei deputati",
 								"connector": "o",
-								"reasons": [{"claim": "Secondo la Riforma, la Camera è l'unica a mantenere le funzioni di rappresentanza generale del popolo italiano."}]
+								"reasons": [{"claim": "secondo la Riforma, la Camera è l'unica a mantenere le funzioni di rappresentanza generale del popolo italiano"}]
 							}
 						]
 					},
@@ -274,7 +274,7 @@
 					          "claim": "\"la volontà dei cittadini espressa attraverso il voto [..] costituisce il principale strumento di manifestazione\", come affermato dalla Corte Costituzionale nella sentenza n. 1 del 2014"
 					        },
 					        {
-					          "claim": "come scrisse proprio nel 1948, Carlo Esposito, uno dei massimi costituzionalisti italiani dello scorso secolo: \"Il contenuto della democrazia non è che il popolo costituisca la fonte storica o ideale del potere, ma che abbia il potere; non già che esso abbia solo il potere costituente, ma che a lui spettino i poteri costituiti; e che non abbia la nuda sovranità (che praticamente non è niente) ma l’esercizio della sovranità (che praticamente è tutto)\""
+					          "claim": "come scrisse nel 1948 Carlo Esposito, uno dei massimi costituzionalisti italiani dello scorso secolo: \"Il contenuto della democrazia non è che il popolo costituisca la fonte storica o ideale del potere, ma che abbia il potere; non già che esso abbia solo il potere costituente, ma che a lui spettino i poteri costituiti; e che non abbia la nuda sovranità (che praticamente non è niente) ma l’esercizio della sovranità (che praticamente è tutto)\""
 					        }
 					      ]
 					    },
@@ -296,14 +296,14 @@
   		      "reasons": [
   		        {"claim": "su queste materie, il procedimento resta identico a quello odierno: una delle due Camere inizia l'esame della legge ed entrambe le Camere devono approvarla nello stesso medesimo testo"}]
   		    },
-  		    {"claim": "sono a prevalenza della Camera dei Deputati tutte le materie non esplicitate tra quelle bicamerali e varia leggermente a seconda del tipo di legge. In generale, vale il seguente principio: le leggi vengono esaminata prima dalla Camera; se la Camera approva, il Senato ha 10 giorni di tempo per chiedere l'esame della legge e, di conseguenza, ha 30 giorni per proporre delle modifiche (la richiesta di esame da parte del Senato deve pervenire da almeno 1/3 dei senatori). Se delle modifiche vengono effettivamente proposte, queste vengono prese in esame dalla Camera, la quale si pronuncia in via definitiva. Tale procedimento può subire modifiche",
+  		    {"claim": "sono a prevalenza della Camera dei Deputati tutte le materie non esplicitate tra quelle bicamerali e varia leggermente a seconda del tipo di legge. In generale, vale il seguente principio: le leggi vengono esaminate prima dalla Camera; se la Camera approva, il Senato ha 10 giorni di tempo per chiedere l'esame della legge e, di conseguenza, ha 30 giorni per proporre delle modifiche (la richiesta di esame da parte del Senato deve pervenire da almeno 1/3 dei senatori). Se delle modifiche vengono effettivamente proposte, queste vengono prese in esame dalla Camera, la quale si pronuncia in via definitiva. Tale procedimento può subire modifiche",
   		      "connector": "in_che_modo",
   		      "reasons": [
   		        {"claim": "nei casi di leggi di bilancio e di stabilità, la trasmissione della legge al Senato è automatica, ma il Senato ha 15 giorni (non 30) per decidere le eventuali modifiche"},
   		        {"claim": "nei casi di leggi approvate dalla Camera in ragione della \"clausola di supremazia\" introdotta da questa stessa riforma, la trasmissione delle legge al Senato è automatica; inoltre, qualora le modifiche proposte dal Senato vengano approvate a maggioranza assoluta, anche la Camera deve allora esprimersi a maggioranza assoluta"}
   		        ]
   		    },
-  		    {"claim": "la conversione di decreti-legge su materie bicamerali rimane a procedimento bicamerale (ossia quello descritto sopra in \"materie bicamerali\"). . Nel caso di materie a prevalenza Camera, il procedimento ricalca a grandi linee quello monocamerale (ossia quello descritto sopra in \"materie a prevalenza della Camera dei Deputati\"), ma con alcune sostanziali variazioni, principalmente dovute al fatto che un decreto-legge \"muore\" se non viene convertito entro 60 giorni",
+  		    {"claim": "la conversione di decreti-legge su materie bicamerali rimane a procedimento bicamerale (ossia quello descritto sopra in \"materie bicamerali\"). Nel caso di materie a prevalenza Camera, il procedimento ricalca a grandi linee quello monocamerale (ossia quello descritto sopra in \"materie a prevalenza della Camera dei Deputati\"), ma con alcune sostanziali variazioni, principalmente dovute al fatto che un decreto-legge \"muore\" se non viene convertito entro 60 giorni",
   		    "connector": "in_che_modo",
   		    "reasons":[
   		      {"claim": "da quando la Camera inizia l'esame del disegno di conversione, essa ha 40 giorni di tempo per trasmetterlo al Senato"},
@@ -315,14 +315,14 @@
   		    ]
   		},
 			"il_procedimento_legislativo_SI": {
-				"claim": "È giusto modificare il procedimento legislativo",
+				"claim": "SI, è giusto modificare il procedimento legislativo",
 				"connector": "o",
 				"reasons": [
 					{"claim": "perché rende il procedimento più funzionale, dimenuendo i tempi",
 						"connector": "o",
 						"reasons": [
 							{"claim": "il superamento del bicameralismo perfetto permette di accrescere la funzionalità delle istituzioni e di cessare di essere un'eccezione mondiale"},
-							{"claim": "le leggi non dovranno più pendolare tra Camera e Senato, nella speranza che alla fine si arrivi ad un testo condiviso sin nelle virgole."}
+							{"claim": "le leggi non dovranno più pendolare tra Camera e Senato, nella speranza che alla fine si arrivi ad un testo condiviso sin nelle virgole"}
 						]
 					},
 					{"claim": "perché non produce una maggiore complessità ma una migliore suddivisione delle tempistiche",
@@ -330,7 +330,7 @@
 						"reasons": [
 							{"claim": "le complicazioni del procedimento legislativo restano in linea con i procedimenti legislativi degli altri Stati con parlamento bicamerale" ,
 								"connector" : "o",
-								"reasons": [{"claim": "la riforma prevede, dopo l'approvazione da parte della Camera, una tempistica precisa per ogni tipologia di procedimento legislativo, con termini massimi che non potranno essere derogati."}]
+								"reasons": [{"claim": "la riforma prevede, dopo l'approvazione da parte della Camera, una tempistica precisa per ogni tipologia di procedimento legislativo, con termini massimi che non potranno essere derogati"}]
 							},
 							{"claim": "la pluralità dei procedimenti legislativi non è una novità dovuta alla riforma ma è già presente nell'ordinamento" ,
 								"connector" :"o",
@@ -338,21 +338,21 @@
 							},
 							{"claim": "la presunta scarsa chiarezza dei poteri del nuovo Senato non complica il procedimento di formazione delle leggi" ,
 								"connector": "o" ,
-								"reasons" : [{"claim": "a parte poche specifiche materie che restano bicamerali, il Senato può occuparsi di tutte le leggi, su Cui la Camera avrà l'ultima parola" }]
+								"reasons" : [{"claim": "a parte poche specifiche materie che restano bicamerali, il Senato può occuparsi di tutte le leggi, su cui la Camera avrà l'ultima parola" }]
 							}
 						]
 					},
 					{"claim": "perché eventuali colpi di mano della maggioranza possono essere impediti dal Senato" ,
 						"connector": "e" ,
 						"reasons" : [
-							{"claim": "Il Senato può richiamare tutte le leggi (ma lasciando comunque alla Camera l'ultima parola)."},
-							{"claim": "Il numero di senatori che può attivare l'iter del Senato è tale da garantire alle minoranze di poterlo fare"}
+							{"claim": "il Senato può richiamare tutte le leggi (ma lasciando comunque alla Camera l'ultima parola)"},
+							{"claim": "il numero di senatori che può attivare l'iter del Senato è tale da garantire alle minoranze di poterlo fare"}
 						]
 					}
 				]
 			}, 
 			"il_procedimento_legislativo_NO": {
-				"claim": "Non è giusto modificare il procedimento legislativo",
+				"claim": "NO, non è giusto modificare il procedimento legislativo",
 				"connector": "o",
 				"reasons": [
 					{"claim": "perché è reso più confuso, eliminando garanzie",
@@ -377,11 +377,11 @@
 					{"claim": "perché non è una semplificazione",
 						"connector": "o", 
 						"reasons": [
-							{"claim": "La riforma sostituisce gli articoli 70 e 72 (198 parole) con 870 parole che complicano l'iter di formazione delle leggi",
+							{"claim": "la riforma sostituisce gli articoli 70 e 72 (198 parole) con 870 parole che complicano l'iter di formazione delle leggi",
 								"connector": "o", 
-								"reasons": [{"claim": "Quadruplicare il numero di parole che regolamentano l'iter di formazione delle leggi non può rendere l'iter più semplice ma aumenta i punti di ambiguità."}]
+								"reasons": [{"claim": "quadruplicare il numero di parole che regolamentano l'iter di formazione delle leggi non può rendere l'iter più semplice ma aumenta i punti di ambiguità"}]
 							},
-							{"claim": "Sono una decina le diverse modalità per l'approvazione di una legge: i Presidenti di Camera e Senato dovranno risolvere i casi controversi (ossia scegliere l'iter di formazione) e diventa forte il rischio di aumentare il contenzioso davanti alla Corte Costituzionale, a causa di possibili vizi di legittimità costituzionale di natura procedimentale."}
+							{"claim": "sono una decina le diverse modalità per l'approvazione di una legge: i Presidenti di Camera e Senato dovranno risolvere i casi controversi (ossia scegliere l'iter di formazione) e diventa forte il rischio di aumentare il contenzioso davanti alla Corte Costituzionale, a causa di possibili vizi di legittimità costituzionale di natura procedimentale"}
 						]
 					},
 					{"claim": "per l'infuenza del senato" ,
@@ -395,61 +395,61 @@
   		  "connector": "in_che_modo",
   		  "reasons": [
   		    {"claim": "da un lato, l'appartenenza al Senato non dà più diritto ad un'indennità. Dall'altro, i senatori mantengono la libertà dal vincolo di mandato e le cosiddette immunità parlamentari (insindacabilità per opinioni espresse e voti dati, autorizzazione all’arresto, etc.)"},
-  		    {"claim": "entrambe le Camere dovranno inserire, nel proprio regolamento, le garanzie dei diritti delle minoranze. Per quanto riguarda la Camera, il regolamento dovrà aggiungere anche uno statuto delle opposizioni."}
+  		    {"claim": "entrambe le Camere dovranno inserire, nel proprio regolamento, le garanzie dei diritti delle minoranze. Per quanto riguarda la Camera, il regolamento dovrà aggiungere anche uno statuto delle opposizioni"}
   		  ]
   		},
 			"diritti_dei_senatori_e_statuto_delle_minoranze_SI": {
-			  "claim": "È giusto modififcare i diritti dei senatori e implementare lo statuto delle minoranze",
+			  "claim": "SI, è giusto modificare i diritti dei senatori e implementare lo statuto delle minoranze",
 			  "connector": "o",
 			  "reasons": [
-			    {"claim": "perché è un elemento per ridurre i costi, all'interno di uno sforzo complessivo",
+			    {"claim": "perché si tratta di un elemento che riduce i costi, all'interno di uno sforzo complessivo",
 			      "connector": "o",
 			      "reasons": [
 			        {
-			          "claim": "i futuri senatori non percepiranno alcun emolumento."
+			          "claim": "i futuri senatori non percepiranno alcun emolumento"
 			        }
 			      ]
 			    },
-			    {"claim": "perché i senatori così godranno solo delle immunità parlamentari, che proteggono i parlamentari in ragione della funzione che svolgono, non in ragione di un privilegio"},
+			    {"claim": "perché i senatori così godranno solo delle immunità parlamentari, che li proteggono in ragione della funzione che svolgono, non in ragione di un privilegio"},
 			    {"claim": "perché attualmente nella costituzione non esiste lo stauto delle minoranze",
 			      "connector": "o",
 			      "reasons": [
-			        {"claim": "La riforma prescrive che i regolamenti parlamentari dovranno dettare apposite disposizioni per garantire i diritti delle minoranze parlamentari."},
-			        {"claim": "La riforma prescrive che nel regolamento della Camera dovrà essere contenuta un'apposita disciplina relativa allo statuto delle opposizioni."}
+			        {"claim": "la riforma prescrive che i regolamenti parlamentari dovranno dettare apposite disposizioni per garantire i diritti delle minoranze parlamentari"},
+			        {"claim": "la riforma prescrive che nel regolamento della Camera dovrà essere contenuta un'apposita disciplina relativa allo statuto delle opposizioni"}
 			      ]
 			    }
 			  ]
 			}, 
 			"diritti_dei_senatori_e_statuto_delle_minoranze_NO": {
-	      "claim": "Non è giusto modififcare i diritti dei senatori e implementare lo statuto delle minoranze",
+	      "claim": "Non è giusto modificare i diritti dei senatori e implementare lo statuto delle minoranze",
 	      "connector": "o",
 	      "reasons": [
 	        {"claim": "perché il risparmio è minimo",
 	          "connector": "o",
-	          "reasons": [{"claim": "la gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale. Mentre anche il senatore non elettivo ha un costo per la trasferta e la permanenza a Roma, nonché per l'esercizio delle funzioni (segreteria, assistente parlamentare ecc.). Risparmi con certezza maggiori si avrebbero riducendo la Camera a 400 deputati, e il Senato a 200. Avremmo in totale 600 parlamentari, invece dei 730 che la riforma ci consegna"}]
+	          "reasons": [{"claim": "la gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale. Comunque anche il senatore non elettivo ha un costo per la trasferta e la permanenza a Roma, nonché per l'esercizio delle funzioni (segreteria, assistente parlamentare ecc.). Risparmi con certezza maggiori si avrebbero riducendo la Camera a 400 deputati, e il Senato a 200. Avremmo in totale 600 parlamentari, invece dei 730 che la riforma ci consegna"}]
 	        },
 	        {"claim": "perché non è giusto che i senatori abbiano l'immunità",
 	          "connector": "e",
 	          "reasons": [
-	            {"claim" : "C'è il rischio di trasformare il Senato in un refugium peccatorum",
+	            {"claim" : "c'è il rischio di trasformare il Senato in un refugium peccatorum",
 			          "connector": "o",
 		  	        "reasons": [
-		  	        	{"claim": "I futuri 100 senatori, ancorché senatori solo part time, godrebbero dell'immunità personale dagli arresti, dalle perquisizioni personali e domiciliari, e dai sequestri della corrispondenza."},
-		  	        	{"claim": "Il rischio è tale perché c'è un abnorme numero di consiglieri regionali attualmente indagati o addirittura rinviati a giudizio."}
+		  	        	{"claim": "i futuri 100 senatori, ancorché senatori solo part time, godrebbero dell'immunità personale dagli arresti, dalle perquisizioni personali e domiciliari, e dai sequestri della corrispondenza"},
+		  	        	{"claim": "il rischio è tale perché c'è un abnorme numero di consiglieri regionali attualmente indagati o addirittura rinviati a giudizio"}
 		  	        ]
 	            },
-	            {"claim": "un'inchiesta penale a loro carico può diventare molto difficile, o di fatto impossibile.",
+	            {"claim": "Le attività di indagine verrebbero scoraggiate, o quanto meno gravemente impedite, dalla difficoltà a distinguere le prerogative che riguardano funzioni di consigliere o sindaco da quelle di senatore",
 	            	"connector": "o",
-	            	"reasons": [{"claim": "Le attività di indagine verrebbero scoraggiate, o quanto meno gravemente impedite, dalla difficoltà a distinguere le prerogative che riguardano funzioni di consigliere o sindaco da quelle di senatore"}]
+	            	"reasons": [{"claim": "un'inchiesta penale a loro carico può diventare molto difficile, o di fatto impossibile"}]
 	            }
 	          ]
 	        },
 	        {"claim": "perché lo statuto delle opposizioni non sarebbe una forte garanzia",
 	          "connector": "o",
 	          "reasons": [
-	          	{"claim": "Grazie all'Italicum, sarà il partito di maggioranza a condizionare il destino dei diritti delle minoranze e delle opposizioni",
+	          	{"claim": "grazie all'Italicum, sarà il partito di maggioranza a condizionare il destino dei diritti delle minoranze e delle opposizioni",
 	          		"connector": "o",
-	          		"reasons": [{"claim": "I regolamenti parlamentari devono comunque essere approvati dalla maggioranza dei componenti dell'assemblea."}]
+	          		"reasons": [{"claim": "i regolamenti parlamentari devono comunque essere approvati dalla maggioranza dei componenti dell'assemblea"}]
 	          	}
 	          ]
 	        }
@@ -477,7 +477,7 @@
         ]
       },
 	    "conflitti_di_competenza_SI": {
-					  "claim": "È giusto modififcare i criteri per stabilire la competenza legislativa",
+					  "claim": "SI, è giusto modificare i criteri per stabilire la competenza legislativa",
 					  "connector": "o",
 					  "reasons": [
 		          {"claim": "per rendere il potere più accentrato",
@@ -520,14 +520,14 @@
 	         ]
 	    }, 
 	    "conflitti_di_competenza_NO": {
-	    	"claim": "Non è giusto modififcare i criteri per stabilire la competenza legislativa",
+	    	"claim": "Non è giusto modificare i criteri per stabilire la competenza legislativa",
 	    	"connector" : "o",
 	    	"reasons" : [
 	    	  {"claim": "per l'esagerato accentramento del potere" ,
 		    	  "connector" : "o",
 		    	  "reasons": [
 		    	    {"claim": "ci si allontana dal modello \"solidale\" di federalismo (basato sulla leale collaborazione e la \"concorrenza\" tra le funzioni), per avvicinarsi al modello \"competitivo\" (basato sulla netta separazione tra Stato e Regioni e tra Regioni)"} ,
-		    	    {"claim": " la riforma, infatti, riduce sostanzialmente lo spazio costituzionalmente riconosciuto alle autonomie",
+		    	    {"claim": " la riforma riduce sostanzialmente lo spazio costituzionalmente riconosciuto alle autonomie",
 		    	      "connector": "o" ,
 		    	      "reasons": [
 		    	        {"claim": "il neo-centralismo statale è negativo in un contesto di complessiva riduzione degli spazi di partecipazione democratica e di rappresentanza politica",
@@ -540,7 +540,7 @@
 		    	    }
 	    	    ]
 	    	  }, 
-	    	  {"claim" : "perchè continueranno a esserci contenziosi presso la Corte costituzionale" ,
+	    	  {"claim" : "perché continueranno a esserci contenziosi presso la Corte costituzionale" ,
 	    	  "connector" : "o" ,
 	    	  "reasons" : [
 	    	    {"claim": "la soppressione della potestà concorrente in chiave di semplificazione del rapporto Stato-Regioni è pubblicità ingannevole",
@@ -561,7 +561,7 @@
 	    	    ]
 	    	    
 	    	  } ,
-	    	  {"claim" : "perchè, nel dettaglio, il ripartimento delle materie non sarebbe giusto",
+	    	  {"claim" : "perché, nel dettaglio, il ripartimento delle materie non sarebbe giusto",
 	    		  "connector": "o",
 	    		  "reasons": [
 	    		    {"claim": "viene profondamente sconvolta l'autonomia legislativa delle Regioni, attribuendo allo Stato centrale il potere di decidere su temi fondamentali di rilevanza territoriale come la tutela dell'ambiente, e sottraendo alle Regioni ogni possibilità di governo del territorio"},
@@ -570,7 +570,7 @@
 	    	  },
 	    	  {"claim": "per la reintroduzione della clausola di supremazia" ,
 	    		  "connector": "o",
-	    		  "reasons": [{"claim": "Grazie alla clausola di supremazia statale (soprannominata \"clausola-vampiro\"), la Camera dei deputati o il Governo (rispettivamente con una legge o con un decreto legge) potrebbero, senza alcun limite, intervenire in qualsiasi materia di competenza legislativa esclusiva delle Regioni \"quando lo richieda la tutela dell'unità giuridica o economica della Repubblica ovvero la tutela dell'interesse nazionale\""}]
+	    		  "reasons": [{"claim": "grazie alla clausola di supremazia statale (soprannominata \"clausola-vampiro\"), la Camera dei deputati o il Governo (rispettivamente con una legge o con un decreto legge) potrebbero, senza alcun limite, intervenire in qualsiasi materia di competenza legislativa esclusiva delle Regioni \"quando lo richieda la tutela dell'unità giuridica o economica della Repubblica ovvero la tutela dell'interesse nazionale\""}]
 	    		}
     	  ]
 	    }
@@ -591,7 +591,7 @@
             "connector": "in_che_modo",
             "reasons": [
               {
-                "claim": "non possono disciplinare su materie costituzionali, materie elettorali (con esclusione della disciplina dell’organizzazione del procedimento elettorale e dello svolgimento delle elezioni), delegazioni legislative, conversione di DL, autorizzazioni a ratificare trattati internazionali, approvazione di bilanci e consuntivi"
+                "claim": "non possono disciplinare materie costituzionali, materie elettorali (con esclusione della disciplina dell’organizzazione del procedimento elettorale e dello svolgimento delle elezioni), delegazioni legislative, conversione di DL, autorizzazioni a ratificare trattati internazionali, approvazione di bilanci e consuntivi"
               },
               {
                 "claim": "non possono reiterare disposizioni che erano già state adottate in altri DL e che non erano state convertite in legge"
@@ -610,14 +610,14 @@
         ]
       },
 			"formulazione_e_discussione_dei_decreti_legge_SI": {
-			  "claim": "È giusto modificare la disciplina in merito alla discussione e alla formulazione dei decreti legge" ,
+			  "claim": "SI, è giusto modificare la disciplina in merito alla discussione e alla formulazione dei decreti legge" ,
 			  "connector" :"o",
 			  "reasons": [
 			    {"claim": "perché la riforma non attribuisce nuovi poteri legislativi al Governo, e casomai limita il ricorso ai decreti-legge, che attualmente sono una vera piaga" , 
 			    "connector": "o",
 			    "reasons": [
 			    {"claim": "questo perché il Governo, non avendo una \"corsia preferenziale\" in Parlamento per l’approvazione dei propri disegni di legge, ricorre ai decreti-legge anche al di fuori dei casi straordinari di necessità e di urgenza di cui parla la nostra Costituzione"}]} ,
-			    {"claim": "perchè la riforma prevede che il Governo possa chiedere alla Camera di deliberare entro 70 giorni su un progetto ritenuto \"essenziale per l’attuazione del programma di governo\"",
+			    {"claim": "perché la riforma prevede che il Governo possa chiedere alla Camera di deliberare entro 70 giorni su un progetto ritenuto \"essenziale per l’attuazione del programma di governo\"",
 			      "connector": "o",
 			      "reasons": [
 			        {"claim": "in questo modo la riforma fornisce una nuova opportunità di veder approvare un progetto \"essenziale\" in tempi certi, e nello stesso tempo limita il ricorso ai decreti-legge, tornando a far rispettare quello che dice la Costituzione"}]
@@ -631,7 +631,7 @@
 			    ]
 			},
 			"formulazione_e_discussione_dei_decreti_legge_NO": {
-			  "claim": "non è giusto modificare la disciplina in merito alla discussione e alla formulazione dei decreti legge",
+			  "claim": "NO, non è giusto modificare la disciplina in merito alla discussione e alla formulazione dei decreti legge",
 			  "connector": "e",
 			  "reasons": [
 			    {"claim": "perché la riforma amplia il potere d'iniziativa legislativa del Governo grazie al potere di imporre alla Camera dei Deputati tempi certi per l'approvazione di leggi ritenuti insindacabilmente \"importanti per il programma di governo\"",
@@ -653,13 +653,13 @@
         "claim": "Viene modificato il sistema delle garanzie costituzionali in materia di pregiudizio di costituzionalità sulla legge elettorale, elezione del Presidente della Repubblica, elezione dei membri della Corte costituzionale",
         "connector": "in_che_modo",
         "reasons": [
-          {"claim": "Su iniziativa di 1/4 dei deputati o di 1/3 dei senatori, può essere richiesto alla Corte Costituzionale un pre-giudizio di costituzionalità sia su una nuova legge elettorale, sia sulla legge elettorale attualmente in vigore"}, 
-          {"claim": "Per l'elezione del Presidente della Rupubblica sono necessari i 2/3 dei voti dell'assemblea nei turni 1, 2 e 3 (come prima); i 3/5 dei voti dell'assemblea nei turni 4, 5 e 6; i 3/5 dei voti dei presenti dal turno 7 in poi"}, 
-          {"claim": "Ad oggi, il Parlamento elegge i suoi 5 membri in seduta comune. Con la riforma, 3 membri verranno eletti dalla Camera e 2 dal Senato."}
+          {"claim": "su iniziativa di 1/4 dei deputati o di 1/3 dei senatori, può essere richiesto alla Corte Costituzionale un pre-giudizio di costituzionalità sia su una nuova legge elettorale, sia sulla legge elettorale attualmente in vigore"}, 
+          {"claim": "per l'elezione del Presidente della Rupubblica sono necessari i 2/3 dei voti dell'assemblea nei turni 1, 2 e 3 (come prima); i 3/5 dei voti dell'assemblea nei turni 4, 5 e 6; i 3/5 dei voti dei presenti dal turno 7 in poi"}, 
+          {"claim": "ad oggi, il Parlamento elegge i suoi 5 membri in seduta comune. Con la riforma, 3 membri verranno eletti dalla Camera e 2 dal Senato"}
         ]
       },
 			"garanzie_SI": {
-			  "claim": "È giusto modificare il sistema delle garanzie costituzionali in materia di pregiudizio di costituzionalità sulla legge elettorale, elezione del Presidente della Repubblica, elezione dei membri della Corte costituzionale",
+			  "claim": "SI, è giusto modificare il sistema delle garanzie costituzionali sopra citate",
 			  "connector": "o",
 			  "reasons":[
 			    {"claim": "perché il ricorso diretto alla Corte sulla legge elettorale potenzia il sistema delle garanzie", 
@@ -674,10 +674,10 @@
 			      "reasons": [
 			        {"claim": "sono inoltre previsti tutti gli accorgimenti necessari affinché l'elezione del Presidente della Repubblica non sia espressione della sola maggioranza di governo"}]
 			    },
-			    {"claim":"perchè il nuovo sistema di elezione dei giudici della Corte proposto dalla riforma è più logico e adeguato in relazione alla modifica apportata alle camere" ,
+			    {"claim":"perché il nuovo sistema di elezione dei giudici della Corte proposto dalla riforma è più logico e adeguato in relazione alla modifica apportata alle camere" ,
 			    "connector": "o",
 			    "reasons": [
-			      {"claim": "perchè frazionando l’elezione dei cinque giudici della Corte di provenienza parlamentare tra le due Assemblee, si è voluto tenere conto del mutato rapporto numerico tra Camera e Senato"},
+			      {"claim": "perché frazionando l’elezione dei cinque giudici della Corte di provenienza parlamentare tra le due Assemblee, si è voluto tenere conto del mutato rapporto numerico tra Camera e Senato"},
 			      {"claim": "se si fosse mantenuta l’attuale elezione da parte del Parlamento in seduta comune, infatti, i predetti cinque giudici costituzionali sarebbero stati selezionati soltanto sulla base della volontà esclusiva dei componenti della Camera"} ,
 			      {"claim": "sono previsti tutti gli accorgimenti necessari affinché l'elezione del Presidente della Repubblica non sia espressione della sola maggioranza di governo"},
 			      {"claim": "chi invoca un'influenza territoriale sui giudici eletti, non considera che 1) è invece un bene che i giudici costituzionali (che devono garantire anche le Regioni) siano particolarmente sensibili agli interessi dei territori, e 2) che – altrimenti – tutti e 5 i giudici di estrazione parlamentare diverrebbero oggetto di negoziato partitico con assoluta prevalenza della componente Camera dei deputati"}
@@ -689,10 +689,10 @@
 			    ]
 			},
 			"garanzie_NO": {
-			  "claim": "Non è giusto modificare il sistema delle garanzie costituzionali in materia di pregiudizio di costituzionalità sulla legge elettorale, elezione del Presidente della Repubblica, elezione dei membri della Corte costituzionale",
+			  "claim": "NO,non è giusto modificare il sistema delle garanzie costituzionali in materia di pregiudizio di costituzionalità sulla legge elettorale, elezione del Presidente della Repubblica, elezione dei membri della Corte costituzionale",
 			  "connector": "o",
 			  "reasons": [
-			    {"claim": "perché non è chiaro il rapporto tra questa nuova competenza (sindacato in via preventiva) e quella attualmente svolta (sindacato in via successiva): potrà una legge elettorale essere sindacata anche successivamente? E che influenza eserciterà il giudizio preventivo su quello successivo"},
+			    {"claim": "perché non è chiaro il rapporto tra questa nuova competenza (sindacato in via preventiva) e quella attualmente svolta (sindacato in via successiva): potrà una legge elettorale essere sindacata anche successivamente? E che influenza eserciterà il giudizio preventivo su quello successivo?"},
 			    {"claim": "perché in realtà, il giudizio preventivo di costituzionalità sulle leggi elettorali rischia di politicizzare il giudizio della Corte costituzionale",
 			      "connector": "o",
 			      "reasons": [
@@ -703,12 +703,12 @@
 			      "reasons": [
 			        {"claim": "inoltre, dal settimo scrutinio in poi, la maggioranza dei 3/5 è calcolata \"sui votanti\" e non \"sui componenti\". Non può escludersi dunque un Presidente eletto con maggioranze parlamentari ridotte (qualora una o più forze politiche decidano di non presentarsi al voto)"}]
 			    },
-			    {"claim": "perchè il nuovo sistema di elezione dei giudici della Corte proposto dalla riforma permette al governo gravi ingerenze",
+			    {"claim": "perché il nuovo sistema di elezione dei giudici della Corte proposto dalla riforma permette al governo gravi ingerenze",
 			    "connector": "o",
 			    "reasons": [
 			      {"claim": "come per il Presidente della Repubblica, l'effetto sinergico dato dalla riduzione del numero dei senatori e dal dominio sulla Camera dei deputati (assicurato dal premio di maggioranza dell'Italicum) rendono decisiva l'influenza della maggioranza di governo nell'elezione di membri della Corte costituzionale o di autorità indipendenti da parte della Camera"}]
 			    },
-			    {"claim": "perchè la riforma attribuisce al Senato, composto da 100 senatori, il potere di eleggere due giudici costituzionali ed attribuisce alla Camera dei deputati, composta invece da 630 deputati, il potere di eleggerne tre e ciò è sbagliato",
+			    {"claim": "perché la riforma attribuisce al Senato, composto da 100 senatori, il potere di eleggere due giudici costituzionali ed attribuisce alla Camera dei deputati, composta invece da 630 deputati, il potere di eleggerne tre e ciò è sbagliato",
 			    "connector": "e",
 			    "reasons": [
 			      {"claim": "urta contro il principio di proporzionalità"},
@@ -723,7 +723,7 @@
 			    ]
 			},
       "iniziativa_popolare": {
-        "claim": "vengono modificate le norme costituzionali riguardanti le proposte di legge dei cittadini, i referendum abrogativi e introdurre referendum propositivi e di indirizzo",
+        "claim": "Vengono modificate le norme costituzionali riguardanti le proposte di legge dei cittadini, i referendum abrogativi e introdurre referendum propositivi e di indirizzo",
         "connector": "in_che_modo",
         "reasons": [
           {"claim": "le proposte di legge dei cittadini richiedono 150 mila firme (non più 50 mila) e viene introdotto l'obbligo di discussione in tempi, forme e limiti che dovranno essere definiti nel regolamento parlamentare"},
@@ -732,7 +732,7 @@
           ]
       },
 			"iniziativa_popolare_SI": {
-			  "claim":"È giusto modificare le norme costituzionali riguardanti le proposte di legge dei cittadini, i referendum abrogativi e introdurre referendum propositivi e di indirizzo",
+			  "claim":"SI, è giusto modificare le norme costituzionali riguardanti le proposte di legge dei cittadini, i referendum abrogativi e introdurre referendum propositivi e di indirizzo",
 			  "connector": "o",
 			  "reasons": [
 			    {"claim": "per aumentare la partecipazione diretta da parte dei cittadini",
@@ -746,7 +746,7 @@
 	      ]
 			},
 			"iniziativa_popolare_NO": {
-			  "claim":"Non è giusto modificare le norme costituzionali riguardanti le proposte di legge dei cittadini, i referendum abrogativi e introdurre referendum propositivi e di indirizzo",
+			  "claim":"NO, non è giusto modificare le norme costituzionali riguardanti le proposte di legge dei cittadini, i referendum abrogativi e introdurre referendum propositivi e di indirizzo",
 			  "connector": "o" ,
 			  "reasons": [
 			    {"claim": "perché le firme richieste per la presentazione di una proposta di legge sono triplicate, da 50.000 a 150.000. Inoltre, le garanzie di discussione sono rinviate al regolamento, e la maggioranza parlamentare rimane libera di rigettare o modificare la proposta"} ,
@@ -764,16 +764,16 @@
           ]
       },
       "semplificazione_istituzionale_NO": {
-        "claim": "No, non è giusto abrogare il CNEL e le province",
+        "claim": "NO, non è giusto abrogare il CNEL e le province",
         "connector": "o",
         "reasons": [
           {"claim": "abrogare il CNEL è senza dubbio giusto, ma una eventuale riforma che elimini il CNEL, intervenendo soltanto su un articolo della costituzione, sarebbe approvata da tutte le forze politiche in poco tempo. In questa riforma tanto ampia rimane comunque una goccia nell'oceano, che pare quindi inserita a scopo puramente propagandistico"},
-          {"claim": "eleminare i riferimenti alle province è elemento marginale; persino non necessario, come è provato dal fatto che la riforma delle province è stata già da tempo avviata. Va precisato che l'abolizione delle Province elimina la \"copertura costituzionale\", ma non produce l'effetto automatico della cancellazione di questi enti territoriali, che potranno continuare ad essere regolati dalla legge, almeno fin tanto che la maggioranza e il Governo lo riterrà utile. Difatti, ad un anno dalla legge 56 del 2014 (Delrio) che traferiva le funzioni delle Province a Regioni e Comuni, la Corte dei Conti ha disegnato un quadro piuttosto negativo: le Province continuano a fare sotanzialmente quello che facevano prima; i costi non si sono ridotti, perchè il personale è stato solo trasferito. Solamente i cittadini hanno perso il potere di scegliere direttamente chi deve gestire i loro servizi ed il loro territorio"}
+          {"claim": "eleminare i riferimenti alle province è elemento marginale; persino non necessario, come è provato dal fatto che la riforma delle province è stata già da tempo avviata. Va precisato che l'abolizione delle Province elimina la \"copertura costituzionale\", ma non produce l'effetto automatico della cancellazione di questi enti territoriali, che potranno continuare ad essere regolati dalla legge, almeno fin tanto che la maggioranza e il Governo lo riterrà utile. Difatti, ad un anno dalla legge 56 del 2014 (Delrio) che traferiva le funzioni delle Province a Regioni e Comuni, la Corte dei Conti ha disegnato un quadro piuttosto negativo: le Province continuano a fare sotanzialmente quello che facevano prima; i costi non si sono ridotti, perché il personale è stato solo trasferito. Solamente i cittadini hanno perso il potere di scegliere direttamente chi deve gestire i loro servizi ed il loro territorio"}
           
           ]
       },
       "semplificazione_istituzionale_SI": {
-	      "claim": "Sì, è giusto abrogare il CNEL e le province",
+	      "claim": "SI, è giusto abrogare il CNEL e le province",
 	      "connector": "o",
 	      "reasons": [
 	        {"claim": "abrogndo il CNEL viene operata una decisa semplificazione istituzionale"},
@@ -787,7 +787,7 @@
 		    "connector": "o",
 		    "reasons": [
 		      {
-		        "claim": "perché questa riforma costituzionale prende le mosse dalla necessità impellente di chiudere le pagine rimaste aperte sin dall'inizio",
+		        "claim": "perché questa riforma costituzionale prende le mosse dalla necessità impellente di chiudere pagine rimaste aperte sin dall'inizio",
 		        "connector": "o",
 		        "reasons": [
 		          {
@@ -819,7 +819,7 @@
 		    ]
 		  },
 		  "riforma_storica_o_conservatrice_NO": {
-		    "claim": "la riforma consolida la crescente marginalizzazione del ruolo del Parlamento",
+		    "claim": "La riforma consolida la crescente marginalizzazione del ruolo del Parlamento",
 		    "connector": "o",
 		    "reasons": [
 		      {"claim": "perché il Parlamento come luogo di rappresentanza, di confronto e di mediazione di interessi reali è ridotto al regno della formalità procedurale",
@@ -841,7 +841,7 @@
 		    "connector": "o",
 		    "reasons": [
 		      {
-		        "claim": "perché la tesi del \"premierato assoluto\" o dell'\"uomo solo al comando\" è infondata",
+		        "claim": "perché la tesi del \"premierato assoluto\" o dell' \"uomo solo al comando\" è infondata",
 		        "connector": "o",
 		        "reasons": [{"claim": "la riforma non modifica nessuna disposizione costituzionale relativa al Presidente del consiglio, né in relazione alla nomina, né in ordine ai poteri, né tanto meno circa la posizione rispetto all’esercizio delle funzioni proprie del Presidente della Repubblica, che rimangono immutate"}]
 		      },
@@ -870,14 +870,14 @@
 		        "connector": "e",
 		        "reasons": [
 		          {"claim": "quest'ultimo trasformerebbe il voto al partito del leader in un'investitura quasi-diretta del Premier, mentre la riforma costituzionale eliminerebbe il Senato come potenziale contro-potere esterno della Camera, senza prevedere efficaci contro-poteri interni"},
-		          {"claim": "il risultato è il duplice rischio, connesso all'\"uomo solo al comando\", di produrre eccessivi squilibri di rappresentanza e di condizionare addirittura i poteri del Presidente della Repubblica"}
+		          {"claim": "il risultato è il duplice rischio, connesso all' \"uomo solo al comando\", di produrre eccessivi squilibri di rappresentanza e di condizionare addirittura i poteri del Presidente della Repubblica"}
 		        ]
 		      },
 		      {
 		        "claim": "perché la riforma è solo il culmine di un processo di indebolimento del Parlamento rappresentativo in corso da anni, un processo che ha consegnato di fatto al Governo il potere di fare le leggi",
 		        "connector": "e",
 		        "reasons": [
-		          {"claim": "l'Esecutivo ha abusato del potere di fare decreti legge in casi di \"urgenza\" e di porre la fiducia sui provvedimenti all'esame del Parlamento - compresa la legge elettorale -, abituando i cittadini alla logica del ricatto"},
+		          {"claim": "l'Esecutivo ha abusato del potere di fare decreti legge in casi di \"urgenza\" e di porre la fiducia sui provvedimenti all'esame del Parlamento - compresa la legge elettorale - abituando i cittadini alla logica del ricatto"},
 		          {"claim": "l'esercizio della funzione legislativa gli è stato delegato con vincoli sempre meno stringenti"}
 		        ]
 		      }
@@ -979,7 +979,7 @@
 		    "connector": "o",
 		    "reasons": [
 		      {
-		        "claim": "perchè spetta al popolo decidere se la riforma possa essere considerata o meno la \"casa comune\" degli italiani",
+		        "claim": "perché spetta al popolo decidere se la riforma possa essere considerata o meno la \"casa comune\" degli italiani",
 		        "connector": "o",
 		        "reasons": [
 		          {
@@ -1015,7 +1015,7 @@
 		        "connector": "e",
 		        "reasons":
 		        [
-		          {"claim": "con la spinta plebiscitaria Renzi vuole coartare e condizionare il voto popolare"},
+		          {"claim": "con la spinta plebiscitaria Renzi vuole condizionare il voto popolare"},
 		          {"claim": "vuole sostenere il sì non con i ragionati argomenti di una buona riforma, ma con la minaccia dell'instabilità e della crisi che seguirebbero alla vittoria del no"}
 		          ]
 		      }
