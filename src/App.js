@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './Footer.js'
 import Navigation from './Navigation.js'
-import MailChimp from './MailChimp.js'
 import { argumentsFromTopic } from "./Theorem.js"
 import Meta from './Meta.js'
 

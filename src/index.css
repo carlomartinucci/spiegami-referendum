@@ -95,13 +95,18 @@ h4 {
   margin-bottom: 1em;
 }
 
+.mailchimp {
+  padding: 1em 0 2em;
+  text-align: center;
+  margin-top: 1em;
+}
+
 .footer {
   padding: 2em 0 2em;
   background-color: rgb(33,33,33);
   text-align: center;
   float: left;
   width: 100%;
-  margin-top: 1em;
 }
 
 .footer a {
