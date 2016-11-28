@@ -99,6 +99,8 @@ h4 {
   padding: 1em 0 2em;
   text-align: center;
   margin-top: 1em;
+  float: left;
+  width: 100%;
 }
 
 .footer {
