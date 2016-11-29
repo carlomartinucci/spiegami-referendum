@@ -38,7 +38,8 @@ export default class About extends Component {
         <h4>Collaboratori</h4>
         <p>
             Costanza<br/>
-            Michele
+            Michele<br/>
+            Maria Cristina
         </p>
       </div>
     )

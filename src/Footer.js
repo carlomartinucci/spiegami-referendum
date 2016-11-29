@@ -14,7 +14,7 @@ export default class Footer extends Component {
       <div className="footer">
         <p><span className="spiegami">Spiegami</span>&trade; 2016</p>
         <p>
-          Pensato con amore da <a href='https://carlomartinucci.github.io' target="_blank">Carlo Martinucci</a><br/>
+          Pensato con amore da <Link to="/about">Carlo Martinucci</Link><br/>
           con il <Link to="/about">contributo</Link> e l'aiuto di tanti amici.
         </p>
         <p>
