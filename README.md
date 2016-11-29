@@ -25,6 +25,7 @@ Carlo Martinucci 2016
   - [ ] programmazione
   - [ ] interfaccia (segno visibile, tooltip di preview, quando clicchi volta la carta, sfondino rosso ?)
 - [ ] Animazioni (https://facebook.github.io/react/docs/animation.html), fondamentali per le obiezioni e importanti per dare gerarchia al resto
+- [ ] Preview bello su qualsiasi pagina (immagine, titolo, descrizione). Forse richiede l'hosting su un altro dominio.
 
 ### Fix minori
 - [ ] Mailchimp è poco visibile, forse va scritto in bianco e/o spaziato di più 
