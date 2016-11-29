@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
 import MailChimp from './MailChimp2.js'
+import Formspree from './Formspree.js'
 //import FacebookShare from "./FacebookShare.js"
 
 //      <div className="text-center fb-share" style={{marginTop: '30px'}}><FacebookShare/></div>
@@ -9,6 +10,7 @@ export default class Footer extends Component {
 
     return (
       <div>
+      <Formspree/>
       <MailChimp />
 
       <div className="footer">
