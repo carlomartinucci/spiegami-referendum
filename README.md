@@ -11,6 +11,8 @@ Carlo Martinucci 2016
 - [ ] Revisione contenuti
 - [ ] Scelta del prossimo tema
 - [ ] Form per suggerire nuovi teoremi
+- [ ] Animazioni (https://facebook.github.io/react/docs/animation.html), fondamentali per le obiezioni e importanti per dare gerarchia al resto
+- [ ] Server API di backend
 - [ ] Scorporare claim e teoremi in claim_id e theorem_id
 - [ ] Obiezioni
   - [x] logica
@@ -18,14 +20,12 @@ Carlo Martinucci 2016
   - [ ] interfaccia (segno visibile, tooltip di preview, quando clicchi volta la carta, sfondino rosso ?)
 - [ ] Ragionamenti sponsorizzati (trovare persone "famose" e variegate tra loro che costruiscano ciascuno un ragionamento e ci sponsorizzino)
 - [ ] Comprare e trasferirsi su un dominio serio (indagare su spiegami.it)
-- [ ] Server API di backend
 - [ ] Login e profilo personale
 - [ ] Informativa sulla privacy / cookie / ?
 - [ ] CSS -> SCSS
+- [ ] Preview bello su qualsiasi pagina (immagine, titolo, descrizione). Forse richiede l'hosting su un altro dominio.
 - [ ] Pagina facebook?
 - [ ] Profilo twitter?
-- [ ] Animazioni (https://facebook.github.io/react/docs/animation.html), fondamentali per le obiezioni e importanti per dare gerarchia al resto
-- [ ] Preview bello su qualsiasi pagina (immagine, titolo, descrizione). Forse richiede l'hosting su un altro dominio.
 - [ ] Pensare come e quando internazionalizzarsi (nome inglese, sito inglese, traduzioni, ...)
 
 ### Fix minori
