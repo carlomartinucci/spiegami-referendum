@@ -14,6 +14,7 @@ Carlo Martinucci 2016
 - [ ] Server API di backend
 - [ ] Login e profilo personale
 - [ ] Comprare e trasferirsi su un dominio serio (indagare su spiegami.it)
+- [ ] Pensare come e quando internazionalizzarsi (nome inglese, sito inglese, traduzioni, ...)
 - [ ] Informativa sulla privacy / cookie / ?
 - [ ] CSS -> SCSS
 - [ ] Form per suggerire nuovi teoremi
