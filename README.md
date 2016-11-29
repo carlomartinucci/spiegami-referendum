@@ -8,14 +8,14 @@ Carlo Martinucci 2016
 
 ## TODO
 
-- [ ] Revisione
+- [ ] Revisione contenuti
 - [ ] Scelta del prossimo tema
 - [ ] Ragionamenti sponsorizzati (trovare persone "famose" e variegate tra loro che costruiscano ciascuno un ragionamento e ci sponsorizzino)
 - [ ] Server API di backend
 - [ ] Login e profilo personale
 - [ ] Comprare e trasferirsi su un dominio serio (indagare su spiegami.it)
 - [ ] Informativa sulla privacy / cookie / ?
-- [ ] Scss
+- [ ] CSS -> SCSS
 - [ ] Form per suggerire nuovi teoremi
 - [ ] Pagina facebook?
 - [ ] Profilo twitter?
@@ -23,13 +23,13 @@ Carlo Martinucci 2016
 - [ ] Obiezioni
   - [x] logica
   - [ ] programmazione
-  - [ ] interfaccia (segno visibile, tooltip di preview, quando clicchi volta la carta, sfondino rosso)
+  - [ ] interfaccia (segno visibile, tooltip di preview, quando clicchi volta la carta, sfondino rosso ?)
 - [ ] Animazioni (https://facebook.github.io/react/docs/animation.html), fondamentali per le obiezioni e importanti per dare gerarchia al resto
 
 ### Fix minori
 - [ ] Mailchimp è poco visibile, forse va scritto in bianco e/o spaziato di più 
 - [ ] Titolo in alto a sx deve essere cliccabile e portare alla home
-
+- [ ] Navigazione in alto, rimpicciolire la seconda toolbar per rendere meglio la gerarchia tra le due
 
 ## DONE
 
@@ -41,4 +41,4 @@ Carlo Martinucci 2016
 - [x] Condividi su facebook
 - [x] Newsletter con mailchimp
 - [x] React e MaterialUI
-
+- [x] Analytics
