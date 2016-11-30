@@ -22,7 +22,9 @@ const linkStyle = {
   textDecoration: 'none',
 }
 const titleStyle = {
-  padding: '0 16px'
+  padding: '0 16px',
+  fontSize: '18px',
+  lineHeight: '48px',
 }
 
 export default class ArgomentoToolBar extends Component {
@@ -77,7 +79,7 @@ export default class ArgomentoToolBar extends Component {
 
       wrapper_argomenti = ([
         <ToolbarGroup firstChild>
-          <ToolbarTitle text={humanize(this.props.argomento)} style={{backgroundColor: 'rgba(0,0,0,0.2)', color: '#000', paddingLeft: '16px', maxWidth: 'calc(100vw - 150px)'}} />
+          <ToolbarTitle text={humanize(this.props.argomento)} style={{fontSize: '18px', lineHeight: '48px', backgroundColor: 'rgba(0,0,0,0.2)', color: '#000', paddingLeft: '16px', maxWidth: 'calc(100vw - 150px)'}} />
           <IconMenu
             iconButtonElement={
               <IconButton touch>
@@ -91,7 +93,7 @@ export default class ArgomentoToolBar extends Component {
         ])
     }
     return (
-      <Toolbar style={{backgroundColor: 'rgb(230, 230, 230)'}}>
+      <Toolbar style={{backgroundColor: 'rgb(230, 230, 230)', height: '48px'}}>
         {wrapper_argomenti}
       </Toolbar>
     )
