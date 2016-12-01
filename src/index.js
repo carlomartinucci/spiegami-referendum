@@ -47,12 +47,12 @@ injectTapEventPlugin();
 
 ReactDOM.render(
   <MuiThemeProvider>
-    <Router history={hashHistory}>
+    <Router onUpdate={() => window.scrollTo(0, 0)} history={hashHistory}>
       <Route path="/" referendum={referendum} component={App}>
       	<IndexRedirect to="/home" />
       	<Route path="/home" referendum={referendum} component={Home} />
       	<Route path="/referendum/:tema/:argomento" referendum={referendum} component={Argomento} />
-		    <Route path="/about" component={About} />
+        <Route path="/about" component={About} />
       </Route>
     </Router>
   </MuiThemeProvider>,

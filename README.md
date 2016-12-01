@@ -44,3 +44,27 @@ Carlo Martinucci 2016
 - [x] Newsletter con mailchimp
 - [x] React e MaterialUI
 - [x] Analytics
+
+
+## Ipotesi di prossimi temi
+- [ ] Legalizzazione droghe
+- [ ] Immigrazione
+- [ ] Unione europea
+- [ ] Prostituzione
+- [ ] Obiezione di coscienza
+- [ ] Vegetarianesimo / veganesimo
+- [ ] Andare su Marte
+- [ ] Crioconservazione
+- [ ] Global warming, inquinamento e problemi ambientali
+- [ ] Pena di morte
+- [ ] Sovraffollamento delle carceri
+- [ ] Energia nucleare
+- [ ] Sperimentazione animale
+- [ ] Politica estera - Le elezioni francesi
+- [ ] Politica estera - Trump e l'America
+- [ ] Politica estera - L'ISIS
+- [ ] Politica estera - La Russia
+- [ ] Elezioni locali
+- [ ] I programmi politici nazionali
+- [ ] Libertà di espressione
+- [ ] Euro o lira

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { jsonToMaterial } from './Theorem.js'
 import {humanize} from './stringHelper.js'
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
+import Formspree from './Formspree.js'
 
 
 export default class Argomento extends Component {
@@ -35,9 +36,24 @@ export default class Argomento extends Component {
     }
     const display_title   = (quale) => {
       if (this.state.referendum[tema][argomento + quale]) {
-        if (quale==="") {return <h4 style={{color: lightBaseTheme.palette.accent3Color}}>Spiegami che cosa cambia con la Riforma</h4> }
-        else if (quale === "_SI") {return <h4 style={{fontWeight: "400"}}>Spiegami perché SI</h4>}
-        else if (quale === "_NO") {return <h4 style={{fontWeight: "400"}}>Spiegami perché NO</h4>}
+        if (quale==="") {return (
+          <h4 style={{color: lightBaseTheme.palette.accent3Color}}>
+            Spiegami che cosa cambia con la Riforma
+            <Formspree hidden_fields={[{name: 'tema', value: tema}, {name: 'argomento', value: argomento}, {name: 'quale', value: quale}]}/>
+          </h4> 
+        )}
+        else if (quale === "_SI") {return (
+          <h4 style={{fontWeight: "400"}}>
+            Spiegami perché SI
+            <Formspree hidden_fields={[{name: 'tema', value: tema}, {name: 'argomento', value: argomento}, {name: 'quale', value: quale}]}/>
+          </h4>
+        )}
+        else if (quale === "_NO") {return (
+          <h4 style={{fontWeight: "400"}}>
+            Spiegami perché NO
+            <Formspree hidden_fields={[{name: 'tema', value: tema}, {name: 'argomento', value: argomento}, {name: 'quale', value: quale}]}/>
+          </h4>
+        )}
       }
     }
     return (

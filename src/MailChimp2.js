@@ -42,7 +42,7 @@ export default class MailChimp extends Component {
             id="mce-EMAIL"
             name="EMAIL"
             type="email"
-            floatingLabelText="Email (obbligatoria)"
+            floatingLabelText="Email"
             value={this.state.email}
             onChange={this.handleChangeEmail.bind(this)}
           />

@@ -14,6 +14,10 @@ p {
   color: #333;
 }
 
+.sondaggio-cta {
+  text-decoration: none !important;
+}
+
 .spiegami {
   font-family: 'Permanent Marker', cursive !important;
   display: inline-block;
@@ -189,4 +193,31 @@ a.active.grey230-active {
 }
 .fb-share {
   min-height: 28px;
+}
+
+
+.sondaggiobar-enter {
+  max-height: 0px;
+}
+
+.sondaggiobar-enter.sondaggiobar-enter-active {
+  max-height: 38px;
+  transition: max-height 500ms ease-in;
+}
+.sondaggiobar-appear {
+  max-height: 0px;
+}
+
+.sondaggiobar-appear.sondaggiobar-appear-active {
+  max-height: 38px;
+  transition: max-height 500ms ease-in;
+}
+
+.sondaggiobar-leave {
+  max-height: 38px;
+}
+
+.sondaggiobar-leave.sondaggiobar-leave-active {
+  max-height: 0px;
+  transition: max-height 300ms ease-in;
 }
