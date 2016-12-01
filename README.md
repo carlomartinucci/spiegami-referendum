@@ -10,8 +10,10 @@ Carlo Martinucci 2016
 
 - [ ] Revisione contenuti
 - [ ] Scelta del prossimo tema
-- [ ] Form per suggerire nuovi teoremi
-- [ ] Animazioni (https://facebook.github.io/react/docs/animation.html), fondamentali per le obiezioni e importanti per dare gerarchia al resto
+- [ ] Animazioni (https://facebook.github.io/react/docs/animation.html)
+  - [x] Barra temporanea del sondaggio
+  - [ ] Cambio pagina argomento (pagina e barra superiore)
+  - [ ] Apertura/chiusura delle ragioni
 - [ ] Server API di backend
 - [ ] Scorporare claim e teoremi in claim_id e theorem_id
 - [ ] Obiezioni
@@ -22,7 +24,7 @@ Carlo Martinucci 2016
 - [ ] Comprare e trasferirsi su un dominio serio (indagare su spiegami.it)
 - [ ] Login e profilo personale
 - [ ] Informativa sulla privacy / cookie / ?
-- [ ] CSS -> SCSS
+- [ ] CSS -> SCSS, CSS modulare
 - [ ] Preview bello su qualsiasi pagina (immagine, titolo, descrizione). Forse richiede l'hosting su un altro dominio.
 - [ ] Pagina facebook?
 - [ ] Profilo twitter?
@@ -44,6 +46,7 @@ Carlo Martinucci 2016
 - [x] Newsletter con mailchimp
 - [x] React e MaterialUI
 - [x] Analytics
+- [x] Form per suggerire nuovi pezzi di teoremi esistenti
 
 
 ## Ipotesi di prossimi temi
