@@ -8,8 +8,10 @@ Carlo Martinucci 2016
 
 ## TODO
 
-- [ ] Revisione contenuti
 - [ ] Scelta del prossimo tema
+- [ ] Inizializzare spiegami-*prossimo-tema*
+- [ ] "Archiviare" spiegami-referendum ringraziando e rimandando a spiegami-*prossimo-tema*
+- [ ] Informativa sulla privacy / cookie
 - [ ] Animazioni (https://facebook.github.io/react/docs/animation.html)
   - [x] Barra temporanea del sondaggio
   - [ ] Cambio pagina argomento (pagina e barra superiore)
@@ -21,9 +23,9 @@ Carlo Martinucci 2016
   - [ ] programmazione
   - [ ] interfaccia (segno visibile, tooltip di preview, quando clicchi volta la carta, sfondino rosso ?)
 - [ ] Ragionamenti sponsorizzati (trovare persone "famose" e variegate tra loro che costruiscano ciascuno un ragionamento e ci sponsorizzino)
+- [ ] Logo, grafica (servirebbe un designer dedicato...)
 - [ ] Comprare e trasferirsi su un dominio serio (indagare su spiegami.it)
 - [ ] Login e profilo personale
-- [ ] Informativa sulla privacy / cookie / ?
 - [ ] CSS -> SCSS, CSS modulare
 - [ ] Preview bello su qualsiasi pagina (immagine, titolo, descrizione). Forse richiede l'hosting su un altro dominio.
 - [ ] Pagina facebook?
@@ -33,7 +35,6 @@ Carlo Martinucci 2016
 ### Fix minori
 - [ ] Mailchimp è poco visibile, forse va scritto in bianco e/o spaziato di più 
 - [ ] Titolo in alto a sx deve essere cliccabile e portare alla home
-- [ ] Navigazione in alto, rimpicciolire la seconda toolbar per rendere meglio la gerarchia tra le due
 
 ## DONE
 
@@ -47,6 +48,7 @@ Carlo Martinucci 2016
 - [x] React e MaterialUI
 - [x] Analytics
 - [x] Form per suggerire nuovi pezzi di teoremi esistenti
+- [x] Navigazione in alto, rimpicciolire la seconda toolbar per rendere meglio la gerarchia tra le due
 
 
 ## Ipotesi di prossimi temi
@@ -71,3 +73,6 @@ Carlo Martinucci 2016
 - [ ] I programmi politici nazionali
 - [ ] Libertà di espressione
 - [ ] Euro o lira
+
+## Altre idee
+- Presi due argomenti, estrai automaticamente le premesse comuni e mostrale in alto (cioè astrarre l'attuale comportamento con ogni tema del referendum, dove in alto ti spiega in che cosa consiste quella parte della riforma, e nelle due colonne ti spiega perché è giusto o perché è sbagliato)
