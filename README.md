@@ -11,6 +11,7 @@ Carlo Martinucci 2016
 - [ ] Scelta del prossimo tema
 - [ ] Inizializzare spiegami-*prossimo-tema*
 - [ ] "Archiviare" spiegami-referendum ringraziando e rimandando a spiegami-*prossimo-tema*
+- [ ] Spiegare Spiegami con lo stile di Spiegami
 - [ ] Informativa sulla privacy / cookie
 - [ ] Animazioni (https://facebook.github.io/react/docs/animation.html)
   - [x] Barra temporanea del sondaggio
