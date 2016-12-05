@@ -18,6 +18,7 @@ Carlo Martinucci 2016
   - [ ] Cambio pagina argomento (pagina e barra superiore)
   - [ ] Apertura/chiusura delle ragioni
 - [ ] Server API di backend
+- [ ] Sistema di ricerca funzionale intelligente
 - [ ] Scorporare claim e teoremi in claim_id e theorem_id
 - [ ] Obiezioni
   - [x] logica
@@ -25,6 +26,7 @@ Carlo Martinucci 2016
   - [ ] interfaccia (segno visibile, tooltip di preview, quando clicchi volta la carta, sfondino rosso ?)
 - [ ] Ragionamenti sponsorizzati (trovare persone "famose" e variegate tra loro che costruiscano ciascuno un ragionamento e ci sponsorizzino)
 - [ ] Logo, grafica (servirebbe un designer dedicato...)
+- [ ] Supporto audio (modalità bastoncino findus)
 - [ ] Comprare e trasferirsi su un dominio serio (indagare su spiegami.it)
 - [ ] Login e profilo personale
 - [ ] CSS -> SCSS, CSS modulare
