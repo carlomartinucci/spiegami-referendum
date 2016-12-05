@@ -17,6 +17,8 @@ Carlo Martinucci 2016
   - [x] Barra temporanea del sondaggio
   - [ ] Cambio pagina argomento (pagina e barra superiore)
   - [ ] Apertura/chiusura delle ragioni
+- [ ] Meccanismo per aumentare l'interazione
+- [ ] Come chiamiamo le cose? User testing con carte
 - [ ] Server API di backend
 - [ ] Sistema di ricerca funzionale intelligente
 - [ ] Scorporare claim e teoremi in claim_id e theorem_id
